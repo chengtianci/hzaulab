@@ -1,0 +1,185 @@
+/****************************************************************************** main_one ******************************************************************************/
+#main_one{
+	margin: 40px 0;
+}
+/*******************图片轮播*******************/
+.flexslider{
+	width: 60%;
+}
+.slides a{
+	display: inline-block;
+	height: 303px;
+}
+.slides a img{
+	height: 100%;
+	width: 100%;
+	box-shadow: 1px 2px 10px 3px #ccc;
+	transform:translateY(-1%);
+}
+.flex-direction-nav,
+.slides a{
+	width: 108%;
+}
+.flex-direction-nav{
+	position: relative;
+	top:-130px;
+}
+/*******************   登录   *******************/
+.home_log_box{
+	width: 33%;
+	float: right;
+	border: 1px solid #dbe2ea;
+	border-radius: 5px;
+	box-shadow: 1px 2px 3px 2px #f0f0f0;
+	transform:translateY(-1%);
+}
+.log_tit{
+	width: 100%;
+	height: 45px;
+	line-height: 45px;
+	background: #eff4fa;
+	border-bottom: 1px solid #dbe2ea;
+	padding-left: 7%;
+	border-radius: 7px 7px 0 0;
+}
+.log_tit span{
+	color:#2f484f;
+	font-size: 16px;
+	font-weight: bold;
+	display: inline-block;
+}
+.log_body{
+	width: 100%;
+	padding:  0 9% 20px 9%;
+	margin: 10px 0 10px 0;
+}
+.home_logsug{
+	height: 15px;
+	line-height: 15px;
+	color: red;
+	margin: 0 0 10px 0;
+	font-size: 13px;
+}
+.home_log_box input{
+	height: 40px;
+	line-height: 40px;	
+	margin-bottom: 15px;
+	padding: 2px 0 2px 10px;
+	border: 1px solid #dbe2ea;
+	border-radius: 5px;
+}
+.home_log_box input,
+.home_logbtn{
+	width: 100%;
+}
+.oth{
+	display: inline-block;
+	margin: 10px 0 0 0;
+	color: #225592;
+	text-indent: 3px;
+}
+.home_logbtn{
+	height: 40px;
+	line-height: 40px;
+	display: inline-block;
+	background: #6aa2e0;
+	text-align: center;
+	font-size: 15px;
+	font-weight: bold;
+	color: #fff;
+	border-radius: 3px;
+	margin-top: 20px;
+}
+.home_logbtn:hover{
+	opacity: 1;
+	background: red;
+	-webkit-transition: all 0.9s;
+	-moz-transition: all 0.9s;
+	-ms-transition: all 0.9s;
+	-o-transition: all 0.9s;
+	transition: all 0.9s;
+}
+
+/****************************************************************************** main_two ******************************************************************************/
+#main_two{
+	margin: 10px 0 70px 0;
+}
+.list_box{
+	float: left;
+	width: 31%;
+	margin-left: 20px;
+	padding: 0 10px;
+	border-radius: 5px;
+	box-shadow: 1px 2px 3px 2px #ccc;
+	transform:translateY(-2%);
+	
+}
+.title_box{
+    margin: 0 0 13px;
+    position: relative;
+    height: 50px;
+    line-height: 50px;
+    border-bottom: 1px solid #ccc;
+}
+.title_box .title {
+    background: rgba(0, 0, 0, 0) url("../images/titpit.png") no-repeat scroll left center / 16px 16px;
+    padding-left: 25px;
+    display: inline-block;
+    color: #009100;
+    display: inline-block;
+    font-family: "黑体";
+    font-size: 15px;
+    font-weight: normal;
+}
+.title_box .title::after {
+    color: #acacac;
+    content: "/";
+    font-family: "Microsoft YaHei";
+    font-size: 13px;
+    font-weight: normal;
+    margin: 0 6px;
+}
+.title_box a{
+	color: #000;
+}
+.title_box b::after {
+    content: ">>";
+    font-family: "Microsoft YaHei";
+    font-size: 7px;
+    padding-left: 3px;
+}
+.title_box b {
+    font-family: "Microsoft YaHei";
+    font-size: 8px;
+    font-style: normal;
+    font-weight: 500;
+    position: absolute;
+    right: 0;
+    top: 9px;
+}
+.list_box ul{
+	margin-bottom: 20px;
+}
+.list_box li{
+	height: 25px;
+	line-height: 25px; 
+	font-size: 14px;
+	margin: 0 0 10px 0;
+	border-bottom: 1px dashed #ccc;
+}
+.list_box li a{
+	color: #666;
+	display: inline-block;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    width: 80%;
+}
+.list_box li a:hover{
+	color: #21a900;
+}
+.list_box li span{
+	float: right;
+	color: #999;
+	font-size: 12px;
+}

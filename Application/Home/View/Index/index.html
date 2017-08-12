@@ -1,0 +1,155 @@
+<!doctype html>
+<html lang="en">
+<head>
+ 	<meta charset="UTF-8">
+ 	<!-- <meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0; user-scalable=0;" /> -->
+ 	<title>华中农业大学作物学实验教学中心</title>
+ 	<link type="text/css" rel="stylesheet" href='http://fonts.googleapis.com/css?family=Ubuntu:300italic,300,700' />
+  <link rel="shortcut icon" href="__ROOT__/logo.ico" type="image/x-icon" />
+
+  <link type="text/css" rel="stylesheet" href="__PUBLIC__/face/css/flexslider.css" />
+  <link rel="stylesheet" href="__PUBLIC__/face/css/home_public.css" />
+  <link rel="stylesheet" href="__PUBLIC__/face/css/index.css"  />
+  <script type="text/javascript" src="__PUBLIC__/public/js/jquery-1.8.3.min.js"></script>
+
+</head>
+<body>
+<div id="wrapper">
+<div id="bdy">
+    <!--************************************************************** header **************************************************************-->
+  <div id="header"> 
+    <include file="./Application/Home/View/Public/header.html" />
+  </div>
+
+  <!--**************************************************************   nav  **************************************************************-->
+  <div id="nav">
+    <include file="./Application/Home/View/Public/nav.html" />
+  </div>
+  
+  <!--**************************************************************main-one**************************************************************-->
+  <div id="main_one">
+    <div class="container">
+      <!--*******************图片轮播*******************-->
+      <div class="flexslider">
+        <ul class="slides">
+          <li>
+            <a href="__APP__/Home/course/course.html?"><img src="__PUBLIC__/face/images/slider/lrgimg4.jpg" alt="" /></a>
+            <div style="position: absolute; top:75px; left:45px; width:70%; height:150px;">
+              <div class="slide_content_left"><h2>实践实习类</h2></div>
+              
+            </div>
+          </li>
+          <li>
+            <a href="__APP__/Home/course/course.html?"><img src="__PUBLIC__/face/images/slider/lrgimg5.jpg" alt="" /></a>
+            <div class="slide_content_right"><h2>专业基础类</h2></div>
+            
+          </li>
+          <li>
+            <a href="__APP__/Home/course/course.html?"><img src="__PUBLIC__/face/images/slider/lrgimg2.jpg" alt="" /></a>
+            <div class="slide_content_left"><h2>作物生产类</h2></div>
+          
+          </li>
+          <li>
+            <a href="__APP__/Home/course/course.html?"><img src="__PUBLIC__/face/images/slider/lrgimg6.jpg" alt="" /></a>
+            <div class="slide_content_right"><h2>植物保护类</h2></div>
+      
+          </li>
+          <li>
+            <a href="__APP__/Home/course/course.html?"><img src="__PUBLIC__/face/images/slider/lrgimg6.jpg" alt="" /></a>
+            <div class="slide_content_left"><h2>创新实验课程</h2></div>
+         
+          </li>
+        </ul>
+      </div>
+      <!--*******************   登录   *******************-->
+      <div class="home_log_box" >
+        <div class="log_tit">
+          <span>用户登录</span>
+        </div>
+        <div class="log_body">
+           <form action="">
+            <p class="home_logsug"></p> 
+            <input type="text" placeholder="用户名" id="home_logName" name="username"/><br> 
+            <input type="password" placeholder="密码" id="home_logPwd" name="password"/><br>
+            欢迎XXX！/注销
+            <a href="javascript:login()" style="opacity: 0.6;" class="home_logbtn">登陆</a>
+          </form>
+        </div>
+        <script>
+        // $(function(){
+        //      //登录AJAX提示判断
+        //     $.post('', {
+        //         username:$("#home_logName").val(),
+        //         password:$("#home_logPwd").val(),
+        //     },function(text){
+        //         if(text=="pass"){
+        //             // alert('pass')
+        //             window.location.href="__APP__/Home/Index/index";
+        //         }else{
+        //             $(".home_logsug").html(text);
+        //         }
+        //     });
+        // })
+        </script>
+      </div>
+    </div>
+  </div>
+
+  <!--**************************************************************main-two**************************************************************-->
+  <div id="main_two">
+    <div class="container">   
+      <div class="list_box">
+        <div class="title_box">
+          <h2 class="title">通知公告</h2><i>NOTICE</i><a href="__APP__/Home/Education/education_show1"><b>MORE</b></a>
+        </div>
+        <ul>
+          <li><a href="">按时间显示最新内容标题按时间显示最新内容标题按时间显示最新内容标题</a><span>06-13</span></li>
+          <li><a href="">按时间显示最新内容标题</a><span>06-13</span></li>
+          <li><a href="">按时间显示最新内容标题</a><span>06-13</span></li>
+          <li><a href="">按时间显示最新内容标题</a><span>06-13</span></li>
+          <li><a href="">按时间显示最新内容标题</a><span>06-13</span></li>
+        </ul>
+      </div> 
+     
+      <div class="list_box">
+        <div class="title_box">
+          <h2 class="title">服务指南</h2><i>SERVICE</i><a href="__APP__/Home/Education/education_show1"><b>MORE</b></a>
+        </div>
+        <ul>
+          <li><a href="">按时间显示最新内容标题</a><span>06-13</span></li>
+          <li><a href="">按时间显示最新内容标题</a><span>06-13</span></li>
+          <li><a href="">按时间显示最新内容标题</a><span>06-13</span></li>
+          <li><a href="">按时间显示最新内容标题</a><span>06-13</span></li>
+          <li><a href="">按时间显示最新内容标题</a><span>06-13</span></li>
+        </ul>
+      </div>  
+
+       <div class="list_box">
+        <div class="title_box">
+          <h2 class="title">下载专区</h2><i>DOWNLOAD</i><a href="__APP__/Home/Education/education_show1"><b>MORE</b></a>
+        </div>
+        <ul>
+          <li><a href="">按时间显示最新内容标题</a><span>06-13</span></li>
+          <li><a href="">按时间显示最新内容标题</a><span>06-13</span></li>
+          <li><a href="">按时间显示最新内容标题</a><span>06-13</span></li>
+          <li><a href="">按时间显示最新内容标题</a><span>06-13</span></li>
+          <li><a href="">按时间显示最新内容标题</a><span>06-13</span></li>
+        </ul>
+      </div>   
+    </div>
+  </div>
+   <!--************************************************************** footer **************************************************************-->
+  <div id="footer">
+     <include file="./Application/Home/View/Public/footer.html" />
+  </div>
+</div>
+</div>
+  
+
+  
+  <script type="text/javascript" src="__PUBLIC__/face/js/public.js"></script>
+  <script type="text/javascript" src="__PUBLIC__/face/js/jquery.flexslider-min.js"></script>
+  <script type="text/javascript" src="__PUBLIC__/face/js/custom.js"></script>
+
+</body>
+</html>

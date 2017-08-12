@@ -1,0 +1,37 @@
+.article .table {
+	width: 100%;
+	height: auto;
+	text-align: center;
+	border: 0.5px solid #70B232;
+}
+.article .table .row{
+	width: 100%;
+	border: 0.5px solid #70B232;
+	
+}
+.article .table .row th {
+	color: #037100;
+	border-bottom: 1px dashed #70B232;
+	/*box-shadow: 0 0  #70B232;*/
+}
+.article .table .row td{
+	/*border: 0.5px solid #333;*/
+	/*box-shadow: 0 0 0 0 #70B232;*/
+	
+}
+.article .table .row td button{
+	border-radius: 1px;
+	border: 1px solid #169f85;
+	background: #26b99a;
+	color: #fff;
+}
+.article .table .row td button:hover{
+	cursor: pointer;
+	background: #c55e57;
+	border: 1px solid #d43f3a;
+	-webkit-transition: all 0.6s;
+	-moz-transition: all 0.6s;
+	-ms-transition: all 0.6s;
+	-o-transition: all 0.6s;
+	transition: all 0.6s;
+}

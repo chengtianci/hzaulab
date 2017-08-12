@@ -1,0 +1,63 @@
+.article{
+	text-align: center;
+	width: 100%;
+}
+.article .apply	{
+	margin: 0 auto;
+}
+.article .apply .up {
+	color: #2A8513;
+}
+.article .apply .down .row {
+	margin: 3px 0 3px 50px;
+}
+.article .apply .down .row .hint {
+	float: left;
+	display: block;
+	text-align: center;
+	margin: 10px 5px 0 0;
+	width: 90px;
+	height: 35px;
+	font-size: 13px;
+	color: #fff;
+	background: rgb(0,128,0);
+	border-radius:3px;
+}
+.article .apply .down .row .input {
+	padding: 3px;
+	text-indent: 3px;
+	display: block;
+	float: left;
+	height: 35px;
+	width: 200px;
+	border: 1.5px solid #3ebb2b;
+	border-radius: 4px;
+	margin-top: 10px;
+}
+.article .apply .down .row .le {
+	width: 300px;
+	float: left;
+}
+.article .apply .down .row .ri {
+	width: 300px;
+	float: left;
+}
+.article .apply .down .row button{
+	border-radius: 3px;
+	padding: 5px;
+	border: 1px solid #169f85;
+	background: #26b99a;
+	color: #fff;
+	width: 90px;
+	height: 35px;
+}
+.article .apply .down .row button:hover{
+	cursor: pointer;
+	background: #c55e57;
+	border: 1px solid #d43f3a;
+	-webkit-transition: all 0.6s;
+	-moz-transition: all 0.6s;
+	-ms-transition: all 0.6s;
+	-o-transition: all 0.6s;
+	transition: all 0.6s;
+}
