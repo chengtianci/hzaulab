@@ -14,6 +14,7 @@
     <!-- Custom Theme Style -->
     <link href="/hzaulab/Public/back/css/custom.min.css" rel="stylesheet">
     <link href="/hzaulab/Public/back/css/public.css" rel="stylesheet" >
+    <link rel="stylesheet" type="text/css" href="/hzaulab/Public/back/css/equipment.css">
 </head>
     <body class="nav-md">
     <div class="container body">
@@ -181,7 +182,7 @@
           <div class="col-md-10 col-sm-12 col-xs-12">
             <div class="x_panel">
               <div class="x_title">
-                <h2>通知公告<small>Notice</small></h2>
+                <h2>设施设备<small>Equipment</small></h2>
                 <ul class="nav navbar-right panel_toolbox">
                   <li class="panel_toolbox_li"><a class="close-link"><i class="fa fa-close"></i></a>
                   </li>
@@ -191,167 +192,45 @@
                 <div class="clearfix"></div>
               </div>
               <div class="x_content">
-                <table id="datatable" class="table table-striped table-bordered">
-                  <thead>
-                  <tr>
-                    <th>Title</th>
-                    <th style="width:15%;">Date</th>
-                    <th style="width:20%;">operation</th>
-                  </tr>
-                  </thead>
-
-
-                  <tbody>
-
-                    <tr>
-                      <td><a href="/hzaulab/index.php/Admin/Introduction/">r_name</a></td>
-                      <td>r_time</td>
-                      <td>
-                        <a href="#" data-toggle="modal" data-target="#myModal" >修改 <i class="fa fa-pencil"></i></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                        <a href="/hzaulab/index.php/Admin/Introduction/" >删除 <i class="fa fa-close"></i></a>
-                      </td>
-                    </tr>
-
-                    <tr>
-                      <td><a href="/hzaulab/index.php/Admin/Introduction/">r_name</a></td>
-                      <td>$vo.r_time</td>
-                      <td>
-                        <a href="#" data-toggle="modal" data-target="#myModal" >修改 <i class="fa fa-pencil"></i></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                        <a href="/hzaulab/index.php/Admin/Introduction/" >删除 <i class="fa fa-close"></i></a>
-                      </td>
-                    </tr>
-
-                  <!-- <?php if(is_array($data)): $k = 0; $__LIST__ = $data;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$vo): $mod = ($k % 2 );++$k; if($k % 2 == 0) { ?>
-                    <tr>
-                      <td><a href="/hzaulab/index.php/Admin/Introduction/fictitious_show1_update/id/<<?php echo ($vo["id"]); ?>>/by/1"><<?php echo ($vo["r_name"]); ?>></a></td>
-                      <td><<?php echo ($vo["r_time"]); ?>></td>
-                      <td>
-                        <a href="#" data-toggle="modal" data-target="#myModal" >修改 <i class="fa fa-pencil"></i></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                        <a href="/hzaulab/index.php/Admin/Introduction/" >删除 <i class="fa fa-close"></i></a>
-                      </td>
-                    </tr>
-                    <?php } else { ?>
-                    <tr>
-                      <td><a href="/hzaulab/index.php/Admin/Introduction/fictitious_show1_update/id/<<?php echo ($vo["id"]); ?>>/by/1"><<?php echo ($vo["r_name"]); ?>></a></td>
-                      <td><<?php echo ($vo["r_time"]); ?>></td>
-                      <td><a href="#" data-toggle="modal" data-target="#myModal" >修改 <i class="fa fa-pencil"></i></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                        <a href="/hzaulab/index.php/Admin/Introduction/" >删除 <i class="fa fa-close"></i></a>
-                      </td>
-                    </tr>
-                    <?php } endforeach; endif; else: echo "" ;endif; ?> -->
-                  </tbody>
-                </table>
+                <div class="conall">
+                  <div class="pitbox">
+                    <h4><a href="/hzaulab/index.php/Admin/Equipment/equipmentdis" target="_blank">气相色谱质谱联用仪</a></h4>
+                    <div class="pitexplan">
+                      
+                      <a href="/hzaulab/index.php/Admin/Equipment/equipmentdis" target="_blank"><img src="/hzaulab/Public/face/images/eqt/1.jpg" alt=""></a>
+                      <div class="explan">
+                        <p>编  号: 1</p>
+                        <p>地  点：东附楼111</p>
+                        <p>价  值:15500</p>
+                        <p>生产商:China</p>
+                        <p>型  号：A1181asasassas</p>
+                        <p>状  态：在用</p>
+                      </div>
+                    </div>
+                    <div class="pitbottom">bottom</div>
+                  </div>
+                  <div class="pitbox">
+                    <h4><a href="/hzaulab/index.php/Admin/Equipment/equipmentdis" target="_blank">气相色谱质谱联用仪</a></h4>
+                    <div class="pitexplan">
+                      
+                      <a href="/hzaulab/index.php/Admin/Equipment/equipmentdis" target="_blank"><img src="/hzaulab/Public/face/images/eqt/1.jpg" alt=""></a>
+                      <div class="explan">
+                        <p>编  号: 1</p>
+                        <p>地  点：东附楼111</p>
+                        <p>价  值:15500</p>
+                        <p>生产商:China</p>
+                        <p>型  号：A1181asasassas</p>
+                        <p>状  态：在用</p>
+                      </div>
+                    </div>
+                    <div class="pitbottom">bottom</div>
+                  </div>
+                </div>
                 <br><br>
-                <div data-toggle="modal" data-target="#myModal2" class="gallery_add">添加</div>
+                <div data-toggle="modal" data-target="#myModal" class="gallery_add">添加</div>
               </div>
             </div>
           </div>
-            <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-              <div class="modal-dialog">
-                <div class="modal-content">
-                  <div class="modal-header">
-                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">
-                      &times;
-                    </button>
-                    <h4 class="modal-title" id="myModalLabel">
-                      通知公告-修改
-                    </h4>
-                  </div>
-                  <div class="modal-body">
-                    
-                    <form class="form" action="" method="post">
-                      <input type="text" id="idInfor" value="<<?php echo ($data["id"]); ?>>" hidden>
-                      <input type="text" class="gallery_title" name="gallery_title" id="gallery_title" placeholder="标题">
-                       <div id="editor1">
-                         <p>原来的文段</p>
-                       </div>
-                     
-                      <script type="text/javascript" src="/hzaulab/Public/Js/wangEditor.min.js"></script>
-                      <script type="text/javascript">
-                          var E = window.wangEditor;
-                          var editor = new E( document.getElementById('editor1') );
-                          editor.customConfig.menus = [
-                                                  'head',  // 标题
-                                                  'bold',  // 粗体
-                                                  'italic',  // 斜体
-                                                  'underline',  // 下划线
-                                                  'strikeThrough',  // 删除线
-                                                  'foreColor',  // 文字颜色
-                                                  'backColor',  // 背景颜色
-                                                  'link',  // 插入链接
-                                                  'list',  // 列表
-                                                  'justify',  // 对齐方式
-                                                  'quote',  // 引用
-                                                  'emoticon',  // 表情
-                                                  'image',  // 插入图片
-                                                  'table',  // 表格
-                                                  'video',  // 插入视频
-                                              ]
-                          editor.create();
-                      </script>
-                    </form>
-                  </div>
-
-                  <div class="modal-footer">
-                    <button type="button" class="btn btn-default" data-dismiss="modal">取消</button>
-                    <button type="button" class="btn btn-primary">提交</button>
-                  </div>
-                </div><!-- /.modal-content -->
-              </div><!-- /.modal -->
-            </div>   
-
-            <div class="modal fade" id="myModal2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-              <div class="modal-dialog">
-                <div class="modal-content">
-                  <div class="modal-header">
-                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">
-                      &times;
-                    </button>
-                    <h4 class="modal-title" id="myModalLabel">
-                      通知公告-添加
-                    </h4>
-                  </div>
-                  <div class="modal-body">
-                    
-                    <form class="form" action="" method="post">
-                      <input type="text" id="idInfor" value="<<?php echo ($data["id"]); ?>>" hidden>
-                      <input type="text" class="gallery_title" name="gallery_title" id="gallery_title" placeholder="标题">
-                       <div id="editor2">
-                         <p>请填写公告内容</p>
-                       </div>
-                     
-                      <script type="text/javascript" src="/hzaulab/Public/Js/wangEditor.min.js"></script>
-                      <script type="text/javascript">
-                          var E = window.wangEditor;
-                          var editor = new E( document.getElementById('editor2') );
-                          editor.customConfig.menus = [
-                                                  'head',  // 标题
-                                                  'bold',  // 粗体
-                                                  'italic',  // 斜体
-                                                  'underline',  // 下划线
-                                                  'strikeThrough',  // 删除线
-                                                  'foreColor',  // 文字颜色
-                                                  'backColor',  // 背景颜色
-                                                  'link',  // 插入链接
-                                                  'list',  // 列表
-                                                  'justify',  // 对齐方式
-                                                  'quote',  // 引用
-                                                  'emoticon',  // 表情
-                                                  'image',  // 插入图片
-                                                  'table',  // 表格
-                                                  'video',  // 插入视频
-                                              ]
-                          editor.create();
-                      </script>
-                    </form>
-                  </div>
-
-                  <div class="modal-footer">
-                  </div>
-                </div><!-- /.modal-content -->
-              </div><!-- /.modal -->
-            </div>  
-
       </div>
         <!--************************************************* 底部版权 *************************************************-->
       <footer id="footer">

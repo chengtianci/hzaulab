@@ -181,7 +181,7 @@
           <div class="col-md-10 col-sm-12 col-xs-12">
             <div class="x_panel">
               <div class="x_title">
-                <h2>通知公告<small>Notice</small></h2>
+                <h2>教学实验室<small>Teaching Lab</small></h2>
                 <ul class="nav navbar-right panel_toolbox">
                   <li class="panel_toolbox_li"><a class="close-link"><i class="fa fa-close"></i></a>
                   </li>
@@ -204,38 +204,38 @@
                   <tbody>
 
                     <tr>
-                      <td><a href="/hzaulab/index.php/Admin/Introduction/">r_name</a></td>
+                      <td><a href="/hzaulab/index.php/Admin/Laboratory/labnotice">r_name</a></td>
                       <td>r_time</td>
                       <td>
                         <a href="#" data-toggle="modal" data-target="#myModal" >修改 <i class="fa fa-pencil"></i></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                        <a href="/hzaulab/index.php/Admin/Introduction/" >删除 <i class="fa fa-close"></i></a>
+                        <a href="/hzaulab/index.php/Admin/Laboratory/labnotice" >删除 <i class="fa fa-close"></i></a>
                       </td>
                     </tr>
 
                     <tr>
-                      <td><a href="/hzaulab/index.php/Admin/Introduction/">r_name</a></td>
+                      <td><a href="/hzaulab/index.php/Admin/Laboratory/labnotice">r_name</a></td>
                       <td>$vo.r_time</td>
                       <td>
                         <a href="#" data-toggle="modal" data-target="#myModal" >修改 <i class="fa fa-pencil"></i></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                        <a href="/hzaulab/index.php/Admin/Introduction/" >删除 <i class="fa fa-close"></i></a>
+                        <a href="/hzaulab/index.php/Admin/Laboratory/labnotice" >删除 <i class="fa fa-close"></i></a>
                       </td>
                     </tr>
 
                   <!-- <?php if(is_array($data)): $k = 0; $__LIST__ = $data;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$vo): $mod = ($k % 2 );++$k; if($k % 2 == 0) { ?>
                     <tr>
-                      <td><a href="/hzaulab/index.php/Admin/Introduction/fictitious_show1_update/id/<<?php echo ($vo["id"]); ?>>/by/1"><<?php echo ($vo["r_name"]); ?>></a></td>
+                      <td><a href="/hzaulab/index.php/Admin/Laboratory/labnotice"><<?php echo ($vo["r_name"]); ?>></a></td>
                       <td><<?php echo ($vo["r_time"]); ?>></td>
                       <td>
                         <a href="#" data-toggle="modal" data-target="#myModal" >修改 <i class="fa fa-pencil"></i></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                        <a href="/hzaulab/index.php/Admin/Introduction/" >删除 <i class="fa fa-close"></i></a>
+                        <a href="/hzaulab/index.php/Admin/Laboratory/labnotice" >删除 <i class="fa fa-close"></i></a>
                       </td>
                     </tr>
                     <?php } else { ?>
                     <tr>
-                      <td><a href="/hzaulab/index.php/Admin/Introduction/fictitious_show1_update/id/<<?php echo ($vo["id"]); ?>>/by/1"><<?php echo ($vo["r_name"]); ?>></a></td>
+                      <td><a href="/hzaulab/index.php/Admin/Laboratory/labnotice"><<?php echo ($vo["r_name"]); ?>></a></td>
                       <td><<?php echo ($vo["r_time"]); ?>></td>
                       <td><a href="#" data-toggle="modal" data-target="#myModal" >修改 <i class="fa fa-pencil"></i></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                        <a href="/hzaulab/index.php/Admin/Introduction/" >删除 <i class="fa fa-close"></i></a>
+                        <a href="/hzaulab/index.php/Admin/Laboratory/labnotice" >删除 <i class="fa fa-close"></i></a>
                       </td>
                     </tr>
                     <?php } endforeach; endif; else: echo "" ;endif; ?> -->

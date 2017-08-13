@@ -180,21 +180,21 @@
           
               <h3 class="head">基本信息</h3>
               <span>名称：</span><div class="eqtcon">气相色谱质谱联用仪</div>
-              <span>分类：</span>
-              <select name="" id="">
+              <span>型号/单位：</span><div class="eqtcon">XING号单位</div>
+              <!-- <select name="" id="">
                 <option value ="农田土地">农田土地</option>
                 <option value ="露天盆栽场">露天盆栽场</option>
                 <option value="晾晒地">晾晒地</option>  
-              </select><br>
-              <span>类型/规格：</span><div class="eqtcon">气相色谱质谱联用仪</div>
-              <span>面积：</span><div class="eqtcon">气相色谱质谱联用仪</div>
-              <span>位置：</span><div class="eqtcon">气相色谱质谱联用仪</div>
-              <span>用途：</span><div class="eqtcon">气相色谱质谱联用仪</div>
+              </select><br> -->
+              <span>生产商：</span><div class="eqtcon">气相色谱质谱联用仪</div>
+              <span>设备编号：</span><div class="eqtcon">气相色谱质谱联用仪</div>
+              <span>存放地：</span><div class="eqtcon">气相色谱质谱联用仪</div>
+              <span>设备总值：</span><div class="eqtcon">气相色谱质谱联用仪</div>
               <span>收费标准：</span><div class="eqtcon">气相色谱质谱联用仪</div>
               <span>状态：</span><div class="eqtcon">开放/锁定/故障</div><hr>
               <h3 class="head">联系人</h3>
-              <span>类型：</span><div class="eqtcon">气相色谱质谱联用仪</div>
               <span>姓名：</span><div class="eqtcon">张三</div>
+              <span>类型：</span><div class="eqtcon">气相色谱质谱联用仪</div>
               <span>电话：</span><div class="eqtcon">01402</div>
               <span>手机：</span><div class="eqtcon">19999999999</div><hr>
               <h3 class="head">详细信息</h3>

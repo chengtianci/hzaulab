@@ -1,0 +1,12 @@
+[ 2017-08-13T11:24:02+08:00 ] ::1 /hzaulab/back.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000545s ]
+ERR: 无法加载模块:Back
+
+[ 2017-08-13T12:26:37+08:00 ] ::1 /hzaulab/Public/back/images/titpit.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000548s ]
+ERR: 无法加载模块:Public
+

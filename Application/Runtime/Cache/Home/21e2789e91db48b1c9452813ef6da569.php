@@ -1,15 +1,13 @@
 <?php if (!defined('THINK_PATH')) exit();?><!doctype html>
 <html lang="en">
 <head>
- 	<meta charset="UTF-8">
- 	<!-- <meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0; user-scalable=0;" /> -->
- 	<title>华中农业大学作物学实验教学中心</title>
- 	<link type="text/css" rel="stylesheet" href='http://fonts.googleapis.com/css?family=Ubuntu:300italic,300,700' />
+  <meta charset="UTF-8">
+  <!-- <meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0; user-scalable=0;" /> -->
+  <title>华中农业大学作物学实验教学中心</title>
+  <link type="text/css" rel="stylesheet" href='http://fonts.googleapis.com/css?family=Ubuntu:300italic,300,700' />
   <link rel="shortcut icon" href="/hzaulab/logo.ico" type="image/x-icon" />
   <link rel="stylesheet" href="/hzaulab/Public/face/css/home_public.css" />
-  <link rel="stylesheet" href="/hzaulab/Public/face/css/planform_public.css" />
   <link rel="stylesheet" href="/hzaulab/Public/face/css/show_public.css" />
-  <link rel="stylesheet" href="/hzaulab/Public/face/css/field_show2.css" />
   <script type="text/javascript" src="/hzaulab/Public/public/js/jquery-1.8.3.min.js"></script>
 
 </head>
@@ -166,130 +164,22 @@
       <div id="blank"></div>
       <div id="main_nav">
         <section>
-          <h3>大田设施</h3>
+          <h3>实验室</h3>
           <ul class="ultop">
-            <li><a href="/hzaulab/index.php/Home/Field/field_show1" >农田土地</a></li>
-            <li><a href="/hzaulab/index.php/Home/Field/field_show2" style="border-left: 3px solid orange;">露天盆栽场</a></li>
+            <li><a href="/hzaulab/index.php/Home/Laboratory/laboratory_show1">公共实验室</a></li>
+            <li><a href="/hzaulab/index.php/Home/Laboratory/laboratory_show2">教学实验室</a></li>
+            <li><a href="/hzaulab/index.php/Home/Laboratory/laboratory_show3" >实验辅助室</a></li>
           </ul>
         </section>
       </div>
       <div id="main_right">
-        <nav class="top_nav"><a href="/hzaulab/index.php/home/Index/index.html">首页</a> · <a href="#">露天盆栽场</a> · <a href="#">农田土地</a> </nav>
-        <section class="article">
-          <div class="planform_box">
-            <header class="main_title"><h2>露天盆栽场</h2></header>
-            <div class="planform">
-              <div class="planheader">
-                <form action="/lark-master/lark-master/index.php/Home/Reserve/home" method="get">
-                <span class="hint">选择日期:</span>
-                <input class="tcal tcalInput tcalActive input" name="date" value="2017-08-03" type="date">
-                <button class="button" type="submit">查询</button>
-                </form>
-                <div class="clr" style="clear: both;"></div><br>
-                <span>露天盆栽场</span>
-                <div class="explain">已借：红色</div>
-              </div>
-              <div class="planbody">
-                <div class="box1"><!-- <div  data-toggle="modal" data-target="#myModal" class="gallery_add">ADD</div> -->
-                  <div class="apply inbox hasin" >PZ-1<span class="date">2017.8.8——2017.8.10</span></div>
-                  <div class="apply inbox">PZ-2<span class="date"></span></div>
-                  <div class="apply inbox hasin">PZ-3<span class="date">2017.8.8——2017.8.10</span></div>
-                  <div class="apply inbox">PZ-4<span class="date"></span></div>
-                  <div class="apply inbox">PZ-5<span class="date"></span></div>
-                  <div class="apply inbox">PZ-6<span class="date"></span></div>
-                  <div class="apply inbox">PZ-7<span class="date"></span></div>
-                  <div class="apply inbox">PZ-8<span class="date"></span></div>
-                  <div class="apply inbox">PZ-9<span class="date"></span></div>
-                  <div class="apply inbox">PZ-10<span class="date"></span></div>
-                  <div class="apply inbox">PZ-11<span class="date"></span></div>
-                  <div class="apply inbox">PZ-12<span class="date"></span></div>
-                  <div class="apply inbox">PZ-13<span class="date"></span></div>
-                  <div class="apply inbox">PZ-14<span class="date"></span></div>
-                  <div class="apply inbox">PZ-15<span class="date"></span></div>
-                  <div class="apply inbox">PZ-16<span class="date"></span></div>
-                  <div class="apply inbox">PZ-17<span class="date"></span></div>
-                  <div class="apply inbox">PZ-18<span class="date"></span></div>
-                  <div class="apply inbox">PZ-19<span class="date"></span></div>
-                  <div class="apply inbox">PZ-20<span class="date"></span></div>
-                  <div class="apply inbox">PZ-21<span class="date"></span></div>
-                  <div class="apply inbox">PZ-22<span class="date"></span></div>
-                  <div class="apply inbox">PZ-23<span class="date"></span></div>
-                </div>
-
-
-                <div class="box2">
-                  <div class="apply inbox">PZ-24<span class="date"></span></div>
-                  <div class="apply inbox">PZ-25<span class="date"></span></div>
-                  <div class="apply inbox">PZ-26<span class="date"></span></div>
-                  <div class="apply inbox">PZ-27<span class="date"></span></div>
-                  <div class="apply inbox">PZ-28<span class="date"></span></div>
-                  <div class="apply inbox">PZ-29<span class="date"></span></div>
-                  <div class="apply inbox">PZ-30<span class="date"></span></div>
-                </div>
-
-
-                <div class="box3">
-                  <div class="boxrow">
-                       <div class="apply inbox2">PZ-31<span class="date"></span></div>
-                       <div class="apply inbox2">PZ-32<span class="date"></span></div>
-                  </div>
-                  <div class="boxrow">
-                       <div class="apply inbox2">PZ-33<span class="date"></span></div>
-                       <div class="apply inbox2">PZ-34<span class="date"></span></div>
-                  </div>
-                </div>
-                <div class="box4">
-                  <div class="boxrow">
-                       <div class="apply inbox2">PZ-35<span class="date"></span></div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </section>
-
+        <nav class="top_nav"><a href="/hzaulab/index.php/home/Index/index.html">首页</a> · <a href="#">实验室</a> · <a href="#">实验辅助室</a> · <a href="#">这写标题</a> </nav>
+        <header class="main_title"><h2>这写标题</h2></header>
+        <section class="article">这写标题这写标题这写标题这写标题这写标题这写标题这写标题这写标题这写标题这写标题这写标题这写标题这写标题这写标题这写标题这写标题这写标题这写标题这写标题这写标题这写标题这写标题这写标题这写标题这写标题这写标题这写标题这写标题这写标题这写标题这写标题这写标题这写标题这写标题这写标题这写标题这写标题这写标题这写标题</section>
       </div>
     </div>
   </div>
-  <div id="applyform">
-    <div class="up">
-    <img id="close" src="/hzaulab/Public/face/images/close.png">
-      <h3>作物学实验教学中心 <br> 设施设备租赁表</h3> 
-    </div>
-    <div class="down">
-    <form>
-      <div class="row">
-        <div class="le"><span class="hint">使用者姓名： </span><input class="input" type="text" name="name1">   </div>
-        <div class="ri"><span class="hint">联系方式： </span><input class="input" type="text" name="name2"></div>
-      </div>
-      <div class="row">
-        <div class="le"><span class="hint">导师姓名： </span><input class="input" type="text" name="name1">   </div>
-        <div class="ri"><span class="hint">联系方式： </span><input class="input" type="text" name="name2"></div>
-      </div>
-      <div class="row">
-        <div class="le"><span class="hint">设施名称： </span><input class="input" type="text" name="name1">   </div>
-        <div class="ri"><span class="hint">设施位置： </span><input class="input" type="text" name="name2"></div>
-      </div>
-      <div class="row">
-        <div class="le"><span class="hint">设施编号： </span><input class="input" type="text" name="name1">   </div>
-        <div class="ri"><span class="hint">研究项目：</span><input class="input" type="text" name="name1"></div>
-      </div>
-      <div class="row">
-        <div class="le"><span class="hint">预约时间： </span><input class="input" type="date" name="name1">   </div>
-        <div class="ri"><span class="hint">终止时间： </span><input class="input" type="date" name="name2"></div>
-      </div>
-      <div class="row">
-        <div class="le"><span class="hint">样品物种： </span><input class="input" type="text" name="name1">   </div>
-        <div class="ri"><span class="hint">备注: </span><input class="input" type="text" name="name2"></div>
-      </div><br>
-      <div class="row">
-        <a href=""><button>保存</button></a>
-        <a href=""><button>提交</button></a>
-        <a href=""><button>导出Word</button></a>
-      </div>
-    </form>
-  </div>
-  </div>
+
 
    <!--************************************************************** footer **************************************************************-->
   <div id="footer">
@@ -321,9 +211,12 @@
   </div>
 </div>
 </div>
+  
+
+  
   <script type="text/javascript" src="/hzaulab/Public/face/js/public.js"></script>
   <script type="text/javascript" src="/hzaulab/Public/face/js/jquery.flexslider-min.js"></script>
   <script type="text/javascript" src="/hzaulab/Public/face/js/custom.js"></script>
-  <script type="text/javascript" src="/hzaulab/Public/face/js/apply.js"></script>
+
 </body>
 </html>

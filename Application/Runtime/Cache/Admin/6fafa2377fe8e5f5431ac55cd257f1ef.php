@@ -85,6 +85,8 @@
       <li><a><i class="fa fa-user"></i>规章制度<span class="fa fa-chevron-down"></span></a>
         <ul class="nav child_menu">
           <li><a href="/hzaulab/index.php/Admin/Regulation/regulation">规章制度</a></li>
+          <li><a href="/hzaulab/index.php/Admin/Regulation/service">服务指南</a></li>
+          <li><a href="/hzaulab/index.php/Admin/Regulation/download">下载专区</a></li>
         </ul>
       </li>
     </ul>

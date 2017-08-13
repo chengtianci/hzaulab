@@ -189,25 +189,25 @@
             </form>
           </div>
           <div class="pitbox">
-            <h4><a href="/hzaulab/index.php/Home/Laboratory/laboratory_show2_article" target="_blank">气相色谱质谱联用仪</a></h4>
+            <h4><a href="/hzaulab/index.php/Home/Laboratory/laboratory_show2_article" >气相色谱质谱联用仪</a></h4>
             <div class="pitexplan">
-              <a href="/hzaulab/index.php/Home/Laboratory/laboratory_show2_article" target="_blank"><img src="/hzaulab/Public/face/images/eqt/1.jpg" alt=""></a>
+              <a href="/hzaulab/index.php/Home/Laboratory/laboratory_show2_article" ><img src="/hzaulab/Public/face/images/eqt/1.jpg" alt=""></a>
             </div>
           </div>
           <div class="pitbox">
-            <h4><a href="/hzaulab/index.php/Home/Laboratory/laboratory_show2_article" target="_blank">气相色谱质谱联用仪</a></h4>
+            <h4><a href="/hzaulab/index.php/Home/Laboratory/laboratory_show2_article" >气相色谱质谱联用仪</a></h4>
             <div class="pitexplan">
-              <a href="/hzaulab/index.php/Home/Laboratory/laboratory_show2_article" target="_blank"><img src="/hzaulab/Public/face/images/eqt/1.jpg" alt=""></a>
+              <a href="/hzaulab/index.php/Home/Laboratory/laboratory_show2_article" ><img src="/hzaulab/Public/face/images/eqt/1.jpg" alt=""></a>
             </div>
           </div><div class="pitbox">
-            <h4><a href="/hzaulab/index.php/Home/Laboratory/laboratory_show2_article" target="_blank">气相色谱质谱联用仪</a></h4>
+            <h4><a href="/hzaulab/index.php/Home/Laboratory/laboratory_show2_article" >气相色谱质谱联用仪</a></h4>
             <div class="pitexplan">
-              <a href="/hzaulab/index.php/Home/Laboratory/laboratory_show2_article" target="_blank"><img src="/hzaulab/Public/face/images/eqt/1.jpg" alt=""></a>
+              <a href="/hzaulab/index.php/Home/Laboratory/laboratory_show2_article" ><img src="/hzaulab/Public/face/images/eqt/1.jpg" alt=""></a>
             </div>
           </div><div class="pitbox">
-            <h4><a href="/hzaulab/index.php/Home/Laboratory/laboratory_show2_article" target="_blank">气相色谱质谱联用仪</a></h4>
+            <h4><a href="/hzaulab/index.php/Home/Laboratory/laboratory_show2_article" >气相色谱质谱联用仪</a></h4>
             <div class="pitexplan">
-              <a href="/hzaulab/index.php/Home/Laboratory/laboratory_show2_article" target="_blank"><img src="/hzaulab/Public/face/images/eqt/1.jpg" alt=""></a>
+              <a href="/hzaulab/index.php/Home/Laboratory/laboratory_show2_article" ><img src="/hzaulab/Public/face/images/eqt/1.jpg" alt=""></a>
             </div>
           </div>
           <div class="page"><a href="">上一页</a>/<a href="">下一页</a></div>
