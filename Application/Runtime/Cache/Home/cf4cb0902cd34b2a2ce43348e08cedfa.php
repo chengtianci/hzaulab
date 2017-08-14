@@ -8,8 +8,7 @@
   <link rel="shortcut icon" href="/hzaulab/logo.ico" type="image/x-icon" />
   <link rel="stylesheet" href="/hzaulab/Public/face/css/home_public.css" />
   <link rel="stylesheet" href="/hzaulab/Public/face/css/show_public.css" />
-  <link rel="stylesheet" href="/hzaulab/Public/face/css/planform_public.css" />
-  <link rel="stylesheet" href="/hzaulab/Public/face/css/room_show1_two.css" />
+  <link rel="stylesheet" href="/hzaulab/Public/face/css/equipment_show1_apply.css" />
   <script type="text/javascript" src="/hzaulab/Public/public/js/jquery-1.8.3.min.js"></script>
 
 </head>
@@ -166,143 +165,60 @@
       <div id="blank"></div>
       <div id="main_nav">
         <section>
-          <h3>培养室</h3>
+          <h3>仪器设备</h3>
           <ul class="ultop">
-            <li><a href="/hzaulab/index.php/Home/Room/room_show1" style="border-left: 3px solid orange;">温网室</a></li>
-            <li><a href="/hzaulab/index.php/Home/Room/room_show2">光照培养室</a></li>
+            <li><a href="/hzaulab/index.php/Home/Equipment/equipment_show1" style="border-left: 3px solid orange;">仪器设备</a></li>
           </ul>
         </section>
       </div>
       <div id="main_right">
-        <nav class="top_nav"><a href="/hzaulab/index.php/home/Index/index.html">首页</a> · <a href="#">培养室</a> · <a href="#">温网室</a> </nav>
+        <nav class="top_nav"><a href="/hzaulab/index.php/home/Index/index.html">首页</a> · <a href="#">实验室</a>· <a >实验室申请</a> </nav>
+        <header class="main_title"><h2>实验室申请</h2></header>
         <section class="article">
-         <header class="main_title"><h2>温网室</h2></header>
-      <div class="planform_box">
-        <ul class="small_nav">
-          <li><a  href="/hzaulab/index.php/Home/Room/room_show1">山南温网室群</a></li>
-          <li><a class="now_on" href="/hzaulab/index.php/Home/Room/room_show1_two">山北温室群</a></li>
-        </ul>
-        <div class="planform">
-          <div class="planheader">
-            <form action="/lark-master/lark-master/index.php/Home/Reserve/home" method="get">
-            <span class="hint">选择日期:</span>
-            <input class="tcal tcalInput tcalActive input" name="date" value="2017-08-03" type="date">
-            <button class="button" type="submit">查询</button>
-            </form>
-            <div class="clr" style="clear: both;"></div><br>
-            <span>山北温室群</span>
-            <div class="explain">已借：红色</div>
-          </div>
-          <div class="planbody">
-            <form class="planbodyform">
-              <div id="muticonfirm">预约</div>
-              <div class="clr"></div>
-              <div class="box1">
-                <div class="box_left">
-                  <div class="apply box_one"><br><input type="checkbox" name=""><br>N1-1</div>
-                  <div class="apply box_one"><br><input type="checkbox" name=""><br>N1-2</div>
-                  <div class="apply box_one"><br><input type="checkbox" name=""><br>N1-3</div>
-                  <div class="apply box_one"><br><input type="checkbox" name=""><br>N1-4</div>
-                  <div class="apply box_one"><br><input type="checkbox" name=""><br>N1-5</div>
-                  <div class="apply box_one"><br><input type="checkbox" name=""><br>N1-6</div>              
-                </div>
-                <div class="box_right">
-                  <div class="apply box_one"><br><input type="checkbox" name=""><br>N4-1</div>
-                  <div class="apply box_one"><br><input type="checkbox" name=""><br>N4-2</div>
-                  <div class="apply box_one"><br><input type="checkbox" name=""><br>N4-3</div>
-                  <div class="apply box_one"><br><input type="checkbox" name=""><br>N4-4</div>
-                  <div class="apply box_one"><br><input type="checkbox" name=""><br>N4-5</div>
-                  <div class="apply box_one"><br><input type="checkbox" name=""><br>N4-6</div>   
-                </div>
+          <div class="apply">
+              <div class="up">
+                <h3>作物学实验教学中心 <br> 实验室申请表</h3>
               </div>
-
-
-              <div class="box2">
-                <div class="box_left">
-                  <div class="apply box_one"><br><input type="checkbox" name=""><br>N2-1</div>
-                  <div class="apply box_one"><br><input type="checkbox" name=""><br>N2-2</div>
-                  <div class="apply box_one"><br><input type="checkbox" name=""><br>N2-3</div>
-                  <div class="apply box_one"><br><input type="checkbox" name=""><br>N2-4</div>
-                  <div class="apply box_one"><br><input type="checkbox" name=""><br>N2-5</div>
-                  <div class="apply box_one"><br><input type="checkbox" name=""><br>N2-6</div>              
+              <div class="down">
+              <form>
+                <div class="row">
+                  <div class="le"><span class="hint">使用者姓名： </span><input class="input" type="text" name="name1">   </div>
+                  <div class="ri"><span class="hint">联系方式： </span><input class="input" type="text" name="name2"></div>
                 </div>
-                <div class="box_right">
-                  <div class="apply box_one"><br><input type="checkbox" name=""><br>N5-1</div>
-                  <div class="apply box_one"><br><input type="checkbox" name=""><br>N5-2</div>
-                  <div class="apply box_one"><br><input type="checkbox" name=""><br>N5-3</div>
-                  <div class="apply box_one"><br><input type="checkbox" name=""><br>N5-4</div>
-                  <div class="apply box_one"><br><input type="checkbox" name=""><br>N5-5</div>
-                  <div class="apply box_one"><br><input type="checkbox" name=""><br>N5-6</div>   
+                <div class="row">
+                  <div class="le"><span class="hint">导师姓名： </span><input class="input" type="text" name="name1">   </div>
+                  <div class="ri"><span class="hint">联系方式： </span><input class="input" type="text" name="name2"></div>
                 </div>
+                <div class="row">
+                  <div class="le"><span class="hint">仪器名称： </span><input class="input" type="text" name="name1">   </div>
+                  <div class="ri"><span class="hint">设备编号： </span><input class="input" type="text" name="name2"></div>
+                </div>
+                <div class="row">
+                  <div class="le"><span class="hint">存放位置： </span><input class="input" type="text" name="name1">   </div>
+                  <div class="ri"><span class="hint" style="background: #fff;"></span></div>
+                </div>
+                <div class="row">
+                  <div class="le"><span class="hint">预约时间： </span><input class="input" type="date" name="name1">   </div>
+                  <div class="ri"><span class="hint">终止时间： </span><input class="input" type="date" name="name2"></div>
+                </div>
+                <div class="row">
+                  <div class="le"><span class="hint">样品物种： </span><input class="input" type="text" name="name1">   </div>
+                  <div class="ri"><span class="hint">分析项目： </span><input class="input" type="text" name="name2"></div>
+                </div><br>
+                <div class="row">
+                  <a href=""><button>保存</button></a>
+                  <a href=""><button>提交</button></a>
+                  <a href=""><button>导出Word</button></a>
+                </div>
+              </form>
               </div>
-
-
-              <div class="box3">
-                 <div class="box_left">
-                  <div class="apply box_two"><br><input type="checkbox" name=""><br>N3-1</div>
-                  <div class="apply box_two"><br><input type="checkbox" name=""><br>N3-2</div>
-                  <div class="apply box_two"><br><input type="checkbox" name=""><br>N3-3</div>
-                  <div class="apply box_two"><br><input type="checkbox" name=""><br>N3-4</div>
-                  <div class="apply box_two"><br><input type="checkbox" name=""><br>N3-5</div>
-                  <div class="apply box_two"><br><input type="checkbox" name=""><br>N3-6</div>              
-                </div>
-                <div class="box_right">
-                  <div class="apply box_one"><br><input type="checkbox" name=""><br>N6-1</div>
-                  <div class="apply box_one"><br><input type="checkbox" name=""><br>N6-2</div>
-                  <div class="apply box_one"><br><input type="checkbox" name=""><br>N6-3</div>
-                  <div class="apply box_one"><br><input type="checkbox" name=""><br>N6-4</div>
-                  <div class="apply box_one"><br><input type="checkbox" name=""><br>N6-5</div>
-                  <div class="apply box_one"><br><input type="checkbox" name=""><br>N6-6</div>   
-                </div>
-              </div>
-                <div id="applyform">
-                  <div class="up">
-                    <img id="close" src="/hzaulab/Public/face/images/close.png">
-                    <h3>作物学实验教学中心 <br> 设施设备租赁表</h3> 
-                  </div>
-                  <div class="down">
-                  <div class="row">
-                    <div class="le"><span class="hint">使用者姓名： </span><input class="input" type="text" name="name1">   </div>
-                    <div class="ri"><span class="hint">联系方式： </span><input class="input" type="text" name="name2"></div>
-                  </div>
-                  <div class="row">
-                    <div class="le"><span class="hint">导师姓名： </span><input class="input" type="text" name="name1">   </div>
-                    <div class="ri"><span class="hint">联系方式： </span><input class="input" type="text" name="name2"></div>
-                  </div>
-                  <div class="row">
-                    <div class="le"><span class="hint">设施名称： </span><input class="input" type="text" name="name1">   </div>
-                    <div class="ri"><span class="hint">设施位置： </span><input class="input" type="text" name="name2"></div>
-                  </div>
-                  <div class="row">
-                    <div class="le"><span class="hint">设施编号： </span><input class="input" type="text" name="name1">   </div>
-                    <div class="ri"><span class="hint">研究项目：</span><input class="input" type="text" name="name1"></div>
-                  </div>
-                  <div class="row">
-                    <div class="le"><span class="hint">预约时间： </span><input class="input" type="date" name="name1">   </div>
-                    <div class="ri"><span class="hint">终止时间： </span><input class="input" type="date" name="name2"></div>
-                  </div>
-                  <div class="row">
-                    <div class="le"><span class="hint">样品物种： </span><input class="input" type="text" name="name1">   </div>
-                    <div class="ri"><span class="hint">备注: </span><input class="input" type="text" name="name2"></div>
-                  </div><br>
-                  <div class="row">
-                    <a href=""><button>保存</button></a>
-                    <a href=""><button>提交</button></a>
-                    <a href=""><button>导出Word</button></a>
-                  </div>
-                </div>
-              </div>
-            </form>
-          </div>
-        </div>
-      </div>
+            </div>
         </section>
       </div>
     </div>
   </div>
 
 
-  
    <!--************************************************************** footer **************************************************************-->
   <div id="footer">
      <div class="container">
@@ -333,9 +249,12 @@
   </div>
 </div>
 </div>
+  
+
+  
   <script type="text/javascript" src="/hzaulab/Public/face/js/public.js"></script>
   <script type="text/javascript" src="/hzaulab/Public/face/js/jquery.flexslider-min.js"></script>
   <script type="text/javascript" src="/hzaulab/Public/face/js/custom.js"></script>
-  <script type="text/javascript" src="/hzaulab/Public/face/js/apply.js"></script>
+
 </body>
 </html>

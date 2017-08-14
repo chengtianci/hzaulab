@@ -7,8 +7,8 @@
   <link type="text/css" rel="stylesheet" href='http://fonts.googleapis.com/css?family=Ubuntu:300italic,300,700' />
   <link rel="shortcut icon" href="/hzaulab/logo.ico" type="image/x-icon" />
   <link rel="stylesheet" href="/hzaulab/Public/face/css/home_public.css" />
-    <link rel="stylesheet" href="/hzaulab/Public/face/css/lab.css" />
   <link rel="stylesheet" href="/hzaulab/Public/face/css/show_public.css" />
+    <link rel="stylesheet" href="/hzaulab/Public/face/css/lab.css" />
   <script type="text/javascript" src="/hzaulab/Public/public/js/jquery-1.8.3.min.js"></script>
 
 </head>

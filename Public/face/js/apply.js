@@ -1,5 +1,6 @@
 $(function () {
-	$(".apply").on('click',function () {
+	
+	$("#muticonfirm").on('click',function () {
 		$("body").append("<div id='mask'></div>");
 		// $("body").css({});
 	    $("#mask").addClass("mask").fadeIn("slow");

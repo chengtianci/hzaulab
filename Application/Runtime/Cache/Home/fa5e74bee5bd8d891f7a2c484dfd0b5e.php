@@ -194,124 +194,163 @@
             <div class="explain">已借：红色</div>
           </div>
           <div class="planbody">
-            <div class="box1">
-              <div class="apply classbox1_1 hasin"><span class="date">5.8-5.9</span></div>
-              <div class="apply classbox1_2"><span class="date"></span></div>
-              <div class="apply classbox1_3"><span class="date"></span></div>
-              <div class="apply classbox1_4"><span class="date"></span></div>
-              <div class="apply classbox1_5"><span class="date"></span></div>
-              <div class="apply classbox1_6"><span class="date"></span></div>
-              <div class="apply classbox1_7"><span class="date"></span></div>
-              <div class="apply classbox1_8"><span class="date"></span></div>
-              <div class="apply classbox1_9"><span class="date"></span></div>
-            </div>
-            <div class="box2">
-              <div class="div2_1">
-                <div class="apply classbox2 hasin"><span class="date"></span></div>
-                <div class="apply classbox2"><span class="date"></span></div>
-                <div class="apply classbox2"><span class="date"></span></div>
-                <div class="apply classbox2"><span class="date"></span></div>
-                <div class="apply classbox2"><span class="date"></span></div>
-                <div class="apply classbox2"><span class="date"></span></div>
-                <div class="apply classbox2"><span class="date"></span></div>
-                <div class="apply classbox2"><span class="date"></span></div>
-                <div class="apply classbox2"><span class="date"></span></div>
-                <div class="apply classbox2"><span class="date"></span></div>
-                <div class="apply classbox2"><span class="date"></span></div>
-                <div class="apply classbox2"><span class="date"></span></div>
+            <form class="planbodyform">
+              <div id="muticonfirm">预约</div>
+              <div class="box1">
+                <div class=" classbox1_1 hasin"><input type="checkbox" name=""></div>
+                <div class=" classbox1_2"><input type="checkbox" name=""></div>
+                <div class=" classbox1_3"><input type="checkbox" name=""></div>
+                <div class=" classbox1_4"><input type="checkbox" name=""></div>
+                <div class=" classbox1_5"><input type="checkbox" name=""></div>
+                <div class=" classbox1_6"><input type="checkbox" name=""></div>
+                <div class=" classbox1_7"><input type="checkbox" name=""></div>
+                <div class=" classbox1_8"><input type="checkbox" name=""></div>
+                <div class=" classbox1_9"><input type="checkbox" name=""></div>
               </div>
-              <div class="div2_2">
-                <div class="apply classbox2 hasin"><span class="date"></span></div>
-                <div class="apply classbox2"><span class="date"></span></div>
-                <div class="apply classbox2"><span class="date"></span></div>
-                <div class="apply classbox2"><span class="date"></span></div>
-                <div class="apply classbox2"><span class="date"></span></div>
-                <div class="apply classbox2"><span class="date"></span></div>
-                <div class="apply classbox2"><span class="date"></span></div>
-                <div class="apply classbox2"><span class="date"></span></div>
-                <div class="apply classbox2"><span class="date"></span></div>
-                <div class="apply classbox2"><span class="date"></span></div>
-                <div class="apply classbox2"><span class="date"></span></div>
-                <div class="apply classbox2"><span class="date"></span></div>
-                <div class="apply classbox2"><span class="date"></span></div>
-                <div class="apply classbox2"><span class="date"></span></div>
-                <div class="apply classbox2"><span class="date"></span></div>
-                <div class="apply classbox2"><span class="date"></span></div>
-                <div class="apply classbox2"><span class="date"></span></div>
-                <div class="apply classbox2"><span class="date"></span></div>
-                <div class="apply classbox2"><span class="date"></span></div>
-                <div class="apply classbox2"><span class="date"></span></div>
+              <div class="box2">
+                <div class="div2_1">
+                  <div class=" classbox2"><input type="checkbox"  name=""></div>
+                  <div class=" classbox2"><input type="checkbox"  name=""></div>
+                  <div class=" classbox2"><input type="checkbox"  name=""></div>
+                  <div class=" classbox2"><input type="checkbox"  name=""></div>
+                  <div class=" classbox2"><input type="checkbox"  name=""></div>
+                  <div class=" classbox2"><input type="checkbox"  name=""></div>
+                  <div class=" classbox2"><input type="checkbox"  name=""></div>
+                  <div class=" classbox2"><input type="checkbox"  name=""></div>
+                  <div class=" classbox2"><input type="checkbox"  name=""></div>
+                  <div class=" classbox2"><input type="checkbox"  name=""></div>
+                  <div class=" classbox2"><input type="checkbox"  name=""></div>
+                  <div class=" classbox2"><input type="checkbox"  name=""></div>
+                </div>
+                <div class="div2_2">
+                  <div class=" classbox2"><input type="checkbox"  name=""></div>
+                  <div class=" classbox2"><input type="checkbox"  name=""></div>
+                  <div class=" classbox2"><input type="checkbox"  name=""></div>
+                  <div class=" classbox2"><input type="checkbox"  name=""></div>
+                  <div class=" classbox2"><input type="checkbox"  name=""></div>
+                  <div class=" classbox2"><input type="checkbox"  name=""></div>
+                  <div class=" classbox2"><input type="checkbox"  name=""></div>
+                  <div class=" classbox2"><input type="checkbox"  name=""></div>
+                  <div class=" classbox2"><input type="checkbox"  name=""></div>
+                  <div class=" classbox2"><input type="checkbox"  name=""></div>
+                  <div class=" classbox2"><input type="checkbox"  name=""></div>
+                  <div class=" classbox2"><input type="checkbox"  name=""></div>
+                  <div class=" classbox2"><input type="checkbox"  name=""></div>
+                  <div class=" classbox2"><input type="checkbox"  name=""></div>
+                  <div class=" classbox2"><input type="checkbox"  name=""></div>
+                  <div class=" classbox2"><input type="checkbox"  name=""></div>
+                  <div class=" classbox2"><input type="checkbox"  name=""></div>
+                  <div class=" classbox2"><input type="checkbox"  name=""></div>
+                  <div class=" classbox2"><input type="checkbox"  name=""></div>
+                  <div class=" classbox2"><input type="checkbox"  name=""></div>
+                </div>
+                <div class="div2_3">
+                  <div class=" classbox2"><input type="checkbox"  name=""></div>
+                  <div class=" classbox2"><input type="checkbox"  name=""></div>
+                  <div class=" classbox2"><input type="checkbox"  name=""></div>
+                  <div class=" classbox2"><input type="checkbox"  name=""></div>
+                  <div class=" classbox2"><input type="checkbox"  name=""></div>
+                  <div class=" classbox2"><input type="checkbox"  name=""></div>
+                  <div class=" classbox2"><input type="checkbox"  name=""></div>
+                  <div class=" classbox2"><input type="checkbox"  name=""></div>
+                  <div class=" classbox2"><input type="checkbox"  name=""></div>
+                  <div class=" classbox2"><input type="checkbox"  name=""></div>
+                  <div class=" classbox2"><input type="checkbox"  name=""></div>
+                  <div class=" classbox2"><input type="checkbox"  name=""></div>
+                  <div class=" classbox2"><input type="checkbox"  name=""></div>
+                  <div class=" classbox2"><input type="checkbox"  name=""></div>
+                  <div class=" classbox2"><input type="checkbox"  name=""></div>
+                  <div class=" classbox2"><input type="checkbox"  name=""></div>
+                  <div class=" classbox2"><input type="checkbox"  name=""></div>
+                  <div class=" classbox2"><input type="checkbox"  name=""></div>
+                  <div class=" classbox2"><input type="checkbox"  name=""></div>
+                  <div class=" classbox2"><input type="checkbox"  name=""></div>
+                </div>
               </div>
-              <div class="div2_3">
-                <div class="apply classbox2 hasin"><span class="date"></span></div>
-                <div class="apply classbox2"><span class="date"></span></div>
-                <div class="apply classbox2"><span class="date"></span></div>
-                <div class="apply classbox2"><span class="date"></span></div>
-                <div class="apply classbox2"><span class="date"></span></div>
-                <div class="apply classbox2"><span class="date"></span></div>
-                <div class="apply classbox2"><span class="date"></span></div>
-                <div class="apply classbox2"><span class="date"></span></div>
-                <div class="apply classbox2"><span class="date"></span></div>
-                <div class="apply classbox2"><span class="date"></span></div>
-                <div class="apply classbox2"><span class="date"></span></div>
-                <div class="apply classbox2"><span class="date"></span></div>
-                <div class="apply classbox2"><span class="date"></span></div>
-                <div class="apply classbox2"><span class="date"></span></div>
-                <div class="apply classbox2"><span class="date"></span></div>
-                <div class="apply classbox2"><span class="date"></span></div>
-                <div class="apply classbox2"><span class="date"></span></div>
-                <div class="apply classbox2"><span class="date"></span></div>
-                <div class="apply classbox2"><span class="date"></span></div>
-                <div class="apply classbox2"><span class="date"></span></div>
+              <div class="box3">
+                <div class="div3_1">
+                  <div class=" classbox2"><input type="checkbox"  name=""></div>
+                  <div class=" classbox2"><input type="checkbox"  name=""></div>
+                  <div class=" classbox2"><input type="checkbox"  name=""></div>
+                  <div class=" classbox2"><input type="checkbox"  name=""></div>
+                  <div class=" classbox2"><input type="checkbox"  name=""></div>
+                  <div class=" classbox2"><input type="checkbox"  name=""></div>
+                  <div class=" classbox2"><input type="checkbox"  name=""></div>
+                  <div class=" classbox2"><input type="checkbox"  name=""></div>
+                  <div class=" classbox2"><input type="checkbox"  name=""></div>
+                  <div class=" classbox2"><input type="checkbox"  name=""></div>
+                  <div class=" classbox2"><input type="checkbox"  name=""></div>
+                  <div class=" classbox2"><input type="checkbox"  name=""></div>
+                  <div class=" classbox2"><input type="checkbox"  name=""></div>
+                  <div class=" classbox2"><input type="checkbox"  name=""></div>
+                  <div class=" classbox2"><input type="checkbox"  name=""></div>
+                  <div class=" classbox2"><input type="checkbox"  name=""></div>
+                  <div class=" classbox2"><input type="checkbox"  name=""></div>
+                  <div class=" classbox2"><input type="checkbox"  name=""></div>
+                  <div class=" classbox2"><input type="checkbox"  name=""></div>
+                  <div class=" classbox2"><input type="checkbox"  name=""></div>
+                </div>
+                <div class="div3_2">
+                  <div class=" classbox2"><input type="checkbox"  name=""></div>
+                  <div class=" classbox2"><input type="checkbox"  name=""></div>
+                  <div class=" classbox2"><input type="checkbox"  name=""></div>
+                  <div class=" classbox2"><input type="checkbox"  name=""></div>
+                  <div class=" classbox2"><input type="checkbox"  name=""></div>
+                  <div class=" classbox2"><input type="checkbox"  name=""></div>
+                  <div class=" classbox2"><input type="checkbox"  name=""></div>
+                  <div class=" classbox2"><input type="checkbox"  name=""></div>
+                  <div class=" classbox2"><input type="checkbox"  name=""></div>
+                  <div class=" classbox2"><input type="checkbox"  name=""></div>
+                  <div class=" classbox2"><input type="checkbox"  name=""></div>
+                  <div class=" classbox2"><input type="checkbox"  name=""></div>
+                  <div class=" classbox2"><input type="checkbox"  name=""></div>
+                  <div class=" classbox2"><input type="checkbox"  name=""></div>
+                  <div class=" classbox2"><input type="checkbox"  name=""></div>
+                  <div class=" classbox2"><input type="checkbox"  name=""></div>
+                  <div class=" classbox2"><input type="checkbox"  name=""></div>
+                  <div class=" classbox2"><input type="checkbox"  name=""></div>
+                  <div class=" classbox2"><input type="checkbox"  name=""></div>
+                  <div class=" classbox2"><input type="checkbox"  name=""></div>
+                </div>
               </div>
-            </div>
-            <div class="box3">
-              <div class="div3_1">
-                <div class="apply classbox2 hasin"><span class="date"></span></div>
-                <div class="apply classbox2"><span class="date"></span></div>
-                <div class="apply classbox2"><span class="date"></span></div>
-                <div class="apply classbox2"><span class="date"></span></div>
-                <div class="apply classbox2"><span class="date"></span></div>
-                <div class="apply classbox2 hasin"><span class="date">3.8-3.12</span></div>
-                <div class="apply classbox2"><span class="date"></span></div>
-                <div class="apply classbox2"><span class="date"></span></div>
-                <div class="apply classbox2"><span class="date"></span></div>
-                <div class="apply classbox2"><span class="date"></span></div>
-                <div class="apply classbox2"><span class="date"></span></div>
-                <div class="apply classbox2"><span class="date"></span></div>
-                <div class="apply classbox2"><span class="date"></span></div>
-                <div class="apply classbox2"><span class="date"></span></div>
-                <div class="apply classbox2"><span class="date"></span></div>
-                <div class="apply classbox2"><span class="date"></span></div>
-                <div class="apply classbox2"><span class="date"></span></div>
-                <div class="apply classbox2"><span class="date"></span></div>
-                <div class="apply classbox2"><span class="date"></span></div>
-                <div class="apply classbox2"><span class="date"></span></div>
-              </div>
-              <div class="div3_2">
-                <div class="apply classbox2 hasin"><span class="date"></span></div>
-                <div class="apply classbox2"><span class="date"></span></div>
-                <div class="apply classbox2"><span class="date"></span></div>
-                <div class="apply classbox2"><span class="date"></span></div>
-                <div class="apply classbox2"><span class="date"></span></div>
-                <div class="apply classbox2"><span class="date"></span></div>
-                <div class="apply classbox2"><span class="date"></span></div>
-                <div class="apply classbox2"><span class="date"></span></div>
-                <div class="apply classbox2"><span class="date"></span></div>
-                <div class="apply classbox2"><span class="date"></span></div>
-                <div class="apply classbox2"><span class="date"></span></div>
-                <div class="apply classbox2"><span class="date"></span></div>
-                <div class="apply classbox2"><span class="date"></span></div>
-                <div class="apply classbox2"><span class="date"></span></div>
-                <div class="apply classbox2"><span class="date"></span></div>
-                <div class="apply classbox2"><span class="date"></span></div>
-                <div class="apply classbox2"><span class="date"></span></div>
-                <div class="apply classbox2"><span class="date"></span></div>
-                <div class="apply classbox2"><span class="date"></span></div>
-                <div class="apply classbox2"><span class="date"></span></div>
-              </div>
-            </div>
-              
+              <div id="applyform">
+                  <div class="up">
+                    <img id="close" src="/hzaulab/Public/face/images/close.png">
+                    <h3>作物学实验教学中心 <br> 设施设备租赁表</h3> 
+                  </div>
+                  <div class="down">
+                    <div class="row">
+                      <div class="le"><span class="hint">使用者姓名： </span><input class="input" type="text" name="name1">   </div>
+                      <div class="ri"><span class="hint">联系方式： </span><input class="input" type="text" name="name2"></div>
+                    </div>
+                    <div class="row">
+                      <div class="le"><span class="hint">导师姓名： </span><input class="input" type="text" name="name1">   </div>
+                      <div class="ri"><span class="hint">联系方式： </span><input class="input" type="text" name="name2"></div>
+                    </div>
+                    <div class="row">
+                      <div class="le"><span class="hint">设施名称： </span><input class="input" type="text" name="name1">   </div>
+                      <div class="ri"><span class="hint">设施位置： </span><input class="input" type="text" name="name2"></div>
+                    </div>
+                    <div class="row">
+                      <div class="le"><span class="hint">设施编号： </span><input class="input" type="text" name="name1">   </div>
+                      <div class="ri"><span class="hint">研究项目：</span><input class="input" type="text" name="name1"></div>
+                    </div>
+                    <div class="row">
+                      <div class="le"><span class="hint">预约时间： </span><input class="input" type="date" name="name1">   </div>
+                      <div class="ri"><span class="hint">终止时间： </span><input class="input" type="date" name="name2"></div>
+                    </div>
+                    <div class="row">
+                      <div class="le"><span class="hint">样品物种： </span><input class="input" type="text" name="name1">   </div>
+                      <div class="ri"><span class="hint">备注: </span><input class="input" type="text" name="name2"></div>
+                    </div><br>
+                    <div class="row">
+                      <a href=""><button>保存</button></a>
+                      <a href=""><button>提交</button></a>
+                      <a href=""><button>导出Word</button></a>
+                    </div>
+                  </div>
+              </div> 
+            </form>
           </div>
         </div>
       </div>
@@ -320,45 +359,7 @@
     </div>
   </div>
 
-  <div id="applyform">
-    <div class="up">
-    <img id="close" src="/hzaulab/Public/face/images/close.png">
-      <h3>作物学实验教学中心 <br> 设施设备租赁表</h3> 
-    </div>
-    <div class="down">
-    <form>
-      <div class="row">
-        <div class="le"><span class="hint">使用者姓名： </span><input class="input" type="text" name="name1">   </div>
-        <div class="ri"><span class="hint">联系方式： </span><input class="input" type="text" name="name2"></div>
-      </div>
-      <div class="row">
-        <div class="le"><span class="hint">导师姓名： </span><input class="input" type="text" name="name1">   </div>
-        <div class="ri"><span class="hint">联系方式： </span><input class="input" type="text" name="name2"></div>
-      </div>
-      <div class="row">
-        <div class="le"><span class="hint">设施名称： </span><input class="input" type="text" name="name1">   </div>
-        <div class="ri"><span class="hint">设施位置： </span><input class="input" type="text" name="name2"></div>
-      </div>
-      <div class="row">
-        <div class="le"><span class="hint">设施编号： </span><input class="input" type="text" name="name1">   </div>
-        <div class="ri"><span class="hint">研究项目：</span><input class="input" type="text" name="name1"></div>
-      </div>
-      <div class="row">
-        <div class="le"><span class="hint">预约时间： </span><input class="input" type="date" name="name1">   </div>
-        <div class="ri"><span class="hint">终止时间： </span><input class="input" type="date" name="name2"></div>
-      </div>
-      <div class="row">
-        <div class="le"><span class="hint">样品物种： </span><input class="input" type="text" name="name1">   </div>
-        <div class="ri"><span class="hint">备注: </span><input class="input" type="text" name="name2"></div>
-      </div><br>
-      <div class="row">
-        <a href=""><button>保存</button></a>
-        <a href=""><button>提交</button></a>
-        <a href=""><button>导出Word</button></a>
-      </div>
-    </form>
-  </div>
-  </div>
+
   
    <!--************************************************************** footer **************************************************************-->
   <div id="footer">

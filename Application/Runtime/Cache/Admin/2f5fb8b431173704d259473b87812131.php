@@ -3,8 +3,8 @@
 <head>
     <meta charset="utf-8">
     <title>华中农业大学实验教学中心互动平台</title>
-  	<link rel="shortcut icon" href="/hzaulab/back.ico" type="image/x-icon" />
 
+  	<link rel="shortcut icon" href="/hzaulab/back.ico" type="image/x-icon" />
 	  <!-- Bootstrap -->
     <link href="/hzaulab/Public/back/include/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
     <!-- 图标引入 -->
@@ -14,9 +14,8 @@
     <!-- Custom Theme Style -->
     <link href="/hzaulab/Public/back/css/custom.min.css" rel="stylesheet">
     <link href="/hzaulab/Public/back/css/public.css" rel="stylesheet" >
-    <link rel="stylesheet" type="text/css" href="/hzaulab/Public/back/css/equipmentdis.css">
 </head>
-    <body class="nav-md">
+  <body class="nav-md">
     <div class="container body">
       <div class="main_container">
         <!--************************************************* 左导航 *************************************************-->
@@ -177,68 +176,31 @@
       
 
         <!--************************************************* 右内容 *************************************************-->
-      <div class="right_col" role="main">
-
+		<div class="right_col" role="main">
           <div class="col-md-10 col-sm-12 col-xs-12">
-            <div class="x_panel">
-              <div class="x_title">
-                <h2>设施设备的名称</h2>
-                <ul class="nav navbar-right panel_toolbox">
-                  <li class="panel_toolbox_li"><a class="close-link"><i class="fa fa-close"></i></a>
-                  </li>
-                  <li class="panel_toolbox_li"><a class="collapse-link"><i class="fa fa-chevron-up"></i></a>
-                  </li>
-                </ul>
-                <div class="clearfix"></div>
-              </div>
-              <div class="x_content">
-                  <section class="article">
-          <div class="art_left">  
-            
-          
-              <h3 class="head">基本信息</h3>
-              <span>名称：</span><div class="eqtcon">气相色谱质谱联用仪</div>
-              <span>型号/单位：</span><div class="eqtcon">XING号单位</div>
-              <!-- <select name="" id="">
-                <option value ="农田土地">农田土地</option>
-                <option value ="露天盆栽场">露天盆栽场</option>
-                <option value="晾晒地">晾晒地</option>  
-              </select><br> -->
-              <span>生产商：</span><div class="eqtcon">气相色谱质谱联用仪</div>
-              <span>设备编号：</span><div class="eqtcon">气相色谱质谱联用仪</div>
-              <span>存放地：</span><div class="eqtcon">气相色谱质谱联用仪</div>
-              <span>设备总值：</span><div class="eqtcon">气相色谱质谱联用仪</div>
-              <span>收费标准：</span><div class="eqtcon">气相色谱质谱联用仪</div>
-              <span>状态：</span><div class="eqtcon">开放/锁定/故障</div><hr>
-              <h3 class="head">联系人</h3>
-              <span>姓名：</span><div class="eqtcon">张三</div>
-              <span>类型：</span><div class="eqtcon">气相色谱质谱联用仪</div>
-              <span>电话：</span><div class="eqtcon">01402</div>
-              <span>手机：</span><div class="eqtcon">19999999999</div><hr>
-              <h3 class="head">详细信息</h3>
-              <span>技术指标：</span><div class="eqtcon3">气相色谱质谱联用仪</div>
-              <span>主要功能：</span><div class="eqtcon3">气相色谱质谱联用仪</div>
-              <span>应用范围：</span><div class="eqtcon3">气相色谱质谱联用仪</div>
-              <span>主要附件：</span><div class="eqtcon3">气相色谱质谱联用仪</div>
-              <span>使用方向：</span><div class="eqtcon3">气相色谱质谱联用仪</div><hr>
-              <h3 class="head">备注说明</h3><div class="eqtcon2">气相色谱质谱联用仪气相色谱质谱联用仪气相色谱质谱联用仪气相色谱质谱联用仪气相色谱质谱联用仪气相色谱质谱联用仪气相色谱质谱联用仪气相色谱质谱联用仪气相色谱质谱联用仪气相色谱质谱联用仪气相色谱质谱联用仪气相色谱质谱联用仪</div>
-           
+                  <div class="x_panel">
+                    <div class="x_title">
+                      <h2>实验室通知 <small>Lab Notice</small></h2>
+                      <ul class="nav navbar-right panel_toolbox">
+                        <li class="panel_toolbox_li"><a class="close-link"><i class="fa fa-close"></i></a>
+                        </li>
+                        <li class="panel_toolbox_li"><a class="collapse-link"><i class="fa fa-chevron-up"></i></a>
+                        </li>
+                      </ul>
+                      <div class="clearfix"></div>
+                    </div>
+                    <h4>标题<<?php echo ($data["r_name"]); ?>></h4>
+                    <div class="x_content">              
+                       浪漫的五月总能营造出绚丽多姿的色彩，总能姿意 出淡雅清新的情愫。五月风，越过高山的坎坎坷坷，拂去了岁月的 尘埃，五月的风，如诗人的笔，如画家的五彩，将 绿色覆盖每一片荒凉，让大地换上了新装。五月风，洋溢着笑脸， 灿烂着每一朵花儿，用希望的手叩响了沉睡的天空 ，吹散了糜烂，吹走了腐味，带来了清晰。五月风，轻轻地从耳边 吹过，柔柔的，软软的，象一朵云彩轻拂着我的脸 。她是从春天的阳光中走来，从大山深处穿越而来，带着花草的清 香，带着放飞的梦想，一路欢歌，把大地点缀得如 诗如画。五月风，记载着一个个美丽的传说，每一个传说都化做一 片云彩，弥漫在整个天空。 <<?php echo ($data["r_content"]); ?>>
+                    </div>
+                  </div>
           </div>
-          <div class="art_right">
-            <img class="eqtpit" src="/hzaulab/Public/face/images/eqt/1.jpg" alt="">
-          </div>
-         
-        </section>
-                  <br><br>
-                <div class="gallery_add">删除</div>
-                <div data-toggle="modal" data-target="#myModal" class="gallery_del">修改</div>
+    </div> 		
 
-              </div>
-            </div>
-          </div>
-      </div>
+ 
+
         <!--************************************************* 底部版权 *************************************************-->
-      <footer id="footer">
+        <footer id="footer">
     <div class="pull-right">
 		CopyRight©2017 <a href="/hzaulab/index.php/Home/Index/index.html" target="_blank" title="华中农业大学作物学实验教学中心">华中农业大学作物学实验教学中心</a> <a href="http://www.52feidian.com/" title="华中农业大学 沸点工作室" target="_blank">华中农业大学 沸点工作室</a>
 	</div>

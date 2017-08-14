@@ -8,6 +8,7 @@
   <link rel="shortcut icon" href="/hzaulab/logo.ico" type="image/x-icon" />
   <link rel="stylesheet" href="/hzaulab/Public/face/css/home_public.css" />
   <link rel="stylesheet" href="/hzaulab/Public/face/css/show_public.css" />
+  <link rel="stylesheet" href="/hzaulab/Public/face/css/equipment_pit_in.css" />
   <script type="text/javascript" src="/hzaulab/Public/public/js/jquery-1.8.3.min.js"></script>
 
 </head>
@@ -141,10 +142,15 @@
 	         <li class="navOne_class"><a href="/hzaulab/index.php/Home/Equipment/equipment_show1">仪器设备</a>
 	        	<ul class="nav_right">
 	            	<li class="secnav"><a href="/hzaulab/index.php/Home/Equipment/equipment_show1">仪器设备</a></li>
-	                <li class="secnav"><a href="/hzaulab/index.php/Home/Equipment/equipment_show2">试剂耗材</a></li>
 	            </ul>
 	        </li>
 	        <li class="navOne_class"><a href="/hzaulab/index.php/Home/Fictitious/fictitious_show1">规章制度</a>
+        		<ul class="nav_left">
+	            	<li class="secnav"><a href="/hzaulab/index.php/Home/Fictitious/fictitious_show1">规章制度</a></li>
+	                <li class="secnav"><a href="/hzaulab/index.php/Home/Fictitious/fictitious_show2">服务指南</a></li>
+	                <li class="secnav"><a href="/hzaulab/index.php/Home/Fictitious/fictitious_show3">下载专区</a></li>
+	            </ul>
+		       
 	        </li>
 	       
         </ul>
@@ -163,14 +169,42 @@
           <ul class="ultop">
             <li><a href="/hzaulab/index.php/Home/Laboratory/laboratory_show1">公共实验室</a></li>
             <li><a href="/hzaulab/index.php/Home/Laboratory/laboratory_show2" style="border-left: 3px solid orange;">教学实验室</a></li>
-            <li><a href="/hzaulab/index.php/Home/Laboratory/laboratory_show3">实验辅助室</a></li>
+            <li><a href="/hzaulab/index.php/Home/Laboratory/laboratory_show3" >实验辅助室</a></li>
           </ul>
         </section>
       </div>
       <div id="main_right">
-        <nav class="top_nav"><a href="/hzaulab/index.php/home/Index/index.html">首页</a> · <a href="#">实验室</a> · <a href="#">教学实验室</a> · <a href="#">这写标题</a> </nav>
+        <nav class="top_nav"><a href="/hzaulab/index.php/home/Index/index.html">首页</a> · <a href="#">实验室</a> · <a href="#">公共实验室</a> · <a href="#">这写标题</a> </nav>
         <header class="main_title"><h2>这写标题</h2></header>
-        <section class="article">这写标题这写标题这写标题这写标题这写标题这写标题这写标题这写标题这写标题这写标题这写标题这写标题这写标题这写标题这写标题这写标题这写标题这写标题这写标题这写标题这写标题这写标题这写标题这写标题这写标题这写标题这写标题这写标题这写标题这写标题这写标题这写标题这写标题这写标题这写标题这写标题这写标题这写标题这写标题</section>
+        <section class="article">
+          <div class="art_left">  
+            
+          
+              <h3 class="head">基本信息</h3>
+              <span>名称：</span><div class="eqtcon">气相色谱质谱联用仪</div>
+
+              <span>设备编号：</span><div class="eqtcon">气相色谱质谱联用仪</div>
+              <span>状态：</span><div class="eqtcon">开放/锁定/故障</div>
+              <span>存放地：</span><div class="eqtcon">气相色谱质谱联用仪</div>
+              <span>面积：</span><div class="eqtcon">XING号单位</div>
+              <span>功能：</span><div class="eqtcon">XING号单位</div><hr>
+              <h3 class="head">联系人</h3>
+              <span>姓名：</span><div class="eqtcon">张三</div>
+              <span>类型：</span><div class="eqtcon">气相色谱质谱联用仪</div>
+              <span>电话：</span><div class="eqtcon">01402</div>
+              <span>手机：</span><div class="eqtcon">19999999999</div><hr>
+              <h3 class="head">简介</h3><div class="eqtcon2">气相色谱质谱联用仪气相色谱质谱联用仪气相色谱质谱联用仪气相色谱质谱联用仪气相色谱质谱联用仪气相色谱质谱联用仪气相色谱质谱联用仪气相色谱质谱联用仪气相色谱质谱联用仪气相色谱质谱联用仪气相色谱质谱联用仪气相色谱质谱联用仪</div><hr>
+              <h3 class="head">备注说明</h3><div class="eqtcon2">气相色谱质谱联用仪气相色谱质谱联用仪气相色谱质谱联用仪气相色谱质谱联用仪气相色谱质谱联用仪气相色谱质谱联用仪气相色谱质谱联用仪气相色谱质谱联用仪气相色谱质谱联用仪气相色谱质谱联用仪气相色谱质谱联用仪气相色谱质谱联用仪</div>
+           
+          </div>
+          <div class="art_right">
+            <img class="eqtpit" src="/hzaulab/Public/face/images/eqt/1.jpg" alt="">
+          </div>
+          <div class="art_bottom">
+            <a href="/hzaulab/index.php/Home/Laboratory/equipment_show1_apply"><button>现在预约</button></a>
+          </div>
+        </section>
+
       </div>
     </div>
   </div>

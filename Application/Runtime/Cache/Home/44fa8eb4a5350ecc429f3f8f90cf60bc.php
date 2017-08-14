@@ -187,9 +187,9 @@
             </form>
           </div>
           <div class="pitbox">
-            <h4><a href="/hzaulab/index.php/Home/Equipment/equipment_show1_eqt" target="_blank">气相色谱质谱联用仪</a></h4>
+            <h4><a href="/hzaulab/index.php/Home/Equipment/equipment_show1_eqt" >气相色谱质谱联用仪</a></h4>
             <div class="pitexplan">
-              <a href="/hzaulab/index.php/Home/Equipment/equipment_show1_eqt" target="_blank"><img src="/hzaulab/Public/face/images/eqt/1.jpg" alt=""></a>
+              <a href="/hzaulab/index.php/Home/Equipment/equipment_show1_eqt" ><img src="/hzaulab/Public/face/images/eqt/1.jpg" alt=""></a>
               <div class="explan">
                 <p>编  号: 1</p>
                 <p>地  点：东附楼111</p>
@@ -202,9 +202,9 @@
             <div class="pitbottom">bottom</div>
           </div>
           <div class="pitbox">
-            <h4><a href="/hzaulab/index.php/Home/Equipment/equipment_show1_eqt" target="_blank">液相色谱质谱联用仪</a></h4>
+            <h4><a href="/hzaulab/index.php/Home/Equipment/equipment_show1_eqt" >液相色谱质谱联用仪</a></h4>
             <div class="pitexplan">
-              <a href="/hzaulab/index.php/Home/Equipment/equipment_show1_eqt" target="_blank"><img src="/hzaulab/Public/face/images/eqt/2.png" alt=""></a>
+              <a href="/hzaulab/index.php/Home/Equipment/equipment_show1_eqt" ><img src="/hzaulab/Public/face/images/eqt/2.png" alt=""></a>
               <div class="explan">
                 <p>编  号: 2</p>
                 <p>地  点：东附楼111</p>
@@ -217,9 +217,9 @@
             <div class="pitbottom">bottom</div>
           </div>
           <div class="pitbox">
-            <h4><a href="/hzaulab/index.php/Home/Equipment/equipment_show1_eqt" target="_blank">凝胶电泳</a></h4>
+            <h4><a href="/hzaulab/index.php/Home/Equipment/equipment_show1_eqt" >凝胶电泳</a></h4>
             <div class="pitexplan">
-              <a href="/hzaulab/index.php/Home/Equipment/equipment_show1_eqt" target="_blank"><img src="/hzaulab/Public/face/images/eqt/3.jpg" alt=""></a>
+              <a href="/hzaulab/index.php/Home/Equipment/equipment_show1_eqt" ><img src="/hzaulab/Public/face/images/eqt/3.jpg" alt=""></a>
               <div class="explan">
                 <p>编  号: 3</p>
                 <p>地  点：东附楼111</p>
@@ -232,9 +232,9 @@
             <div class="pitbottom">bottom</div>
           </div>
           <div class="pitbox">
-            <h4><a href="/hzaulab/index.php/Home/Equipment/equipment_show1_eqt" target="_blank">超低温冰箱</a></h4>
+            <h4><a href="/hzaulab/index.php/Home/Equipment/equipment_show1_eqt" >超低温冰箱</a></h4>
             <div class="pitexplan">
-              <a href="/hzaulab/index.php/Home/Equipment/equipment_show1_eqt" target="_blank"><img src="/hzaulab/Public/face/images/eqt/4.jpg" alt=""></a>
+              <a href="/hzaulab/index.php/Home/Equipment/equipment_show1_eqt" ><img src="/hzaulab/Public/face/images/eqt/4.jpg" alt=""></a>
               <div class="explan">
                 <p>编  号: 4</p>
                 <p>地  点：东附楼111</p>

@@ -12,7 +12,6 @@
 .box2,
 .box3,
 .classbox1{
-	opacity:0.3;
 }
 .classbox1_1,
 .classbox1_2,
@@ -25,7 +24,6 @@
 .classbox1_9,
 .classbox2{
 	position: relative;
-	background: #fff;
 	float: left;
 }
 .classbox1_1:hover,
@@ -38,7 +36,27 @@
 .classbox1_8:hover,
 .classbox1_9:hover,
 .classbox2:hover{
-	background: red;
+	cursor: pointer;
+	background:rgba(255,255,0,0.2);
+}
+.classbox2 input {
+	float: right;
+	margin-top: 3px;
+	margin-right: 4px;
+}
+.classbox1_1 input,
+.classbox1_2 input,
+.classbox1_3 input,
+.classbox1_4 input,
+.classbox1_5 input,
+.classbox1_6 input,
+.classbox1_7 input,
+.classbox1_8 input,
+.classbox1_9 input{
+	margin-top: 3px;
+	margin-left: 4px;
+}
+input:hover {
 	cursor: pointer;
 }
 .date{
@@ -50,7 +68,7 @@
 	padding-right: 5px;
 }
 .hasin{
-	background: red;
+	background:rgba(255,0,0,0.3);
 }
 /*************************box1*************************/
 .box1{

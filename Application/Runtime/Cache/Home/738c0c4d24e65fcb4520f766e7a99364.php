@@ -141,10 +141,15 @@
 	         <li class="navOne_class"><a href="/hzaulab/index.php/Home/Equipment/equipment_show1">仪器设备</a>
 	        	<ul class="nav_right">
 	            	<li class="secnav"><a href="/hzaulab/index.php/Home/Equipment/equipment_show1">仪器设备</a></li>
-	                <li class="secnav"><a href="/hzaulab/index.php/Home/Equipment/equipment_show2">试剂耗材</a></li>
 	            </ul>
 	        </li>
 	        <li class="navOne_class"><a href="/hzaulab/index.php/Home/Fictitious/fictitious_show1">规章制度</a>
+        		<ul class="nav_left">
+	            	<li class="secnav"><a href="/hzaulab/index.php/Home/Fictitious/fictitious_show1">规章制度</a></li>
+	                <li class="secnav"><a href="/hzaulab/index.php/Home/Fictitious/fictitious_show2">服务指南</a></li>
+	                <li class="secnav"><a href="/hzaulab/index.php/Home/Fictitious/fictitious_show3">下载专区</a></li>
+	            </ul>
+		       
 	        </li>
 	       
         </ul>
