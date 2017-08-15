@@ -46,9 +46,17 @@
   text-align: right;
   padding-right: 5px;
 }
-.hasin{
-  background:rgba(255,0,0,0.3);
-  
+._red{
+  background: pink;
+  border: 1px solid pink;
+}
+._orange {
+  background: #FABF8F;
+  border: 1px solid #FABF8F;
+}
+._grey {
+  background: grey;
+  border: 1px solid grey;
 }
 .box1 input {
   margin-top: 3px;

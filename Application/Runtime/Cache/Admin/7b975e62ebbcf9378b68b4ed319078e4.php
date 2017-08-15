@@ -14,8 +14,7 @@
     <!-- Custom Theme Style -->
     <link href="/hzaulab/Public/back/css/custom.min.css" rel="stylesheet">
     <link href="/hzaulab/Public/back/css/public.css" rel="stylesheet" >
-    <link rel="stylesheet"  href="/hzaulab/Public/back/css/lab.css">
-
+    <link rel="stylesheet" type="text/css" href="/hzaulab/Public/back/css/equipment.css">
 </head>
     <body class="nav-md">
     <div class="container body">
@@ -178,12 +177,12 @@
       
 
         <!--************************************************* 右内容 *************************************************-->
-       <div class="right_col" role="main">
+      <div class="right_col" role="main">
 
           <div class="col-md-10 col-sm-12 col-xs-12">
             <div class="x_panel">
               <div class="x_title">
-                <h2>教学实验室<small>Lab</small></h2>
+                <h2>设备申请详细<small>Equipment Application Detail</small></h2>
                 <ul class="nav navbar-right panel_toolbox">
                   <li class="panel_toolbox_li"><a class="close-link"><i class="fa fa-close"></i></a>
                   </li>
@@ -193,153 +192,14 @@
                 <div class="clearfix"></div>
               </div>
               <div class="x_content">
-                <div class="conall">
-                  <div class="pitbox">
-                    <h4><a href="/hzaulab/index.php/Admin/Laboratory/labdis" >气相色谱质谱联用仪</a></h4>
-                    <div class="pitexplan">
-                      
-                      <a href="/hzaulab/index.php/Admin/Laboratory/labdis" ><img src="/hzaulab/Public/face/images/eqt/1.jpg" alt=""></a>
-                    </div>
-                  </div>
-                  <div class="pitbox">
-                    <h4><a href="/hzaulab/index.php/Admin/Laboratory/labdis" >气相色谱质谱联用仪</a></h4>
-                    <div class="pitexplan">
-                      
-                      <a href="/hzaulab/index.php/Admin/Laboratory/labdis" ><img src="/hzaulab/Public/face/images/eqt/1.jpg" alt=""></a>
-                    </div>
-                  </div><div class="pitbox">
-                    <h4><a href="/hzaulab/index.php/Admin/Laboratory/labdis" >气相色谱质谱联用仪</a></h4>
-                    <div class="pitexplan">
-                      
-                      <a href="/hzaulab/index.php/Admin/Laboratory/labdis" ><img src="/hzaulab/Public/face/images/eqt/1.jpg" alt=""></a>
-                    </div>
-                  </div><div class="pitbox">
-                    <h4><a href="/hzaulab/index.php/Admin/Laboratory/labdis" >气相色谱质谱联用仪</a></h4>
-                    <div class="pitexplan">
-                      
-                      <a href="/hzaulab/index.php/Admin/Laboratory/labdis" ><img src="/hzaulab/Public/face/images/eqt/1.jpg" alt=""></a>
-                    </div>
-                  </div>
-                </div>
-                <br><br>
-                <div data-toggle="modal" data-target="#myModal" class="gallery_add">添加</div>
+               
+              
               </div>
             </div>
           </div>
-          <div class="col-md-10 col-sm-12 col-xs-12">
-            <div class="x_panel">
-              <div class="x_title">
-                <h2>教学实验室申请<small>Lab Application</small></h2>
-                <ul class="nav navbar-right panel_toolbox">
-                  <li class="panel_toolbox_li"><a class="close-link"><i class="fa fa-close"></i></a>
-                  </li>
-                  <li class="panel_toolbox_li"><a class="collapse-link"><i class="fa fa-chevron-up"></i></a>
-                  </li>
-                </ul>
-                <div class="clearfix"></div>
-              </div>
-              <div class="x_content">
-                <table id="datatable" class="table table-striped table-bordered">
-                  <thead>
-                  <tr>
-                    <th>实验室名称</th>
-                    <th >状态</th><!-- 列表显示待审申请、正在使用的申请、有效历史申请， -->
-                    <th >操作</th>
-                  </tr>
-                  </thead>
-
-
-                  <tbody>
-
-                    <tr>
-                      <td><a href="/hzaulab/index.php/Admin/Laboratory/equipment_app_show">r_name</a></td>
-                      <td>r_time</td>
-                      <td>
-                        <a href="/hzaulab/index.php/Admin/Laboratory/">同意 <i class="fa fa-pencil"></i></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                        <a href="/hzaulab/index.php/Admin/Laboratory/" >拒绝 <i class="fa fa-close"></i></a>
-                      </td>
-                    </tr>
-
-                    <tr>
-                      <td><a href="/hzaulab/index.php/Admin/Laboratory/equipment_app_show">r_name</a></td>
-                      <td>$vo.r_time</td>
-                      <td>
-                        <a href="/hzaulab/index.php/Admin/Laboratory/" > 同意<i class="fa fa-pencil"></i></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                        <a href="/hzaulab/index.php/Admin/Laboratory/" >拒绝 <i class="fa fa-close"></i></a>
-                      </td>
-                    </tr>
-
-                  <!-- <?php if(is_array($data)): $k = 0; $__LIST__ = $data;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$vo): $mod = ($k % 2 );++$k; if($k % 2 == 0) { ?>
-                    <tr>
-                      <td><a href="/hzaulab/index.php/Admin/Laboratory/equipment_app_show"><<?php echo ($vo["r_name"]); ?>></a></td>
-                      <td><<?php echo ($vo["r_time"]); ?>></td>
-                      <td>
-                        <a href="/hzaulab/index.php/Admin/Laboratory/notice_luanch" data-toggle="modal" data-target="#myModal" >同意 <i class="fa fa-pencil"></i></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                        <a href="/hzaulab/index.php/Admin/Laboratory/" >拒绝 <i class="fa fa-close"></i></a>
-                      </td>
-                    </tr>
-                    <?php } else { ?>
-                    <tr>
-                      <td><a href="/hzaulab/index.php/Admin/Laboratory/equipment_app_show"><<?php echo ($vo["r_name"]); ?>></a></td>
-                      <td><<?php echo ($vo["r_time"]); ?>></td>
-                      <td><a href="/hzaulab/index.php/Admin/Laboratory/notice_luanch" data-toggle="modal" data-target="#myModal" >同意 <i class="fa fa-pencil"></i></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                        <a href="/hzaulab/index.php/Admin/Laboratory/" >拒绝 <i class="fa fa-close"></i></a>
-                      </td>
-                    </tr>
-                    <?php } endforeach; endif; else: echo "" ;endif; ?> -->
-                  </tbody>
-                </table>
-                <br><br>
-                <div data-toggle="modal" data-target="#myModal2" class="gallery_add">导出Excel</div>
-              </div>
-            </div>
-          </div>
+          
       </div>
-                <!-- 模态框（Modal）编辑图片 -->
-            <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-              <div class="modal-dialog">
-                <div class="modal-content">
-                  <div class="modal-header">
-                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">
-                      &times;
-                    </button>
-                    <h4 class="modal-title" id="myModalLabel">
-                      设备添加
-                    </h4>
-                  </div>
-                  <div class="modal-body">
-                    
-                    <form class="form" action="" method="post">
-                      <b class="head">基本信息</b><br>
-                      <span class="eqthint">名称：</span><input type="text" class="gallery_eqt" name="gallery_title">
-                      <span class="eqthint">分类：</span><select name="" id="">
-                      <option value ="农田土地">农田土地</option>
-                      <option value ="露天盆栽场">露天盆栽场</option>
-                      <option value="晾晒地">晾晒地</option>  
-                      </select><br>
-                      <span class="eqthint">编号：</span><input type="text" class="gallery_eqt" name="gallery_title">
-                      <span class="eqthint">面积：</span><input type="text" class="gallery_eqt" name="gallery_title"><br>
-                      <span class="eqthint">位置：</span><input type="text" class="gallery_eqt" name="gallery_title">
-                      <span class="eqthint">用途：</span><input type="text" class="gallery_eqt" name="gallery_title"><br>
-                      <span class="eqthint">状态：</span><input type="text" class="gallery_eqt" name="gallery_title"><hr>
-                      <b class="head">联系人</b><br>
-                      <span class="eqthint">姓名：</span><input type="text" class="gallery_eqt" name="gallery_title">
-                      <span class="eqthint">类型：</span><input type="text" class="gallery_eqt" name="gallery_title"><br>
-                      <span class="eqthint">电话：</span><input type="text" class="gallery_eqt" name="gallery_title">
-                      <span class="eqthint">手机：</span><input type="text" class="gallery_eqt" name="gallery_title"><hr>
 
-                      <b class="head">备注说明</b><br>
-                      <input type="textarea" class="gallery_textarea" name="gallery_title"><hr>
-                    </form>
-
-                  </div>
-                  <div class="modal-footer">
-                    <button type="button" class="btn btn-default" data-dismiss="modal">取消</button>
-                    <button type="button" class="btn btn-primary">提交</button>
-                  </div>
-                </div><!-- /.modal-content -->
-              </div><!-- /.modal -->
-            </div>
         <!--************************************************* 底部版权 *************************************************-->
       <footer id="footer">
     <div class="pull-right">

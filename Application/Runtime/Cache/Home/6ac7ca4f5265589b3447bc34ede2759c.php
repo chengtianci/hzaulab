@@ -190,8 +190,13 @@
             <button class="button" type="submit">查询</button>
             </form>
             <div class="clr" style="clear: both;"></div><br>
-            <span>山北温室群</span>
-            <div class="explain">已借：红色</div>
+            <span class="he">山北温室群</span><br>
+             <div class="explain">
+                  已预约：<span class="red"></span>&nbsp;&nbsp;&nbsp;&nbsp;
+                  占用：<span class="orange"></span>&nbsp;&nbsp;&nbsp;&nbsp;
+                  锁定：<span class="grey"></span>  &nbsp;&nbsp;&nbsp;&nbsp;
+                  开放：<span class="unlock"></span>  
+            </div>
           </div>
           <div class="planbody">
             <form class="planbodyform">
@@ -199,60 +204,60 @@
               <div class="clr"></div>
               <div class="box1">
                 <div class="box_left">
-                  <div class="apply box_one"><br><input type="checkbox" name=""><br>N1-1</div>
-                  <div class="apply box_one"><br><input type="checkbox" name=""><br>N1-2</div>
-                  <div class="apply box_one"><br><input type="checkbox" name=""><br>N1-3</div>
-                  <div class="apply box_one"><br><input type="checkbox" name=""><br>N1-4</div>
-                  <div class="apply box_one"><br><input type="checkbox" name=""><br>N1-5</div>
-                  <div class="apply box_one"><br><input type="checkbox" name=""><br>N1-6</div>              
+                  <div class="apply box_one" title="状态：开放/锁定/占用/已预约(本人)；结束时间：8-15"><br><input type="checkbox" name=""><br>N1-1</div>
+                  <div class="apply box_one" title="状态：开放/锁定/占用/已预约(本人)；结束时间：8-15"><br><input type="checkbox" name=""><br>N1-2</div>
+                  <div class="apply box_one" title="状态：开放/锁定/占用/已预约(本人)；结束时间：8-15"><br><input type="checkbox" name=""><br>N1-3</div>
+                  <div class="apply box_one" title="状态：开放/锁定/占用/已预约(本人)；结束时间：8-15"><br><input type="checkbox" name=""><br>N1-4</div>
+                  <div class="apply box_one" title="状态：开放/锁定/占用/已预约(本人)；结束时间：8-15"><br><input type="checkbox" name=""><br>N1-5</div>
+                  <div class="apply box_one" title="状态：开放/锁定/占用/已预约(本人)；结束时间：8-15"><br><input type="checkbox" name=""><br>N1-6</div>              
                 </div>
                 <div class="box_right">
-                  <div class="apply box_one"><br><input type="checkbox" name=""><br>N4-1</div>
-                  <div class="apply box_one"><br><input type="checkbox" name=""><br>N4-2</div>
-                  <div class="apply box_one"><br><input type="checkbox" name=""><br>N4-3</div>
-                  <div class="apply box_one"><br><input type="checkbox" name=""><br>N4-4</div>
-                  <div class="apply box_one"><br><input type="checkbox" name=""><br>N4-5</div>
-                  <div class="apply box_one"><br><input type="checkbox" name=""><br>N4-6</div>   
+                  <div class="apply box_one" title="状态：开放/锁定/占用/已预约(本人)；结束时间：8-15"><br><input type="checkbox" name=""><br>N4-1</div>
+                  <div class="apply box_one" title="状态：开放/锁定/占用/已预约(本人)；结束时间：8-15"><br><input type="checkbox" name=""><br>N4-2</div>
+                  <div class="apply box_one" title="状态：开放/锁定/占用/已预约(本人)；结束时间：8-15"><br><input type="checkbox" name=""><br>N4-3</div>
+                  <div class="apply box_one" title="状态：开放/锁定/占用/已预约(本人)；结束时间：8-15"><br><input type="checkbox" name=""><br>N4-4</div>
+                  <div class="apply box_one" title="状态：开放/锁定/占用/已预约(本人)；结束时间：8-15"><br><input type="checkbox" name=""><br>N4-5</div>
+                  <div class="apply box_one" title="状态：开放/锁定/占用/已预约(本人)；结束时间：8-15"><br><input type="checkbox" name=""><br>N4-6</div>   
                 </div>
               </div>
 
 
               <div class="box2">
                 <div class="box_left">
-                  <div class="apply box_one"><br><input type="checkbox" name=""><br>N2-1</div>
-                  <div class="apply box_one"><br><input type="checkbox" name=""><br>N2-2</div>
-                  <div class="apply box_one"><br><input type="checkbox" name=""><br>N2-3</div>
-                  <div class="apply box_one"><br><input type="checkbox" name=""><br>N2-4</div>
-                  <div class="apply box_one"><br><input type="checkbox" name=""><br>N2-5</div>
-                  <div class="apply box_one"><br><input type="checkbox" name=""><br>N2-6</div>              
+                  <div class="apply box_one" title="状态：开放/锁定/占用/已预约(本人)；结束时间：8-15"><br><input type="checkbox" name=""><br>N2-1</div>
+                  <div class="apply box_one" title="状态：开放/锁定/占用/已预约(本人)；结束时间：8-15"><br><input type="checkbox" name=""><br>N2-2</div>
+                  <div class="apply box_one" title="状态：开放/锁定/占用/已预约(本人)；结束时间：8-15"><br><input type="checkbox" name=""><br>N2-3</div>
+                  <div class="apply box_one" title="状态：开放/锁定/占用/已预约(本人)；结束时间：8-15"><br><input type="checkbox" name=""><br>N2-4</div>
+                  <div class="apply box_one" title="状态：开放/锁定/占用/已预约(本人)；结束时间：8-15"><br><input type="checkbox" name=""><br>N2-5</div>
+                  <div class="apply box_one" title="状态：开放/锁定/占用/已预约(本人)；结束时间：8-15"><br><input type="checkbox" name=""><br>N2-6</div>              
                 </div>
                 <div class="box_right">
-                  <div class="apply box_one"><br><input type="checkbox" name=""><br>N5-1</div>
-                  <div class="apply box_one"><br><input type="checkbox" name=""><br>N5-2</div>
-                  <div class="apply box_one"><br><input type="checkbox" name=""><br>N5-3</div>
-                  <div class="apply box_one"><br><input type="checkbox" name=""><br>N5-4</div>
-                  <div class="apply box_one"><br><input type="checkbox" name=""><br>N5-5</div>
-                  <div class="apply box_one"><br><input type="checkbox" name=""><br>N5-6</div>   
+                  <div class="apply box_one" title="状态：开放/锁定/占用/已预约(本人)；结束时间：8-15"><br><input type="checkbox" name=""><br>N5-1</div>
+                  <div class="apply box_one" title="状态：开放/锁定/占用/已预约(本人)；结束时间：8-15"><br><input type="checkbox" name=""><br>N5-2</div>
+                  <div class="apply box_one" title="状态：开放/锁定/占用/已预约(本人)；结束时间：8-15"><br><input type="checkbox" name=""><br>N5-3</div>
+                  <div class="apply box_one" title="状态：开放/锁定/占用/已预约(本人)；结束时间：8-15"><br><input type="checkbox" name=""><br>N5-4</div>
+                  <div class="apply box_one" title="状态：开放/锁定/占用/已预约(本人)；结束时间：8-15"><br><input type="checkbox" name=""><br>N5-5</div>
+                  <div class="apply box_one" title="状态：开放/锁定/占用/已预约(本人)；结束时间：8-15"><br><input type="checkbox" name=""><br>N5-6</div>   
                 </div>
               </div>
 
 
               <div class="box3">
                  <div class="box_left">
-                  <div class="apply box_two"><br><input type="checkbox" name=""><br>N3-1</div>
-                  <div class="apply box_two"><br><input type="checkbox" name=""><br>N3-2</div>
-                  <div class="apply box_two"><br><input type="checkbox" name=""><br>N3-3</div>
-                  <div class="apply box_two"><br><input type="checkbox" name=""><br>N3-4</div>
-                  <div class="apply box_two"><br><input type="checkbox" name=""><br>N3-5</div>
-                  <div class="apply box_two"><br><input type="checkbox" name=""><br>N3-6</div>              
+                  <div class="apply box_two" title="状态：开放/锁定/占用/已预约(本人)；结束时间：8-15"><br><input type="checkbox" name=""><br>N3-1</div>
+                  <div class="apply box_two" title="状态：开放/锁定/占用/已预约(本人)；结束时间：8-15"><br><input type="checkbox" name=""><br>N3-2</div>
+                  <div class="apply box_two" title="状态：开放/锁定/占用/已预约(本人)；结束时间：8-15"><br><input type="checkbox" name=""><br>N3-3</div>
+                  <div class="apply box_two" title="状态：开放/锁定/占用/已预约(本人)；结束时间：8-15"><br><input type="checkbox" name=""><br>N3-4</div>
+                  <div class="apply box_two" title="状态：开放/锁定/占用/已预约(本人)；结束时间：8-15"><br><input type="checkbox" name=""><br>N3-5</div>
+                  <div class="apply box_two" title="状态：开放/锁定/占用/已预约(本人)；结束时间：8-15"><br><input type="checkbox" name=""><br>N3-6</div>              
                 </div>
                 <div class="box_right">
-                  <div class="apply box_one"><br><input type="checkbox" name=""><br>N6-1</div>
-                  <div class="apply box_one"><br><input type="checkbox" name=""><br>N6-2</div>
-                  <div class="apply box_one"><br><input type="checkbox" name=""><br>N6-3</div>
-                  <div class="apply box_one"><br><input type="checkbox" name=""><br>N6-4</div>
-                  <div class="apply box_one"><br><input type="checkbox" name=""><br>N6-5</div>
-                  <div class="apply box_one"><br><input type="checkbox" name=""><br>N6-6</div>   
+                  <div class="apply box_one" title="状态：开放/锁定/占用/已预约(本人)；结束时间：8-15"><br><input type="checkbox" name=""><br>N6-1</div>
+                  <div class="apply box_one" title="状态：开放/锁定/占用/已预约(本人)；结束时间：8-15"><br><input type="checkbox" name=""><br>N6-2</div>
+                  <div class="apply box_one" title="状态：开放/锁定/占用/已预约(本人)；结束时间：8-15"><br><input type="checkbox" name=""><br>N6-3</div>
+                  <div class="apply box_one" title="状态：开放/锁定/占用/已预约(本人)；结束时间：8-15"><br><input type="checkbox" name=""><br>N6-4</div>
+                  <div class="apply box_one" title="状态：开放/锁定/占用/已预约(本人)；结束时间：8-15"><br><input type="checkbox" name=""><br>N6-5</div>
+                  <div class="apply box_one" title="状态：开放/锁定/占用/已预约(本人)；结束时间：8-15"><br><input type="checkbox" name=""><br>N6-6</div>   
                 </div>
               </div>
                 <div id="applyform">

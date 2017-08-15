@@ -73,15 +73,49 @@
 	float: left;
 	padding: 10px;
 }
-.planheader .explain {
-
-}
-.planheader span{
+.planheader .he {
 	font-size: 23px;
 	font-weight: bold;
 	display: block;
 	text-align: center;
 }
+.planheader .explain {
+	display: inline-block;
+}
+.planheader .red{
+	background: pink;
+	line-height: 40px;
+	display: inline-block;
+	width: 20px;
+	content: " ";
+	height: 12px;
+}
+.planheader .orange{
+	background: #FABF8F;
+	line-height: 40px;
+	display: inline-block;
+	width: 20px;
+	content: " ";
+	height: 12px;
+}
+.planheader .grey{
+	background: grey;
+	line-height: 40px;
+	display: inline-block;
+	width: 20px;
+	content: " ";
+	height: 12px;
+}
+.planheader .unlock {
+	background: #fff;
+	line-height: 40px;
+	display: inline-block;
+	width: 20px;
+	content: " ";
+	height: 12px;
+	box-shadow: 0 0 1px 1px;
+}
+
 .planheader .hint {
 	float: left;
 	display: block;
@@ -123,14 +157,14 @@
 	border:  2px solid rgb(0,128,0);
 	cursor: pointer;
 }
-.explain{
-	text-align: left;
-}
+
 /*planbody*/
 .planbody{
 	float: left;
 	width: 100%;
 }
+/********************hint颜色提示****************************/
+
 /****************#applyform 弹窗********************************/
 #muticonfirm {
 	width: 100px;

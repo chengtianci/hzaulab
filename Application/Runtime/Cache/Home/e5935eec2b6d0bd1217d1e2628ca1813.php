@@ -166,7 +166,10 @@
         <section>
           <h3>规章制度</h3>
           <ul class="ultop">
-            <li><a href="/hzaulab/index.php/Home/About/about_show1.html" style="border-left: 3px solid orange;">规章制度</a></li>
+            <li><a href="/hzaulab/index.php/Home/Fictitious/fictitious_show1.html" >规章制度</a></li>
+            <li><a href="/hzaulab/index.php/Home/Fictitious/fictitious_show2.html" >服务指南</a></li>
+            <li><a href="/hzaulab/index.php/Home/Fictitious/fictitious_show3.html" >下载专区</a></li>
+           
           </ul>
         </section>
       </div>

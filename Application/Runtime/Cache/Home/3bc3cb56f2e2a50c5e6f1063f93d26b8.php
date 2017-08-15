@@ -191,7 +191,7 @@
               <span>存放地：</span><div class="eqtcon">气相色谱质谱联用仪</div>
               <span>设备总值：</span><div class="eqtcon">气相色谱质谱联用仪</div>
               <span>收费标准：</span><div class="eqtcon">气相色谱质谱联用仪</div>
-              <span>状态：</span><div class="eqtcon">开放/锁定/故障</div><hr>
+              <span>状态：</span><div class="eqtcon">开放/锁定/占用/已预约(本人)</div><hr>
               <h3 class="head">联系人</h3>
               <span>姓名：</span><div class="eqtcon">张三</div>
               <span>类型：</span><div class="eqtcon">气相色谱质谱联用仪</div>

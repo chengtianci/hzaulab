@@ -192,7 +192,7 @@
               </div>
               <div class="x_content">
                       <!--<input type="text" class="gallery_title" name="gallery_title" placeholder="Fill in the title, please">-->
-                  <input type="text" id="idInfor" value="<<?php echo ($data["id"]); ?>>" hidden>
+                  <!-- <input type="text" id="idInfor" value="<<?php echo ($data["id"]); ?>>" hidden>
                   <div id="editor">
                     <p>这里写默认的文段</p>
                   </div>
@@ -219,7 +219,44 @@
                                               ]
                           editor.create();
                       </script>
+                  <br><button type="button" id="saveContent" class="btn btn-primary">Submit</button> -->
+                  <input type="text" id="idInfor" value="<<?php echo ($data["id"]); ?>>" hidden>
+                     <script id='container' style="height:350px;" name='content' type="text/plain">这里写要的简介</script>
                   <br><button type="button" id="saveContent" class="btn btn-primary">Submit</button>
+                  <script src="/hzaulab/Public/Js/jquery-3.1.1.min.js"></script>
+                  <!--配置文件-->
+                  <script type="text/javascript" src="/hzaulab/Public/Ueditor/ueditor.config.js">
+                  </script>
+                   <!--编译器源码文件-->
+                  <script type="text/javascript" src="/hzaulab/Public/Ueditor/ueditor.all.js">
+                  </script>
+                  <!--实例化编译器-->
+                  <script type="text/javascript">
+                      $(function () {
+                          var ue=UE.getEditor ('container');
+                          $('#saveContent').click(function () {
+                              var html = ue.getContent();
+                              var param = {
+                                  id:$('#idInfor').val(),
+                                  content:html
+                              };
+                              $.ajax({
+                                  url: '',//路径
+                                  type: 'POST',
+                                  dataType: 'json',
+                                  data: param,
+                                  success: function(data){
+                                      console.log(data);
+                                      window.location.href="";//返回路径？
+                                  },
+                                  error: function(xhr){
+                                      alert("失败");
+                                      console.log(xhr);
+                                  }
+                              });
+                          });
+                      });
+                  </script><br>
               </div>
             </div>
           </div>

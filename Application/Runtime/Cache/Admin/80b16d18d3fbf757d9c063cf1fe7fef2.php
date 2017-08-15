@@ -190,23 +190,24 @@
                 <div class="clearfix"></div>
               </div>
               <div class="x_content" >
-                <div class="B102">
+                <form>
+                  <div class="B102">
                   <div class="left">
                     <table>
                       <tr>
-                        <td><b>1-3-1</b></td>
-                        <td><b>1-3-2</b></td>
-                        <td><b>1-3-3</b></td>
+                        <td><input type="checkbox" name=""><br><b>1-3-1</b></td>
+                        <td><input type="checkbox" name=""><br><b>1-3-2</b></td>
+                        <td><input type="checkbox" name=""><br><b>1-3-3</b></td>
                       </tr>
                       <tr>
-                        <td><b>1-2-1</b></td>
-                        <td><b>1-2-2</b></td>
-                        <td><b>1-2-3</b></td>
+                        <td><input type="checkbox" name=""><br><b>1-2-1</b></td>
+                        <td><input type="checkbox" name=""><br><b>1-2-2</b></td>
+                        <td><input type="checkbox" name=""><br><b>1-2-3</b></td>
                       </tr>
                       <tr>
-                        <td><b>1-1-1</b></td>
-                        <td><b>1-1-2</b></td>
-                        <td><b>1-1-3</b></td>
+                        <td><input type="checkbox" name=""><br><b>1-1-1</b></td>
+                        <td><input type="checkbox" name=""><br><b>1-1-2</b></td>
+                        <td><input type="checkbox" name=""><br><b>1-1-3</b></td>
                       </tr>
                     </table>
                     <div class="door"><div class="doorl">东附楼</div><div class="doorr">B102</div></div>
@@ -216,22 +217,22 @@
                     <div class="upwards">
                       <table>
                         <tr>
-                          <td><b>1-1-1</b></td>
-                          <td><b>1-2-1</b></td>
-                          <td><b>1-3-1</b></td>
-                          <td><b>1-4-1</b></td>
+                          <td><input type="checkbox" name=""><b>1-1-1</b></td>
+                          <td><input type="checkbox" name=""><b>1-2-1</b></td>
+                          <td><input type="checkbox" name=""><b>1-3-1</b></td>
+                          <td><input type="checkbox" name=""><b>1-4-1</b></td>
                         </tr>
                         <tr>
-                          <td><b>1-1-2</b></td>
-                          <td><b>1-2-2</b></td>
-                          <td><b>1-3-2</b></td>
-                          <td><b>1-4-2</b></td>
+                          <td><input type="checkbox" name=""><b>1-1-2</b></td>
+                          <td><input type="checkbox" name=""><b>1-2-2</b></td>
+                          <td><input type="checkbox" name=""><b>1-3-2</b></td>
+                          <td><input type="checkbox" name=""><b>1-4-2</b></td>
                         </tr>
                         <tr>
-                          <td><b>1-1-3</b></td>
-                          <td><b>1-2-3</b></td>
-                          <td><b>1-3-3</b></td>
-                          <td><b>1-4-3</b></td>
+                          <td><input type="checkbox" name=""><b>1-1-3</b></td>
+                          <td><input type="checkbox" name=""><b>1-2-3</b></td>
+                          <td><input type="checkbox" name=""><b>1-3-3</b></td>
+                          <td><input type="checkbox" name=""><b>1-4-3</b></td>
                         </tr>
                       </table>
                       <div class="part2">
@@ -240,66 +241,66 @@
                       </div>
                       <table>
                         <tr>
-                          <td><b>2-1-1</b></td>
-                          <td><b>2-2-1</b></td>
-                          <td><b>2-3-1</b></td>
-                          <td><b>2-4-1</b></td>
+                          <td><input type="checkbox" name=""><b>2-1-1</b></td>
+                          <td><input type="checkbox" name=""><b>2-2-1</b></td>
+                          <td><input type="checkbox" name=""><b>2-3-1</b></td>
+                          <td><input type="checkbox" name=""><b>2-4-1</b></td>
                         </tr>
                         <tr>
-                          <td><b>2-1-2</b></td>
-                          <td><b>2-2-2</b></td>
-                          <td><b>2-3-2</b></td>
-                          <td><b>2-4-2</b></td>
+                          <td><input type="checkbox" name=""><b>2-1-2</b></td>
+                          <td><input type="checkbox" name=""><b>2-2-2</b></td>
+                          <td><input type="checkbox" name=""><b>2-3-2</b></td>
+                          <td><input type="checkbox" name=""><b>2-4-2</b></td>
                         </tr>
                         <tr>
-                          <td><b>2-1-3</b></td>
-                          <td><b>2-2-3</b></td>
-                          <td><b>2-3-3</b></td>
-                          <td><b>2-4-3</b></td>
+                          <td><input type="checkbox" name=""><b>2-1-3</b></td>
+                          <td><input type="checkbox" name=""><b>2-2-3</b></td>
+                          <td><input type="checkbox" name=""><b>2-3-3</b></td>
+                          <td><input type="checkbox" name=""><b>2-4-3</b></td>
                         </tr>
                         <tr>
-                          <td><b>2-1-4</b></td>
-                          <td><b>2-2-4</b></td>
-                          <td><b>2-3-4</b></td>
-                          <td><b>2-4-4</b></td>
+                          <td><input type="checkbox" name=""><b>2-1-4</b></td>
+                          <td><input type="checkbox" name=""><b>2-2-4</b></td>
+                          <td><input type="checkbox" name=""><b>2-3-4</b></td>
+                          <td><input type="checkbox" name=""><b>2-4-4</b></td>
                         </tr>
                         <tr>
-                          <td><b>2-1-5</b></td>
-                          <td><b>2-2-5</b></td>
-                          <td><b>2-3-5</b></td>
-                          <td><b>2-4-5</b></td>
+                          <td><input type="checkbox" name=""><b>2-1-5</b></td>
+                          <td><input type="checkbox" name=""><b>2-2-5</b></td>
+                          <td><input type="checkbox" name=""><b>2-3-5</b></td>
+                          <td><input type="checkbox" name=""><b>2-4-5</b></td>
                         </tr>
                       </table>
                       <table>
                         <tr>
-                          <td><b>3-1-1</b></td>
-                          <td><b>3-2-1</b></td>
-                          <td><b>3-3-1</b></td>
-                          <td><b>3-4-1</b></td>
+                          <td><input type="checkbox" name=""><b>3-1-1</b></td>
+                          <td><input type="checkbox" name=""><b>3-2-1</b></td>
+                          <td><input type="checkbox" name=""><b>3-3-1</b></td>
+                          <td><input type="checkbox" name=""><b>3-4-1</b></td>
                         </tr>
                         <tr>
-                          <td><b>3-1-2</b></td>
-                          <td><b>3-2-2</b></td>
-                          <td><b>3-3-2</b></td>
-                          <td><b>3-4-2</b></td>
+                          <td><input type="checkbox" name=""><b>3-1-2</b></td>
+                          <td><input type="checkbox" name=""><b>3-2-2</b></td>
+                          <td><input type="checkbox" name=""><b>3-3-2</b></td>
+                          <td><input type="checkbox" name=""><b>3-4-2</b></td>
                         </tr>
                         <tr>
-                          <td><b>3-1-3</b></td>
-                          <td><b>3-2-3</b></td>
-                          <td><b>3-3-3</b></td>
-                          <td><b>3-4-3</b></td>
+                          <td><input type="checkbox" name=""><b>3-1-3</b></td>
+                          <td><input type="checkbox" name=""><b>3-2-3</b></td>
+                          <td><input type="checkbox" name=""><b>3-3-3</b></td>
+                          <td><input type="checkbox" name=""><b>3-4-3</b></td>
                         </tr>
                         <tr>
-                          <td><b>3-1-4</b></td>
-                          <td><b>3-2-4</b></td>
-                          <td><b>3-3-4</b></td>
-                          <td><b>3-4-4</b></td>
+                          <td><input type="checkbox" name=""><b>3-1-4</b></td>
+                          <td><input type="checkbox" name=""><b>3-2-4</b></td>
+                          <td><input type="checkbox" name=""><b>3-3-4</b></td>
+                          <td><input type="checkbox" name=""><b>3-4-4</b></td>
                         </tr>
                         <tr>
-                          <td><b>3-1-5</b></td>
-                          <td><b>3-2-5</b></td>
-                          <td><b>3-3-5</b></td>
-                          <td><b>3-4-5</b></td>
+                          <td><input type="checkbox" name=""><b>3-1-5</b></td>
+                          <td><input type="checkbox" name=""><b>3-2-5</b></td>
+                          <td><input type="checkbox" name=""><b>3-3-5</b></td>
+                          <td><input type="checkbox" name=""><b>3-4-5</b></td>
                         </tr>
                       </table>
                       <div class="part3">
@@ -310,66 +311,66 @@
                     <div class="downwards">
                       <table>
                         <tr>
-                          <td><b>2-1-1</b></td>
-                          <td><b>2-2-1</b></td>
-                          <td><b>2-3-1</b></td>
-                          <td><b>2-4-1</b></td>
+                          <td><input type="checkbox" name=""><b>2-1-1</b></td>
+                          <td><input type="checkbox" name=""><b>2-2-1</b></td>
+                          <td><input type="checkbox" name=""><b>2-3-1</b></td>
+                          <td><input type="checkbox" name=""><b>2-4-1</b></td>
                         </tr>
                         <tr>
-                          <td><b>2-1-2</b></td>
-                          <td><b>2-2-2</b></td>
-                          <td><b>2-3-2</b></td>
-                          <td><b>2-4-2</b></td>
+                          <td><input type="checkbox" name=""><b>2-1-2</b></td>
+                          <td><input type="checkbox" name=""><b>2-2-2</b></td>
+                          <td><input type="checkbox" name=""><b>2-3-2</b></td>
+                          <td><input type="checkbox" name=""><b>2-4-2</b></td>
                         </tr>
                         <tr>
-                          <td><b>2-1-3</b></td>
-                          <td><b>2-2-3</b></td>
-                          <td><b>2-3-3</b></td>
-                          <td><b>2-4-3</b></td>
+                          <td><input type="checkbox" name=""><b>2-1-3</b></td>
+                          <td><input type="checkbox" name=""><b>2-2-3</b></td>
+                          <td><input type="checkbox" name=""><b>2-3-3</b></td>
+                          <td><input type="checkbox" name=""><b>2-4-3</b></td>
                         </tr>
                         <tr>
-                          <td><b>2-1-4</b></td>
-                          <td><b>2-2-4</b></td>
-                          <td><b>2-3-4</b></td>
-                          <td><b>2-4-4</b></td>
+                          <td><input type="checkbox" name=""><b>2-1-4</b></td>
+                          <td><input type="checkbox" name=""><b>2-2-4</b></td>
+                          <td><input type="checkbox" name=""><b>2-3-4</b></td>
+                          <td><input type="checkbox" name=""><b>2-4-4</b></td>
                         </tr>
                         <tr>
-                          <td><b>2-1-5</b></td>
-                          <td><b>2-2-5</b></td>
-                          <td><b>2-3-5</b></td>
-                          <td><b>2-4-5</b></td>
+                          <td><input type="checkbox" name=""><b>2-1-5</b></td>
+                          <td><input type="checkbox" name=""><b>2-2-5</b></td>
+                          <td><input type="checkbox" name=""><b>2-3-5</b></td>
+                          <td><input type="checkbox" name=""><b>2-4-5</b></td>
                         </tr>
                       </table>
                       <table>
                         <tr>
-                          <td><b>3-1-1</b></td>
-                          <td><b>3-2-1</b></td>
-                          <td><b>3-3-1</b></td>
-                          <td><b>3-4-1</b></td>
+                          <td><input type="checkbox" name=""><b>3-1-1</b></td>
+                          <td><input type="checkbox" name=""><b>3-2-1</b></td>
+                          <td><input type="checkbox" name=""><b>3-3-1</b></td>
+                          <td><input type="checkbox" name=""><b>3-4-1</b></td>
                         </tr>
                         <tr>
-                          <td><b>3-1-2</b></td>
-                          <td><b>3-2-2</b></td>
-                          <td><b>3-3-2</b></td>
-                          <td><b>3-4-2</b></td>
+                          <td><input type="checkbox" name=""><b>3-1-2</b></td>
+                          <td><input type="checkbox" name=""><b>3-2-2</b></td>
+                          <td><input type="checkbox" name=""><b>3-3-2</b></td>
+                          <td><input type="checkbox" name=""><b>3-4-2</b></td>
                         </tr>
                         <tr>
-                          <td><b>3-1-3</b></td>
-                          <td><b>3-2-3</b></td>
-                          <td><b>3-3-3</b></td>
-                          <td><b>3-4-3</b></td>
+                          <td><input type="checkbox" name=""><b>3-1-3</b></td>
+                          <td><input type="checkbox" name=""><b>3-2-3</b></td>
+                          <td><input type="checkbox" name=""><b>3-3-3</b></td>
+                          <td><input type="checkbox" name=""><b>3-4-3</b></td>
                         </tr>
                         <tr>
-                          <td><b>3-1-4</b></td>
-                          <td><b>3-2-4</b></td>
-                          <td><b>3-3-4</b></td>
-                          <td><b>3-4-4</b></td>
+                          <td><input type="checkbox" name=""><b>3-1-4</b></td>
+                          <td><input type="checkbox" name=""><b>3-2-4</b></td>
+                          <td><input type="checkbox" name=""><b>3-3-4</b></td>
+                          <td><input type="checkbox" name=""><b>3-4-4</b></td>
                         </tr>
                         <tr>
-                          <td><b>3-1-5</b></td>
-                          <td><b>3-2-5</b></td>
-                          <td><b>3-3-5</b></td>
-                          <td><b>3-4-5</b></td>
+                          <td><input type="checkbox" name=""><b>3-1-5</b></td>
+                          <td><input type="checkbox" name=""><b>3-2-5</b></td>
+                          <td><input type="checkbox" name=""><b>3-3-5</b></td>
+                          <td><input type="checkbox" name=""><b>3-4-5</b></td>
                         </tr>
                       </table>
                       <div class="part4"></div>
@@ -377,6 +378,82 @@
                   </div>
                   <div class="clearfix"></div>
                 </div>
+                <select class="mutibox">
+                  <option>1</option>
+                  <option>2</option>
+                  <option>3</option>
+                  <option>4</option>
+                </select>
+                <div class="gallery_add">修改</div>
+                </form>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-10 col-sm-12 col-xs-12">
+            <div class="x_panel">
+              <div class="x_title">
+                <h2>B102光照培养室内申请<small>Light Culture Room Application</small></h2>
+                <ul class="nav navbar-right panel_toolbox">
+                  <li class="panel_toolbox_li"><a class="close-link"><i class="fa fa-close"></i></a>
+                  </li>
+                  <li class="panel_toolbox_li"><a class="collapse-link"><i class="fa fa-chevron-up"></i></a>
+                  </li>
+                </ul>
+                <div class="clearfix"></div>
+              </div>
+              <div class="x_content">
+                <table id="datatable" class="table table-striped table-bordered">
+                  <thead>
+                  <tr>
+                    <th>光照室名称</th>
+                    <th >状态</th><!-- 列表显示待审申请、正在使用的申请、有效历史申请， -->
+                    <th >操作</th>
+                  </tr>
+                  </thead>
+
+
+                  <tbody>
+
+                    <tr>
+                      <td><a href="/hzaulab/index.php/Admin/Room/equipment_app_show">r_name</a></td>
+                      <td>r_time</td>
+                      <td>
+                        <a href="/hzaulab/index.php/Admin/Room/">同意 <i class="fa fa-pencil"></i></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        <a href="/hzaulab/index.php/Admin/Room/" >拒绝 <i class="fa fa-close"></i></a>
+                      </td>
+                    </tr>
+
+                    <tr>
+                      <td><a href="/hzaulab/index.php/Admin/Room/equipment_app_show">r_name</a></td>
+                      <td>$vo.r_time</td>
+                      <td>
+                        <a href="/hzaulab/index.php/Admin/Room/" > 同意<i class="fa fa-pencil"></i></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        <a href="/hzaulab/index.php/Admin/Room/" >拒绝 <i class="fa fa-close"></i></a>
+                      </td>
+                    </tr>
+
+                  <!-- <?php if(is_array($data)): $k = 0; $__LIST__ = $data;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$vo): $mod = ($k % 2 );++$k; if($k % 2 == 0) { ?>
+                    <tr>
+                      <td><a href="/hzaulab/index.php/Admin/Room/equipment_app_show"><<?php echo ($vo["r_name"]); ?>></a></td>
+                      <td><<?php echo ($vo["r_time"]); ?>></td>
+                      <td>
+                        <a href="/hzaulab/index.php/Admin/Room/notice_luanch" data-toggle="modal" data-target="#myModal" >同意 <i class="fa fa-pencil"></i></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        <a href="/hzaulab/index.php/Admin/Room/" >拒绝 <i class="fa fa-close"></i></a>
+                      </td>
+                    </tr>
+                    <?php } else { ?>
+                    <tr>
+                      <td><a href="/hzaulab/index.php/Admin/Room/equipment_app_show"><<?php echo ($vo["r_name"]); ?>></a></td>
+                      <td><<?php echo ($vo["r_time"]); ?>></td>
+                      <td><a href="/hzaulab/index.php/Admin/Room/notice_luanch" data-toggle="modal" data-target="#myModal" >同意 <i class="fa fa-pencil"></i></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        <a href="/hzaulab/index.php/Admin/Room/" >拒绝 <i class="fa fa-close"></i></a>
+                      </td>
+                    </tr>
+                    <?php } endforeach; endif; else: echo "" ;endif; ?> -->
+                  </tbody>
+                </table>
+                <br><br>
+                <div data-toggle="modal" data-target="#myModal2" class="gallery_add">导出Excel</div>
               </div>
             </div>
           </div>
@@ -393,7 +470,8 @@
                 <div class="clearfix"></div>
               </div>
               <div class="x_content">
-                <div class="B103">
+                <form>
+                  <div class="B103">
                   <div class="up">
                     <div class="le">
                     <div class="door">
@@ -404,19 +482,19 @@
                     <div class="left">
                       <table>
                         <tr>
-                          <td><b>8-3-1</b></td>
-                          <td><b>8-3-2</b></td>
-                          <td><b>8-3-3</b></td>
+                          <td><input type="checkbox" name=""><br><b>8-3-1</b></td>
+                          <td><input type="checkbox" name=""><br><b>8-3-2</b></td>
+                          <td><input type="checkbox" name=""><br><b>8-3-3</b></td>
                         </tr>
                         <tr>
-                          <td><b>8-2-1</b></td>
-                          <td><b>8-2-2</b></td>
-                          <td><b>8-2-3</b></td>
+                          <td><input type="checkbox" name=""><br><b>8-2-1</b></td>
+                          <td><input type="checkbox" name=""><br><b>8-2-2</b></td>
+                          <td><input type="checkbox" name=""><br><b>8-2-3</b></td>
                         </tr>
                         <tr>
-                          <td><b>8-1-1</b></td>
-                          <td><b>8-1-2</b></td>
-                          <td><b>8-1-3</b></td>
+                          <td><input type="checkbox" name=""><br><b>8-1-1</b></td>
+                          <td><input type="checkbox" name=""><br><b>8-1-2</b></td>
+                          <td><input type="checkbox" name=""><br><b>8-1-3</b></td>
                         </tr>
                       </table>
                     </div>
@@ -424,102 +502,102 @@
                     <div class="right">
                       <table>
                         <tr>
-                          <td><b>1-1-1</b></td>
-                          <td><b>1-2-1</b></td>
-                          <td><b>1-3-1</b></td>
-                          <td><b>1-4-1</b></td>
+                          <td><input type="checkbox" name=""><b>1-1-1</b></td>
+                          <td><input type="checkbox" name=""><b>1-2-1</b></td>
+                          <td><input type="checkbox" name=""><b>1-3-1</b></td>
+                          <td><input type="checkbox" name=""><b>1-4-1</b></td>
                         </tr>
                         <tr>
-                          <td><b>1-1-2</b></td>
-                          <td><b>1-2-2</b></td>
-                          <td><b>1-3-2</b></td>
-                          <td><b>1-4-2</b></td>
+                          <td><input type="checkbox" name=""><b>1-1-2</b></td>
+                          <td><input type="checkbox" name=""><b>1-2-2</b></td>
+                          <td><input type="checkbox" name=""><b>1-3-2</b></td>
+                          <td><input type="checkbox" name=""><b>1-4-2</b></td>
                         </tr>
                         <tr>
-                          <td><b>1-1-3</b></td>
-                          <td><b>1-2-3</b></td>
-                          <td><b>1-3-3</b></td>
-                          <td><b>1-4-3</b></td>
-                        </tr>
-                      </table>
-                      <table>
-                        <tr>
-                          <td><b>2-1-1</b></td>
-                          <td><b>2-2-1</b></td>
-                          <td><b>2-3-1</b></td>
-                          <td><b>2-4-1</b></td>
-                        </tr>
-                        <tr>
-                          <td><b>2-1-2</b></td>
-                          <td><b>2-2-2</b></td>
-                          <td><b>2-3-2</b></td>
-                          <td><b>2-4-2</b></td>
-                        </tr>
-                        <tr>
-                          <td><b>2-1-3</b></td>
-                          <td><b>2-2-3</b></td>
-                          <td><b>2-3-3</b></td>
-                          <td><b>2-4-3</b></td>
+                          <td><input type="checkbox" name=""><b>1-1-3</b></td>
+                          <td><input type="checkbox" name=""><b>1-2-3</b></td>
+                          <td><input type="checkbox" name=""><b>1-3-3</b></td>
+                          <td><input type="checkbox" name=""><b>1-4-3</b></td>
                         </tr>
                       </table>
                       <table>
                         <tr>
-                          <td><b>3-1-1</b></td>
-                          <td><b>3-2-1</b></td>
-                          <td><b>3-3-1</b></td>
-                          <td><b>3-4-1</b></td>
+                          <td><input type="checkbox" name=""><b>2-1-1</b></td>
+                          <td><input type="checkbox" name=""><b>2-2-1</b></td>
+                          <td><input type="checkbox" name=""><b>2-3-1</b></td>
+                          <td><input type="checkbox" name=""><b>2-4-1</b></td>
                         </tr>
                         <tr>
-                          <td><b>3-1-2</b></td>
-                          <td><b>3-2-2</b></td>
-                          <td><b>3-3-2</b></td>
-                          <td><b>3-4-2</b></td>
+                          <td><input type="checkbox" name=""><b>2-1-2</b></td>
+                          <td><input type="checkbox" name=""><b>2-2-2</b></td>
+                          <td><input type="checkbox" name=""><b>2-3-2</b></td>
+                          <td><input type="checkbox" name=""><b>2-4-2</b></td>
                         </tr>
                         <tr>
-                          <td><b>3-1-3</b></td>
-                          <td><b>3-2-3</b></td>
-                          <td><b>3-3-3</b></td>
-                          <td><b>3-4-3</b></td>
-                        </tr>
-                      </table>
-                      <table>
-                        <tr>
-                          <td><b>4-1-1</b></td>
-                          <td><b>4-2-1</b></td>
-                          <td><b>4-3-1</b></td>
-                          <td><b>4-4-1</b></td>
-                        </tr>
-                        <tr>
-                          <td><b>4-1-2</b></td>
-                          <td><b>4-2-2</b></td>
-                          <td><b>4-3-2</b></td>
-                          <td><b>4-4-2</b></td>
-                        </tr>
-                        <tr>
-                          <td><b>4-3-1</b></td>
-                          <td><b>4-3-2</b></td>
-                          <td><b>4-3-3</b></td>
-                          <td><b>4-3-4</b></td>
+                          <td><input type="checkbox" name=""><b>2-1-3</b></td>
+                          <td><input type="checkbox" name=""><b>2-2-3</b></td>
+                          <td><input type="checkbox" name=""><b>2-3-3</b></td>
+                          <td><input type="checkbox" name=""><b>2-4-3</b></td>
                         </tr>
                       </table>
                       <table>
                         <tr>
-                          <td><b>5-1-1</b></td>
-                          <td><b>5-2-1</b></td>
-                          <td><b>5-3-1</b></td>
-                          <td><b>5-4-1</b></td>
+                          <td><input type="checkbox" name=""><b>3-1-1</b></td>
+                          <td><input type="checkbox" name=""><b>3-2-1</b></td>
+                          <td><input type="checkbox" name=""><b>3-3-1</b></td>
+                          <td><input type="checkbox" name=""><b>3-4-1</b></td>
                         </tr>
                         <tr>
-                          <td><b>5-1-2</b></td>
-                          <td><b>5-2-2</b></td>
-                          <td><b>5-3-2</b></td>
-                          <td><b>5-4-2</b></td>
+                          <td><input type="checkbox" name=""><b>3-1-2</b></td>
+                          <td><input type="checkbox" name=""><b>3-2-2</b></td>
+                          <td><input type="checkbox" name=""><b>3-3-2</b></td>
+                          <td><input type="checkbox" name=""><b>3-4-2</b></td>
                         </tr>
                         <tr>
-                          <td><b>5-1-3</b></td>
-                          <td><b>5-2-3</b></td>
-                          <td><b>5-3-3</b></td>
-                          <td><b>5-4-3</b></td>
+                          <td><input type="checkbox" name=""><b>3-1-3</b></td>
+                          <td><input type="checkbox" name=""><b>3-2-3</b></td>
+                          <td><input type="checkbox" name=""><b>3-3-3</b></td>
+                          <td><input type="checkbox" name=""><b>3-4-3</b></td>
+                        </tr>
+                      </table>
+                      <table>
+                        <tr>
+                          <td><input type="checkbox" name=""><b>4-1-1</b></td>
+                          <td><input type="checkbox" name=""><b>4-2-1</b></td>
+                          <td><input type="checkbox" name=""><b>4-3-1</b></td>
+                          <td><input type="checkbox" name=""><b>4-4-1</b></td>
+                        </tr>
+                        <tr>
+                          <td><input type="checkbox" name=""><b>4-1-2</b></td>
+                          <td><input type="checkbox" name=""><b>4-2-2</b></td>
+                          <td><input type="checkbox" name=""><b>4-3-2</b></td>
+                          <td><input type="checkbox" name=""><b>4-4-2</b></td>
+                        </tr>
+                        <tr>
+                          <td><input type="checkbox" name=""><b>4-3-1</b></td>
+                          <td><input type="checkbox" name=""><b>4-3-2</b></td>
+                          <td><input type="checkbox" name=""><b>4-3-3</b></td>
+                          <td><input type="checkbox" name=""><b>4-3-4</b></td>
+                        </tr>
+                      </table>
+                      <table>
+                        <tr>
+                          <td><input type="checkbox" name=""><b>5-1-1</b></td>
+                          <td><input type="checkbox" name=""><b>5-2-1</b></td>
+                          <td><input type="checkbox" name=""><b>5-3-1</b></td>
+                          <td><input type="checkbox" name=""><b>5-4-1</b></td>
+                        </tr>
+                        <tr>
+                          <td><input type="checkbox" name=""><b>5-1-2</b></td>
+                          <td><input type="checkbox" name=""><b>5-2-2</b></td>
+                          <td><input type="checkbox" name=""><b>5-3-2</b></td>
+                          <td><input type="checkbox" name=""><b>5-4-2</b></td>
+                        </tr>
+                        <tr>
+                          <td><input type="checkbox" name=""><b>5-1-3</b></td>
+                          <td><input type="checkbox" name=""><b>5-2-3</b></td>
+                          <td><input type="checkbox" name=""><b>5-3-3</b></td>
+                          <td><input type="checkbox" name=""><b>5-4-3</b></td>
                         </tr>
                       </table>
                     </div>
@@ -530,19 +608,19 @@
                     <div class="le">
                       <table>
                         <tr>
-                          <td><b>7-1-1</b></td>
-                          <td><b>7-2-1</b></td>
-                          <td><b>7-3-1</b></td>
+                          <td><input type="checkbox" name=""><b>7-1-1</b></td>
+                          <td><input type="checkbox" name=""><b>7-2-1</b></td>
+                          <td><input type="checkbox" name=""><b>7-3-1</b></td>
                         </tr>
                         <tr>
-                          <td><b>7-1-2</b></td>
-                          <td><b>7-2-2</b></td>
-                          <td><b>7-3-2</b></td>
+                          <td><input type="checkbox" name=""><b>7-1-2</b></td>
+                          <td><input type="checkbox" name=""><b>7-2-2</b></td>
+                          <td><input type="checkbox" name=""><b>7-3-2</b></td>
                         </tr>
                         <tr>
-                          <td><b>7-1-3</b></td>
-                          <td><b>7-2-3</b></td>
-                          <td><b>7-3-3</b></td>
+                          <td><input type="checkbox" name=""><b>7-1-3</b></td>
+                          <td><input type="checkbox" name=""><b>7-2-3</b></td>
+                          <td><input type="checkbox" name=""><b>7-3-3</b></td>
                         </tr>
                       </table>
                     </div>
@@ -550,30 +628,105 @@
                     <div class="ri">
                     <table>
                         <tr>
-                          <td><b>6-1-1</b></td>
-                          <td><b>6-2-1</b></td>
-                          <td><b>6-3-1</b></td>
+                          <td><input type="checkbox" name=""><b>6-1-1</b></td>
+                          <td><input type="checkbox" name=""><b>6-2-1</b></td>
+                          <td><input type="checkbox" name=""><b>6-3-1</b></td>
                         </tr>
                         <tr>
-                          <td><b>6-1-2</b></td>
-                          <td><b>6-2-2</b></td>
-                          <td><b>6-3-2</b></td>
+                          <td><input type="checkbox" name=""><b>6-1-2</b></td>
+                          <td><input type="checkbox" name=""><b>6-2-2</b></td>
+                          <td><input type="checkbox" name=""><b>6-3-2</b></td>
                         </tr>
                         <tr>
-                          <td><b>6-1-3</b></td>
-                          <td><b>6-2-3</b></td>
-                          <td><b>6-3-3</b></td>
+                          <td><input type="checkbox" name=""><b>6-1-3</b></td>
+                          <td><input type="checkbox" name=""><b>6-2-3</b></td>
+                          <td><input type="checkbox" name=""><b>6-3-3</b></td>
                         </tr>
                       </table></div>
                     <div class="clearfix"></div>
                   </div>
-                </div>
+                </div>                
+                <select class="mutibox">
+                  <option>1</option>
+                  <option>2</option>
+                  <option>3</option>
+                  <option>4</option>
+                </select>
+                <div class="gallery_add">修改</div>
+                </form>
                 <div class="clearfix"></div>
 
               </div>
             </div>
           </div>
-            
+          <div class="col-md-10 col-sm-12 col-xs-12">
+            <div class="x_panel">
+              <div class="x_title">
+                <h2>B103光照培养室内申请<small>Light Culture Room Application</small></h2>
+                <ul class="nav navbar-right panel_toolbox">
+                  <li class="panel_toolbox_li"><a class="close-link"><i class="fa fa-close"></i></a>
+                  </li>
+                  <li class="panel_toolbox_li"><a class="collapse-link"><i class="fa fa-chevron-up"></i></a>
+                  </li>
+                </ul>
+                <div class="clearfix"></div>
+              </div>
+              <div class="x_content">
+                <table id="datatable" class="table table-striped table-bordered">
+                  <thead>
+                  <tr>
+                    <th>光照室名称</th>
+                    <th >状态</th><!-- 列表显示待审申请、正在使用的申请、有效历史申请， -->
+                    <th >操作</th>
+                  </tr>
+                  </thead>
+
+
+                  <tbody>
+
+                    <tr>
+                      <td><a href="/hzaulab/index.php/Admin/Room/equipment_app_show">r_name</a></td>
+                      <td>r_time</td>
+                      <td>
+                        <a href="/hzaulab/index.php/Admin/Room/">同意 <i class="fa fa-pencil"></i></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        <a href="/hzaulab/index.php/Admin/Room/" >拒绝 <i class="fa fa-close"></i></a>
+                      </td>
+                    </tr>
+
+                    <tr>
+                      <td><a href="/hzaulab/index.php/Admin/Room/equipment_app_show">r_name</a></td>
+                      <td>$vo.r_time</td>
+                      <td>
+                        <a href="/hzaulab/index.php/Admin/Room/" > 同意<i class="fa fa-pencil"></i></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        <a href="/hzaulab/index.php/Admin/Room/" >拒绝 <i class="fa fa-close"></i></a>
+                      </td>
+                    </tr>
+
+                  <!-- <?php if(is_array($data)): $k = 0; $__LIST__ = $data;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$vo): $mod = ($k % 2 );++$k; if($k % 2 == 0) { ?>
+                    <tr>
+                      <td><a href="/hzaulab/index.php/Admin/Room/equipment_app_show"><<?php echo ($vo["r_name"]); ?>></a></td>
+                      <td><<?php echo ($vo["r_time"]); ?>></td>
+                      <td>
+                        <a href="/hzaulab/index.php/Admin/Room/notice_luanch" data-toggle="modal" data-target="#myModal" >同意 <i class="fa fa-pencil"></i></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        <a href="/hzaulab/index.php/Admin/Room/" >拒绝 <i class="fa fa-close"></i></a>
+                      </td>
+                    </tr>
+                    <?php } else { ?>
+                    <tr>
+                      <td><a href="/hzaulab/index.php/Admin/Room/equipment_app_show"><<?php echo ($vo["r_name"]); ?>></a></td>
+                      <td><<?php echo ($vo["r_time"]); ?>></td>
+                      <td><a href="/hzaulab/index.php/Admin/Room/notice_luanch" data-toggle="modal" data-target="#myModal" >同意 <i class="fa fa-pencil"></i></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        <a href="/hzaulab/index.php/Admin/Room/" >拒绝 <i class="fa fa-close"></i></a>
+                      </td>
+                    </tr>
+                    <?php } endforeach; endif; else: echo "" ;endif; ?> -->
+                  </tbody>
+                </table>
+                <br><br>
+                <div data-toggle="modal" data-target="#myModal2" class="gallery_add">导出Excel</div>
+              </div>
+            </div>
+          </div>  
 
       </div>
         <!--************************************************* 底部版权 *************************************************-->

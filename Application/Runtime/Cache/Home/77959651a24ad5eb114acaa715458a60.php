@@ -190,8 +190,13 @@
             <button class="button" type="submit">查询</button>
             </form>
             <div class="clr" style="clear: both;"></div><br>
-            <span>东附楼B103</span>
-            <div class="explain">已借：红色</div>
+            <span class="he">东附楼B103</span><br>
+            <div class="explain">
+                  已预约：<span class="red"></span>&nbsp;&nbsp;&nbsp;&nbsp;
+                  占用：<span class="orange"></span>&nbsp;&nbsp;&nbsp;&nbsp;
+                  锁定：<span class="grey"></span>  &nbsp;&nbsp;&nbsp;&nbsp;
+                  开放：<span class="unlock"></span>  
+            </div>
           </div>
           <div class="planbody">
             <form class="planbodyform">

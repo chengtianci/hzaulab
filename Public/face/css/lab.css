@@ -1,6 +1,6 @@
 .pitbox{
-	height: 225px;
-	width: 310px;
+	height: 155px;
+	width: 190px;
 	float: left;
 	background:#FAFAFB;
 	border: 1px solid #f0f0f0;
@@ -30,7 +30,7 @@
 	text-decoration: underline;
 }
 .pitexplan{
-	height: 190px;
+	height: 120px;
 	width: 100%;
 	padding: 15px;
 }
