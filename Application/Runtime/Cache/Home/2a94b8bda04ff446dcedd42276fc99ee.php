@@ -120,27 +120,27 @@
 	                <li class="secnav"><a href="/hzaulab/index.php/Home/About/about_show3">联系我们</a></li>
 	            </ul>
 	        </li>	
-	       <li class="navOne_class"> <a href="/hzaulab/index.php/Home/Field/field_show1">大田设施</a>
+	       <li class="navOne_class"> <a href="/hzaulab/index.php/Home/Field/field">大田设施</a>
 	        	<ul class="nav_left">
 	            	<li class="secnav"><a href="/hzaulab/index.php/Home/Field/field_show1">农田土地</a></li>
 	                <li class="secnav"><a href="/hzaulab/index.php/Home/Field/field_show2">露天盆栽场</a></li>
 	            </ul>
 	        </li>
-	        <li class="navOne_class"><a href="/hzaulab/index.php/Home/Room/room_show1">培养室</a>
+	        <li class="navOne_class"><a href="/hzaulab/index.php/Home/Room/room">培养室</a>
 	       		<ul class="nav_left">
 	            	<li class="secnav"><a href="/hzaulab/index.php/Home/Room/room_show1">温网室</a></li>
 	                <li class="secnav"><a href="/hzaulab/index.php/Home/Room/room_show2">光照培养室</a></li>
 	            </ul>
 	        </li>
 
-	        <li class="navOne_class"><a href="/hzaulab/index.php/Home/Laboratory/laboratory_show1">实验室</a>
+	        <li class="navOne_class"><a href="/hzaulab/index.php/Home/Laboratory/laboratory">实验室</a>
 	        	<ul class="nav_left">
 	            	<li class="secnav"><a href="/hzaulab/index.php/Home/Laboratory/laboratory_show1">公共实验室</a></li>
 	                <li class="secnav"><a href="/hzaulab/index.php/Home/Laboratory/laboratory_show2">教学实验室</a></li>
 	                <li class="secnav"><a href="/hzaulab/index.php/Home/Laboratory/laboratory_show3">实验辅助室</a></li>
 	            </ul>
 	        </li>
-	         <li class="navOne_class"><a href="/hzaulab/index.php/Home/Equipment/equipment_show1">仪器设备</a>
+	         <li class="navOne_class"><a href="/hzaulab/index.php/Home/Equipment/equipment">仪器设备</a>
 	        	<ul class="nav_right">
 	            	<li class="secnav"><a href="/hzaulab/index.php/Home/Equipment/equipment_show1">仪器设备</a></li>
 	            </ul>
@@ -234,40 +234,40 @@
     <div class="container">   
       <div class="list_box">
         <div class="title_box">
-          <h2 class="title">通知公告</h2><i>NOTICE</i><a href="/hzaulab/index.php/Home/Education/education_show1"><b>MORE</b></a>
+          <h2 class="title">通知公告</h2><i>NOTICE</i><a href="/hzaulab/index.php/Home/About/about_show2"><b>MORE</b></a>
         </div>
         <ul>
-          <li><a href="">按时间显示最新内容标题按时间显示最新内容标题按时间显示最新内容标题</a><span>06-13</span></li>
-          <li><a href="">按时间显示最新内容标题</a><span>06-13</span></li>
-          <li><a href="">按时间显示最新内容标题</a><span>06-13</span></li>
-          <li><a href="">按时间显示最新内容标题</a><span>06-13</span></li>
-          <li><a href="">按时间显示最新内容标题</a><span>06-13</span></li>
+          <li><a href="/hzaulab/index.php/Home/About/about_show2_article">按时间显示最新内容标题按时间显示最新内容标题按时间显示最新内容标题</a><span>06-13</span></li>
+          <li><a href="/hzaulab/index.php/Home/About/about_show2_article">按时间显示最新内容标题</a><span>06-13</span></li>
+          <li><a href="/hzaulab/index.php/Home/About/about_show2_article">按时间显示最新内容标题</a><span>06-13</span></li>
+          <li><a href="/hzaulab/index.php/Home/About/about_show2_article">按时间显示最新内容标题</a><span>06-13</span></li>
+          <li><a href="/hzaulab/index.php/Home/About/about_show2_article">按时间显示最新内容标题</a><span>06-13</span></li>
         </ul>
       </div> 
      
       <div class="list_box">
         <div class="title_box">
-          <h2 class="title">服务指南</h2><i>SERVICE</i><a href="/hzaulab/index.php/Home/Education/education_show1"><b>MORE</b></a>
+          <h2 class="title">服务指南</h2><i>SERVICE</i><a href="/hzaulab/index.php/Home/Fictitious/fictitious_show2"><b>MORE</b></a>
         </div>
         <ul>
-          <li><a href="">按时间显示最新内容标题</a><span>06-13</span></li>
-          <li><a href="">按时间显示最新内容标题</a><span>06-13</span></li>
-          <li><a href="">按时间显示最新内容标题</a><span>06-13</span></li>
-          <li><a href="">按时间显示最新内容标题</a><span>06-13</span></li>
-          <li><a href="">按时间显示最新内容标题</a><span>06-13</span></li>
+          <li><a href="/hzaulab/index.php/Home/Fictitious/fictitious_show2_article">按时间显示最新内容标题</a><span>06-13</span></li>
+          <li><a href="/hzaulab/index.php/Home/Fictitious/fictitious_show2_article">按时间显示最新内容标题</a><span>06-13</span></li>
+          <li><a href="/hzaulab/index.php/Home/Fictitious/fictitious_show2_article">按时间显示最新内容标题</a><span>06-13</span></li>
+          <li><a href="/hzaulab/index.php/Home/Fictitious/fictitious_show2_article">按时间显示最新内容标题</a><span>06-13</span></li>
+          <li><a href="/hzaulab/index.php/Home/Fictitious/fictitious_show2_article">按时间显示最新内容标题</a><span>06-13</span></li>
         </ul>
       </div>  
 
        <div class="list_box">
         <div class="title_box">
-          <h2 class="title">下载专区</h2><i>DOWNLOAD</i><a href="/hzaulab/index.php/Home/Education/education_show1"><b>MORE</b></a>
+          <h2 class="title">下载专区</h2><i>DOWNLOAD</i><a href="/hzaulab/index.php/Home/Fictitious/fictitious_show3"><b>MORE</b></a>
         </div>
         <ul>
-          <li><a href="">按时间显示最新内容标题</a><span>06-13</span></li>
-          <li><a href="">按时间显示最新内容标题</a><span>06-13</span></li>
-          <li><a href="">按时间显示最新内容标题</a><span>06-13</span></li>
-          <li><a href="">按时间显示最新内容标题</a><span>06-13</span></li>
-          <li><a href="">按时间显示最新内容标题</a><span>06-13</span></li>
+          <li><a href="/hzaulab/index.php/Home/Fictitious/fictitious_show3">按时间显示最新内容标题</a><span>06-13</span></li>
+          <li><a href="/hzaulab/index.php/Home/Fictitious/fictitious_show3">按时间显示最新内容标题</a><span>06-13</span></li>
+          <li><a href="/hzaulab/index.php/Home/Fictitious/fictitious_show3">按时间显示最新内容标题</a><span>06-13</span></li>
+          <li><a href="/hzaulab/index.php/Home/Fictitious/fictitious_show3">按时间显示最新内容标题</a><span>06-13</span></li>
+          <li><a href="/hzaulab/index.php/Home/Fictitious/fictitious_show3">按时间显示最新内容标题</a><span>06-13</span></li>
         </ul>
       </div>   
     </div>

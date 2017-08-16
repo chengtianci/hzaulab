@@ -120,27 +120,27 @@
 	                <li class="secnav"><a href="/hzaulab/index.php/Home/About/about_show3">联系我们</a></li>
 	            </ul>
 	        </li>	
-	       <li class="navOne_class"> <a href="/hzaulab/index.php/Home/Field/field_show1">大田设施</a>
+	       <li class="navOne_class"> <a href="/hzaulab/index.php/Home/Field/field">大田设施</a>
 	        	<ul class="nav_left">
 	            	<li class="secnav"><a href="/hzaulab/index.php/Home/Field/field_show1">农田土地</a></li>
 	                <li class="secnav"><a href="/hzaulab/index.php/Home/Field/field_show2">露天盆栽场</a></li>
 	            </ul>
 	        </li>
-	        <li class="navOne_class"><a href="/hzaulab/index.php/Home/Room/room_show1">培养室</a>
+	        <li class="navOne_class"><a href="/hzaulab/index.php/Home/Room/room">培养室</a>
 	       		<ul class="nav_left">
 	            	<li class="secnav"><a href="/hzaulab/index.php/Home/Room/room_show1">温网室</a></li>
 	                <li class="secnav"><a href="/hzaulab/index.php/Home/Room/room_show2">光照培养室</a></li>
 	            </ul>
 	        </li>
 
-	        <li class="navOne_class"><a href="/hzaulab/index.php/Home/Laboratory/laboratory_show1">实验室</a>
+	        <li class="navOne_class"><a href="/hzaulab/index.php/Home/Laboratory/laboratory">实验室</a>
 	        	<ul class="nav_left">
 	            	<li class="secnav"><a href="/hzaulab/index.php/Home/Laboratory/laboratory_show1">公共实验室</a></li>
 	                <li class="secnav"><a href="/hzaulab/index.php/Home/Laboratory/laboratory_show2">教学实验室</a></li>
 	                <li class="secnav"><a href="/hzaulab/index.php/Home/Laboratory/laboratory_show3">实验辅助室</a></li>
 	            </ul>
 	        </li>
-	         <li class="navOne_class"><a href="/hzaulab/index.php/Home/Equipment/equipment_show1">仪器设备</a>
+	         <li class="navOne_class"><a href="/hzaulab/index.php/Home/Equipment/equipment">仪器设备</a>
 	        	<ul class="nav_right">
 	            	<li class="secnav"><a href="/hzaulab/index.php/Home/Equipment/equipment_show1">仪器设备</a></li>
 	            </ul>
@@ -192,12 +192,12 @@
                 </form>
                 <div class="clr" style="clear: both;"></div><br>
                 <span class="he">山南温室群</span><br>
-                 <div class="explain">
+                <div class="explain">
                   已预约：<span class="red"></span>&nbsp;&nbsp;&nbsp;&nbsp;
                   占用：<span class="orange"></span>&nbsp;&nbsp;&nbsp;&nbsp;
                   锁定：<span class="grey"></span>  &nbsp;&nbsp;&nbsp;&nbsp;
                   开放：<span class="unlock"></span>  
-            </div>
+                </div>
               </div>
               <div class="planbody">
                 <form class="planbodyform">
@@ -423,6 +423,11 @@
                 <form>
                 </form>
               </div>
+              <div class="plat_comment">
+                <p>
+                  注意：这里写注释！
+                </p>
+              </div>s
             </div>
           </div>
           <div class="clr"></div>

@@ -166,10 +166,9 @@
         <section>
           <h3>规章制度</h3>
           <ul class="ultop">
-            <li><a href="/hzaulab/index.php/Home/Fictitious/fictitious_show1.html" >规章制度</a></li>
+            <li><a href="/hzaulab/index.php/Home/Fictitious/fictitious_show1.html"   style="border-left: 3px solid orange;">规章制度</a></li>
             <li><a href="/hzaulab/index.php/Home/Fictitious/fictitious_show2.html" >服务指南</a></li>
             <li><a href="/hzaulab/index.php/Home/Fictitious/fictitious_show3.html" >下载专区</a></li>
-           
           </ul>
         </section>
       </div>
@@ -177,12 +176,9 @@
         <nav class="top_nav"><a href="/hzaulab/index.php/home/Index/index.html">首页</a> · <a href="#">规章制度</a> · <a href="#">这写标题</a></nav>
         <header class="main_title"><h2>这写标题</h2></header>
         <section class="article">这写标题这写标题这写标题这写标题这写标题这写标题这写标题这写标题这写标题这写标题这写标题这写标题这写标题这写标题这写标题这写标题这写标题这写标题这写标题这写标题这写标题这写标题这写标题这写标题这写标题这写标题这写标题这写标题这写标题这写标题这写标题这写标题这写标题这写标题这写标题这写标题这写标题这写标题这写标题</section>
-      
       </div>
     </div>
   </div>
-
-
    <!--************************************************************** footer **************************************************************-->
   <div id="footer">
      <div class="container">

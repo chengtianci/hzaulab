@@ -118,27 +118,27 @@
 	                <li class="secnav"><a href="/hzaulab/index.php/Home/About/about_show3">联系我们</a></li>
 	            </ul>
 	        </li>	
-	       <li class="navOne_class"> <a href="/hzaulab/index.php/Home/Field/field_show1">大田设施</a>
+	       <li class="navOne_class"> <a href="/hzaulab/index.php/Home/Field/field">大田设施</a>
 	        	<ul class="nav_left">
 	            	<li class="secnav"><a href="/hzaulab/index.php/Home/Field/field_show1">农田土地</a></li>
 	                <li class="secnav"><a href="/hzaulab/index.php/Home/Field/field_show2">露天盆栽场</a></li>
 	            </ul>
 	        </li>
-	        <li class="navOne_class"><a href="/hzaulab/index.php/Home/Room/room_show1">培养室</a>
+	        <li class="navOne_class"><a href="/hzaulab/index.php/Home/Room/room">培养室</a>
 	       		<ul class="nav_left">
 	            	<li class="secnav"><a href="/hzaulab/index.php/Home/Room/room_show1">温网室</a></li>
 	                <li class="secnav"><a href="/hzaulab/index.php/Home/Room/room_show2">光照培养室</a></li>
 	            </ul>
 	        </li>
 
-	        <li class="navOne_class"><a href="/hzaulab/index.php/Home/Laboratory/laboratory_show1">实验室</a>
+	        <li class="navOne_class"><a href="/hzaulab/index.php/Home/Laboratory/laboratory">实验室</a>
 	        	<ul class="nav_left">
 	            	<li class="secnav"><a href="/hzaulab/index.php/Home/Laboratory/laboratory_show1">公共实验室</a></li>
 	                <li class="secnav"><a href="/hzaulab/index.php/Home/Laboratory/laboratory_show2">教学实验室</a></li>
 	                <li class="secnav"><a href="/hzaulab/index.php/Home/Laboratory/laboratory_show3">实验辅助室</a></li>
 	            </ul>
 	        </li>
-	         <li class="navOne_class"><a href="/hzaulab/index.php/Home/Equipment/equipment_show1">仪器设备</a>
+	         <li class="navOne_class"><a href="/hzaulab/index.php/Home/Equipment/equipment">仪器设备</a>
 	        	<ul class="nav_right">
 	            	<li class="secnav"><a href="/hzaulab/index.php/Home/Equipment/equipment_show1">仪器设备</a></li>
 	            </ul>
@@ -177,12 +177,12 @@
         <header class="main_title"><h2>服务指南</h2></header>
         <section class="main_list">
           <ul class="show_list">
-            <li><a href="/hzaulab/index.php/Home/Fictitious/fictitious_show1_article">植物科学技术博士点简介</a><span>2015-09-01</span></li>
-            <li><a href="/hzaulab/index.php/Home/Fictitious/fictitious_show1_article">国家一级重点学科——作物学</a><span>2015-09-01</span></li>
-            <li><a href="/hzaulab/index.php/Home/Fictitious/fictitious_show1_article">植物科学技术博士点简介</a><span>2015-09-01</span></li>
-            <li><a href="/hzaulab/index.php/Home/Fictitious/fictitious_show1_article">国家一级重点学科——作物学</a><span>2015-09-01</span></li>
-            <li><a href="/hzaulab/index.php/Home/Fictitious/fictitious_show1_article">植物科学技术博士点简介</a><span>2015-09-01</span></li>
-            <li><a href="/hzaulab/index.php/Home/Fictitious/fictitious_show1_article">国家一级重点学科——作物学国家一级重点学科——作物学国家一级重点学科——作物学国家一级重点学科——作物学国家一级重点学科——作物学国家一级重点学科——作物学国家一级重点学科——作物学</a><span>2015-09-01</span></li>
+            <li><a href="/hzaulab/index.php/Home/Fictitious/fictitious_show2_article">植物科学技术博士点简介</a><span>2015-09-01</span></li>
+            <li><a href="/hzaulab/index.php/Home/Fictitious/fictitious_show2_article">国家一级重点学科——作物学</a><span>2015-09-01</span></li>
+            <li><a href="/hzaulab/index.php/Home/Fictitious/fictitious_show2_article">植物科学技术博士点简介</a><span>2015-09-01</span></li>
+            <li><a href="/hzaulab/index.php/Home/Fictitious/fictitious_show2_article">国家一级重点学科——作物学</a><span>2015-09-01</span></li>
+            <li><a href="/hzaulab/index.php/Home/Fictitious/fictitious_show2_article">植物科学技术博士点简介</a><span>2015-09-01</span></li>
+            <li><a href="/hzaulab/index.php/Home/Fictitious/fictitious_show2_article">国家一级重点学科——作物学国家一级重点学科——作物学国家一级重点学科——作物学国家一级重点学科——作物学国家一级重点学科——作物学国家一级重点学科——作物学国家一级重点学科——作物学</a><span>2015-09-01</span></li>
           </ul>
           <p>上一页 / 下一页</p>
         </section>

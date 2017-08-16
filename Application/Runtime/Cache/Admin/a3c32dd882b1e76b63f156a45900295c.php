@@ -60,17 +60,20 @@
       </li>
       <li><a><i class="fa fa-desktop"></i> 大田设施<span class="fa fa-chevron-down"></span></a>
         <ul class="nav child_menu">
+          <li><a href="/hzaulab/index.php/Admin/Field/fieldluanch">页面发布</a></li>
           <li><a href="/hzaulab/index.php/Admin/Field/field">农田土地</a></li>
           <li><a href="/hzaulab/index.php/Admin/Field/OpenPot">露天盆栽场</a></li>
         </ul>
       </li>
       <li><a><i class="fa fa-mortar-board"></i> 培养室<span class="fa fa-chevron-down"></span></a>
         <ul class="nav child_menu">
+            <li><a href="/hzaulab/index.php/Admin/Room/roomluanch">页面发布</a></li>
           	<li><a href="/hzaulab/index.php/Admin/Room/WimbledonRoom">温网室</a></li>
           	<li><a href="/hzaulab/index.php/Admin/Room/LightCultureRoom">光照培养室</a></li>
       	</ul>
       <li><a><i class="fa fa-share-alt-square"></i>实验室 <span class="fa fa-chevron-down"></span></a>
         <ul class="nav child_menu">
+            <li><a href="/hzaulab/index.php/Admin/Laboratory/labluanch">页面发布</a></li>
             <li><a href="/hzaulab/index.php/Admin/Laboratory/publiclab">公共实验室</a></li>
             <li><a href="/hzaulab/index.php/Admin/Laboratory/teachlab">教学实验室</a></li>
             <li><a href="/hzaulab/index.php/Admin/Laboratory/sublab">实验辅助室</a></li>
@@ -78,6 +81,7 @@
       </li>
       <li><a><i class="fa fa-flask"></i>仪器设备<span class="fa fa-chevron-down"></span></a>
         <ul class="nav child_menu">
+          <li><a href="/hzaulab/index.php/Admin/Equipment/equipmentluanch">页面发布</a></li>
           <li><a href="/hzaulab/index.php/Admin/Equipment/equipment">仪器设备</a></li>
           <li><a href="/hzaulab/index.php/Admin/Equipment/consume">试剂耗材</a></li>
         </ul>
@@ -87,6 +91,11 @@
           <li><a href="/hzaulab/index.php/Admin/Regulation/regulation">规章制度</a></li>
           <li><a href="/hzaulab/index.php/Admin/Regulation/service">服务指南</a></li>
           <li><a href="/hzaulab/index.php/Admin/Regulation/download">下载专区</a></li>
+        </ul>
+      </li>
+      <li><a><i class="fa fa-user"></i>采购计划<span class="fa fa-chevron-down"></span></a>
+        <ul class="nav child_menu">
+          <li><a href="/hzaulab/index.php/Admin/Plan/plan">采购计划</a></li>
         </ul>
       </li>
     </ul>
@@ -108,10 +117,8 @@
     <span class="glyphicon glyphicon-off" aria-hidden="true"></span>
   </a>
 </div>
-
           </div>
         </div>
-
         <!--************************************************* 顶导航 *************************************************-->
         <div class="top_nav">
   <div class="nav_menu">
@@ -173,8 +180,6 @@
     </div><!-- /.modal-content -->
   </div><!-- /.modal -->
 </div>
-      
-
         <!--************************************************* 右内容 *************************************************-->
       <div class="right_col" role="main">
 
@@ -194,61 +199,69 @@
                 <table id="datatable" class="table table-striped table-bordered">
                   <thead>
                   <tr>
-                    <th>Title</th>
-                    <th style="width:15%;">Date</th>
-                    <th style="width:20%;">operation</th>
+                    <th style="width: 50px;">序号</th>
+                    <th>编号</th>
+                    <th>分类</th>
+                    <th>名称</th>
+                    <th>型号/单位</th>
+                    <th>品牌</th>
+                    <th >单位/元</th>
+                    <th >库存数量</th>
+                    <th >存放地</th>
+                    <th >负责人</th>
+                    <th >备注</th>
+                    <th >操作</th>
                   </tr>
                   </thead>
-
-
                   <tbody>
-
                     <tr>
+                      <td></td>
                       <td><a href="/hzaulab/index.php/Admin/Equipment/">r_name</a></td>
                       <td>r_time</td>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                      <td></td>
                       <td>
+                        <a href="#" data-toggle="modal" data-target="#myModal" >领用 <i class="fa fa-sign-in"></i></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                         <a href="#" data-toggle="modal" data-target="#myModal" >修改 <i class="fa fa-pencil"></i></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                         <a href="/hzaulab/index.php/Admin/Equipment/" >删除 <i class="fa fa-close"></i></a>
                       </td>
                     </tr>
 
                     <tr>
+                      <td></td>
                       <td><a href="/hzaulab/index.php/Admin/Equipment/">r_name</a></td>
                       <td>$vo.r_time</td>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                      <td></td>
                       <td>
+                        <a href="#" data-toggle="modal" data-target="#myModal" >领用 <i class="fa fa-sign-in"></i></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                         <a href="#" data-toggle="modal" data-target="#myModal" >修改 <i class="fa fa-pencil"></i></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                         <a href="/hzaulab/index.php/Admin/Equipment/" >删除 <i class="fa fa-close"></i></a>
                       </td>
                     </tr>
-
-                  <!-- <?php if(is_array($data)): $k = 0; $__LIST__ = $data;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$vo): $mod = ($k % 2 );++$k; if($k % 2 == 0) { ?>
-                    <tr>
-                      <td><a href="/hzaulab/index.php/Admin/Equipment/fictitious_show1_update/id/<<?php echo ($vo["id"]); ?>>/by/1"><<?php echo ($vo["r_name"]); ?>></a></td>
-                      <td><<?php echo ($vo["r_time"]); ?>></td>
-                      <td>
-                        <a href="#" data-toggle="modal" data-target="#myModal" >修改 <i class="fa fa-pencil"></i></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                        <a href="/hzaulab/index.php/Admin/Equipment/" >删除 <i class="fa fa-close"></i></a>
-                      </td>
-                    </tr>
-                    <?php } else { ?>
-                    <tr>
-                      <td><a href="/hzaulab/index.php/Admin/Equipment/fictitious_show1_update/id/<<?php echo ($vo["id"]); ?>>/by/1"><<?php echo ($vo["r_name"]); ?>></a></td>
-                      <td><<?php echo ($vo["r_time"]); ?>></td>
-                      <td><a href="#" data-toggle="modal" data-target="#myModal" >修改 <i class="fa fa-pencil"></i></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                        <a href="/hzaulab/index.php/Admin/Equipment/" >删除 <i class="fa fa-close"></i></a>
-                      </td>
-                    </tr>
-                    <?php } endforeach; endif; else: echo "" ;endif; ?> -->
                   </tbody>
                 </table>
                 <br><br>
                 <div data-toggle="modal" data-target="#myModal2" class="gallery_add">添加</div>
               </div>
             </div>
-          </div><div class="col-md-10 col-sm-12 col-xs-12">
+          </div>
+          <div class="col-md-10 col-sm-12 col-xs-12">
             <div class="x_panel">
               <div class="x_title">
-                <h2>试剂耗材<small>Consume</small></h2>
+                <h2>试剂耗材领用<small>Consume</small></h2>
                 <ul class="nav navbar-right panel_toolbox">
                   <li class="panel_toolbox_li"><a class="close-link"><i class="fa fa-close"></i></a>
                   </li>
@@ -261,49 +274,29 @@
                 <table id="datatable" class="table table-striped table-bordered">
                   <thead>
                   <tr>
-                    <th>Title</th>
-                    <th style="width:15%;">Date</th>
-                    <th style="width:20%;">operation</th>
+                    <th style="width: 50px;">序号</th>
+                    <th>试剂名称</th>
+                    <th >数量</th>
+                    <th style="width:20%;">操作</th>
                   </tr>
                   </thead>
-
-
                   <tbody>
-
                     <tr>
+                      <td></td>
                       <td><a href="/hzaulab/index.php/Admin/Equipment/">r_name</a></td>
-                      <td>r_time</td>
+                      <td>212</td>
                       <td>
                         <a href="/hzaulab/index.php/Admin/Equipment/" >删除 <i class="fa fa-close"></i></a>
                       </td>
                     </tr>
-
                     <tr>
+                      <td></td>
                       <td><a href="/hzaulab/index.php/Admin/Equipment/">r_name</a></td>
                       <td>$vo.r_time</td>
                       <td>
                         <a href="/hzaulab/index.php/Admin/Equipment/" >删除 <i class="fa fa-close"></i></a>
                       </td>
                     </tr>
-
-                  <!-- <?php if(is_array($data)): $k = 0; $__LIST__ = $data;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$vo): $mod = ($k % 2 );++$k; if($k % 2 == 0) { ?>
-                    <tr>
-                      <td><a href="/hzaulab/index.php/Admin/Equipment/fictitious_show1_update/id/<<?php echo ($vo["id"]); ?>>/by/1"><<?php echo ($vo["r_name"]); ?>></a></td>
-                      <td><<?php echo ($vo["r_time"]); ?>></td>
-                      <td>
-                        <a href="#" data-toggle="modal" data-target="#myModal" >修改 <i class="fa fa-pencil"></i></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                        <a href="/hzaulab/index.php/Admin/Equipment/" >删除 <i class="fa fa-close"></i></a>
-                      </td>
-                    </tr>
-                    <?php } else { ?>
-                    <tr>
-                      <td><a href="/hzaulab/index.php/Admin/Equipment/fictitious_show1_update/id/<<?php echo ($vo["id"]); ?>>/by/1"><<?php echo ($vo["r_name"]); ?>></a></td>
-                      <td><<?php echo ($vo["r_time"]); ?>></td>
-                      <td><a href="#" data-toggle="modal" data-target="#myModal" >修改 <i class="fa fa-pencil"></i></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                        <a href="/hzaulab/index.php/Admin/Equipment/" >删除 <i class="fa fa-close"></i></a>
-                      </td>
-                    </tr>
-                    <?php } endforeach; endif; else: echo "" ;endif; ?> -->
                   </tbody>
                 </table>
                 <br><br>
@@ -311,7 +304,52 @@
               </div>
             </div>
           </div>
-          
+          <div class="col-md-10 col-sm-12 col-xs-12">
+            <div class="x_panel">
+              <div class="x_title">
+                <h2>试剂耗材领用记录<small>Consume History</small></h2>
+                <ul class="nav navbar-right panel_toolbox">
+                  <li class="panel_toolbox_li"><a class="close-link"><i class="fa fa-close"></i></a>
+                  </li>
+                  <li class="panel_toolbox_li"><a class="collapse-link"><i class="fa fa-chevron-up"></i></a>
+                  </li>
+                </ul>
+                <div class="clearfix"></div>
+              </div>
+              <div class="x_content">
+                <table id="datatable" class="table table-striped table-bordered">
+                  <thead>
+                  <tr>
+                    <th style="width: 50px;">序号</th>
+                    <th>试剂名称</th>
+                    <th >数量</th>
+                    <th style="width:20%;">操作</th>
+                  </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td></td>
+                      <td><a href="/hzaulab/index.php/Admin/Equipment/">r_name</a></td>
+                      <td>212</td>
+                      <td>
+                        <a href="/hzaulab/index.php/Admin/Equipment/" >删除 <i class="fa fa-close"></i></a>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td></td>
+                      <td><a href="/hzaulab/index.php/Admin/Equipment/">r_name</a></td>
+                      <td>$vo.r_time</td>
+                      <td>
+                        <a href="/hzaulab/index.php/Admin/Equipment/" >删除 <i class="fa fa-close"></i></a>
+                      </td>
+                    </tr>
+                  </tbody>
+                </table>
+                <br><br>
+                <div class="gallery_add">导出excel</div>
+              </div>
+            </div>
+          </div>
       </div>
       <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
               <div class="modal-dialog">

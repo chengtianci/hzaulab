@@ -5,10 +5,10 @@
  	<!-- <meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0; user-scalable=0;" /> -->
  	<title>华中农业大学作物学实验教学中心</title>
  	<link type="text/css" rel="stylesheet" href='http://fonts.googleapis.com/css?family=Ubuntu:300italic,300,700' />
-  <link rel="shortcut icon" href="/xiangmu/hzaulab/logo.ico" type="image/x-icon" />
-  <link rel="stylesheet" href="/xiangmu/hzaulab/Public/face/css/home_public.css" />
-  <link rel="stylesheet" href="/xiangmu/hzaulab/Public/face/css/show_public.css" />
-  <script type="text/javascript" src="/xiangmu/hzaulab/Public/public/js/jquery-1.8.3.min.js"></script>
+  <link rel="shortcut icon" href="/hzaulab/logo.ico" type="image/x-icon" />
+  <link rel="stylesheet" href="/hzaulab/Public/face/css/home_public.css" />
+  <link rel="stylesheet" href="/hzaulab/Public/face/css/show_public.css" />
+  <script type="text/javascript" src="/hzaulab/Public/public/js/jquery-1.8.3.min.js"></script>
 
 </head>
 <body>
@@ -18,13 +18,11 @@
   <div id="header"> 
     <div class="container">
   <div id="header_left">
-    <!-- <a href="/xiangmu/hzaulab/index.php/home/Index/index.html"><h1>华中农业大学作物学实验教学中心</h1></a>
+    <!-- <a href="/hzaulab/index.php/home/Index/index.html"><h1>华中农业大学作物学实验教学中心</h1></a>
     <p>     Teaching Center of Crop Science Experiment</p> -->
   </div>
   <div id="header_right">
-      <div>
-        <p><a href="#">访问旧版</a> | <a href="#" class="logBut">教师登录</a><br/>
-      </div>
+      <br><br>
       <form action="#" method="post" id="sitesearch">
         <input type="text" value="" placeholder="全文搜索" class="search_input"  />
          <!-- <input type="text" value="" class="search_input" onfocus="this.value=(this.value=='全文搜索&hellip;')? '' : this.value ;" /> -->
@@ -69,7 +67,7 @@
 //     },function(text){
 //         if(text=="pass"){
 //             // alert('pass')
-//             window.location.href="/xiangmu/hzaulab/index.php/Home/Index/index";
+//             window.location.href="/hzaulab/index.php/Home/Index/index";
 //         }else{
 //             $("#suggest").html(text);
 //         }
@@ -112,41 +110,46 @@
     <div class="container">
 	<div id="navn" >
       	<ul>
-	        <li class="navOne_class"><a class="active" href="/xiangmu/hzaulab/index.php/Home/Index/index">首&ensp;页</a></li>
-	        <li class="navOne_class"><a href="/xiangmu/hzaulab/index.php/Home/About/about_show1">平台概况</a>
+	        <li class="navOne_class"><a class="active" href="/hzaulab/index.php/Home/Index/index">首&ensp;页</a></li>
+	        <li class="navOne_class"><a href="/hzaulab/index.php/Home/About/about_show1">平台概况</a>
 	        	<ul class="nav_left">
-	            	<li class="secnav"><a href="/xiangmu/hzaulab/index.php/Home/About/about_show1">平台简介</a></li>
-	                <li class="secnav"><a href="/xiangmu/hzaulab/index.php/Home/About/about_show2">通知公告</a></li>
-	                <li class="secnav"><a href="/xiangmu/hzaulab/index.php/Home/About/about_show3">联系我们</a></li>
+	            	<li class="secnav"><a href="/hzaulab/index.php/Home/About/about_show1">平台简介</a></li>
+	                <li class="secnav"><a href="/hzaulab/index.php/Home/About/about_show2">通知公告</a></li>
+	                <li class="secnav"><a href="/hzaulab/index.php/Home/About/about_show3">联系我们</a></li>
 	            </ul>
 	        </li>	
-	       <li class="navOne_class"> <a href="/xiangmu/hzaulab/index.php/Home/Field/field_show1">大田设施</a>
+	       <li class="navOne_class"> <a href="/hzaulab/index.php/Home/Field/field">大田设施</a>
 	        	<ul class="nav_left">
-	            	<li class="secnav"><a href="/xiangmu/hzaulab/index.php/Home/Field/field_show1">农田土地</a></li>
-	                <li class="secnav"><a href="/xiangmu/hzaulab/index.php/Home/Field/field_show2">露天盆栽场</a></li>
+	            	<li class="secnav"><a href="/hzaulab/index.php/Home/Field/field_show1">农田土地</a></li>
+	                <li class="secnav"><a href="/hzaulab/index.php/Home/Field/field_show2">露天盆栽场</a></li>
 	            </ul>
 	        </li>
-	        <li class="navOne_class"><a href="/xiangmu/hzaulab/index.php/Home/Room/room_show1">培养室</a>
+	        <li class="navOne_class"><a href="/hzaulab/index.php/Home/Room/room">培养室</a>
 	       		<ul class="nav_left">
-	            	<li class="secnav"><a href="/xiangmu/hzaulab/index.php/Home/Room/room_show1">温网室</a></li>
-	                <li class="secnav"><a href="/xiangmu/hzaulab/index.php/Home/Room/room_show2">光照培养室</a></li>
+	            	<li class="secnav"><a href="/hzaulab/index.php/Home/Room/room_show1">温网室</a></li>
+	                <li class="secnav"><a href="/hzaulab/index.php/Home/Room/room_show2">光照培养室</a></li>
 	            </ul>
 	        </li>
 
-	        <li class="navOne_class"><a href="/xiangmu/hzaulab/index.php/Home/Laboratory/laboratory_show1">实验室</a>
+	        <li class="navOne_class"><a href="/hzaulab/index.php/Home/Laboratory/laboratory">实验室</a>
 	        	<ul class="nav_left">
-	            	<li class="secnav"><a href="/xiangmu/hzaulab/index.php/Home/Laboratory/laboratory_show1">公共实验室</a></li>
-	                <li class="secnav"><a href="/xiangmu/hzaulab/index.php/Home/Laboratory/laboratory_show2">教学实验室</a></li>
-	                <li class="secnav"><a href="/xiangmu/hzaulab/index.php/Home/Laboratory/laboratory_show3">实验辅助室</a></li>
+	            	<li class="secnav"><a href="/hzaulab/index.php/Home/Laboratory/laboratory_show1">公共实验室</a></li>
+	                <li class="secnav"><a href="/hzaulab/index.php/Home/Laboratory/laboratory_show2">教学实验室</a></li>
+	                <li class="secnav"><a href="/hzaulab/index.php/Home/Laboratory/laboratory_show3">实验辅助室</a></li>
 	            </ul>
 	        </li>
-	         <li class="navOne_class"><a href="/xiangmu/hzaulab/index.php/Home/Equipment/equipment_show1">仪器设备</a>
+	         <li class="navOne_class"><a href="/hzaulab/index.php/Home/Equipment/equipment">仪器设备</a>
 	        	<ul class="nav_right">
-	            	<li class="secnav"><a href="/xiangmu/hzaulab/index.php/Home/Equipment/equipment_show1">仪器设备</a></li>
-	                <li class="secnav"><a href="/xiangmu/hzaulab/index.php/Home/Equipment/equipment_show2">试剂耗材</a></li>
+	            	<li class="secnav"><a href="/hzaulab/index.php/Home/Equipment/equipment_show1">仪器设备</a></li>
 	            </ul>
 	        </li>
-	        <li class="navOne_class"><a href="/xiangmu/hzaulab/index.php/Home/Fictitious/fictitious_show1">规章制度</a>
+	        <li class="navOne_class"><a href="/hzaulab/index.php/Home/Fictitious/fictitious_show1">规章制度</a>
+        		<ul class="nav_left">
+	            	<li class="secnav"><a href="/hzaulab/index.php/Home/Fictitious/fictitious_show1">规章制度</a></li>
+	                <li class="secnav"><a href="/hzaulab/index.php/Home/Fictitious/fictitious_show2">服务指南</a></li>
+	                <li class="secnav"><a href="/hzaulab/index.php/Home/Fictitious/fictitious_show3">下载专区</a></li>
+	            </ul>
+		       
 	        </li>
 	       
         </ul>
@@ -163,16 +166,20 @@
         <section>
           <h3>平台概况</h3>
           <ul class="ultop">
-            <li><a href="/xiangmu/hzaulab/index.php/Home/About/about_show1.html">平台简介</a></li>
-            <li><a href="/xiangmu/hzaulab/index.php/Home/About/about_show2.html" style="border-left: 3px solid orange;">通知公告</a></li>
-            <li><a href="/xiangmu/hzaulab/index.php/Home/About/about_show3.html">联系我们</a></li>
+            <li><a href="/hzaulab/index.php/Home/About/about_show1.html">平台简介</a></li>
+            <li><a href="/hzaulab/index.php/Home/About/about_show2.html" style="border-left: 3px solid orange;">通知公告</a></li>
+            <li><a href="/hzaulab/index.php/Home/About/about_show3.html">联系我们</a></li>
           </ul>
         </section>
       </div>
       <div id="main_right">
-        <nav class="top_nav"><a href="/xiangmu/hzaulab/index.php/home/Index/index.html">首页</a> · <a href="#">平台概况</a> · <a href="#">通知公告</a> · <a href="#">这写标题</a></nav>
+        <nav class="top_nav"><a href="/hzaulab/index.php/home/Index/index.html">首页</a> · <a href="#">平台概况</a> · <a href="#">通知公告</a> · <a href="#">这写标题</a></nav>
         <header class="main_title"><h2>这写标题</h2></header>
-        <section class="article">这写标题这写标题这写标题这写标题这写标题这写标题这写标题这写标题这写标题这写标题这写标题这写标题这写标题这写标题这写标题这写标题这写标题这写标题这写标题这写标题这写标题这写标题这写标题这写标题这写标题这写标题这写标题这写标题这写标题这写标题这写标题这写标题这写标题这写标题这写标题这写标题这写标题这写标题这写标题</section>
+        <section class="article">
+          <p class="contantdis">
+            作物学实验教学中心成立于2002年，2007年批准为湖北省实验教学示范中心，2008年批准为国家级实验教学示范中心建设单位。拥有作物学国家一级重点学科和植物保护学湖北省重点学科，作物学和植物保护学两个一级学科博士后科研流动站；依托平台有作物遗传改良国家重点实验室、国家农作物分子技术育种中心、国家植物基因研究中心、国家油菜工程技术研究中心和国家油菜武汉改良分中心等5个国家级重点实验室与工程中心，7个省部级重点实验室和研发中心，8个校级研发中心。 中心有实验及基地用房7560平米，温室、网室群3880平米，校内本科实习用地40多亩，形成了植物生理生化、通用显微观察、多功能化学分析、生态与信息4个大类教学功能实验室，1个大学生创新实验室，1个中心共享平台，1个校内实践创新基地和3个校外大型综合实习基地的实践教学平台，仪器设备总数7860台/件，总值7852万元，可同时开出15个班次不同类型的课程实验、实习。面向全校17个专业的本科生，开设52门实验课程123456。
+          </p>
+        </section>
       
       </div>
     </div>
@@ -202,7 +209,7 @@
   </div>
   <div class="foot-bottom">
     <p><span>技术支持：<a href="http://www.52feidian.com/">华中农业大学 沸点工作室</a></span>
-      CopyRight©2017  华中农业大学作物学实验教学中心 <a href="/xiangmu/hzaulab/index.php/Admin/About/about_show1.html">管理</a>
+      CopyRight©2017  华中农业大学作物学实验教学中心 <a href="/hzaulab/index.php/Admin/">管理</a>
     </p>
   </div>
 </div>
@@ -212,9 +219,9 @@
   
 
   
-  <script type="text/javascript" src="/xiangmu/hzaulab/Public/face/js/public.js"></script>
-  <script type="text/javascript" src="/xiangmu/hzaulab/Public/face/js/jquery.flexslider-min.js"></script>
-  <script type="text/javascript" src="/xiangmu/hzaulab/Public/face/js/custom.js"></script>
+  <script type="text/javascript" src="/hzaulab/Public/face/js/public.js"></script>
+  <script type="text/javascript" src="/hzaulab/Public/face/js/jquery.flexslider-min.js"></script>
+  <script type="text/javascript" src="/hzaulab/Public/face/js/custom.js"></script>
 
 </body>
 </html>

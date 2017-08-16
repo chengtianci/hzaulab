@@ -261,43 +261,50 @@
                 </div>
               </div>
                 <div id="applyform">
-                  <div class="up">
+                    <div class="up">
                     <img id="close" src="/hzaulab/Public/face/images/close.png">
-                    <h3>作物学实验教学中心 <br> 设施设备租赁表</h3> 
+                      <h3>作物学实验教学中心 <br> 设施设备租赁表</h3> 
+                    </div>
+                    <div class="down">
+                      <div class="row">
+                        <div class="le"><span class="hint">使用者姓名：</span><input class="input" type="text" name="name1" value="//自动">    </div>
+                        <div class="ri"><span class="hint">联系方式：</span><input class="input" type="text" name="name2" value="//必填"></div>
+                      </div>
+                      <div class="row">
+                        <div class="le"><span class="hint">导师姓名： </span><input class="input" type="text" name="name1" value="//自动">   </div>
+                        <div class="ri"><span class="hint">联系方式： </span><input class="input" type="text" name="name2" value="//自动"></div>
+                      </div>
+                      <div class="row">
+                        <div class="le"><span class="hint">设施名称： </span><input class="input" type="text" name="name1" value="//自动">   </div>
+                        <div class="ri"><span class="hint">设施位置：</span><input class="input" type="text" name="name2" value="//自动"></div>
+                      </div>
+                      <div class="row">
+                        <div class="le"><span class="hint">设施编号：</span><input class="input" type="text" name="name1" value="//自动">   </div>
+                        <div class="ri"><span class="hint">研究项目：</span><input class="input" type="text" name="name1" value="//必填"></div>
+                      </div>
+                      <div class="row">
+                        <div class="le"><span class="hint">预约时间： </span><input class="input" type="date" name="name1" value="//必填">   </div>
+                        <div class="ri"><span class="hint">终止时间：</span><input class="input" type="date" name="name2" value="//必填"></div>
+                      </div>
+                      <div class="row">
+                        <div class="le"><span class="hint">样品物种：</span><input class="input" type="text" name="name1" value="//必填">   </div>
+                        <div class="ri"><span class="hint">备注: </span><input class="input" type="text" name="name2" value="//选"></div>
+                      </div><br>
+                      <div class="row">
+                        <a href=""><button>保存</button></a>
+                        <a href=""><button>提交</button></a>
+                        <a href=""><button>导出Word</button></a>
+                      </div>
                   </div>
-                  <div class="down">
-                  <div class="row">
-                    <div class="le"><span class="hint">使用者姓名： </span><input class="input" type="text" name="name1">   </div>
-                    <div class="ri"><span class="hint">联系方式： </span><input class="input" type="text" name="name2"></div>
                   </div>
-                  <div class="row">
-                    <div class="le"><span class="hint">导师姓名： </span><input class="input" type="text" name="name1">   </div>
-                    <div class="ri"><span class="hint">联系方式： </span><input class="input" type="text" name="name2"></div>
-                  </div>
-                  <div class="row">
-                    <div class="le"><span class="hint">设施名称： </span><input class="input" type="text" name="name1">   </div>
-                    <div class="ri"><span class="hint">设施位置： </span><input class="input" type="text" name="name2"></div>
-                  </div>
-                  <div class="row">
-                    <div class="le"><span class="hint">设施编号： </span><input class="input" type="text" name="name1">   </div>
-                    <div class="ri"><span class="hint">研究项目：</span><input class="input" type="text" name="name1"></div>
-                  </div>
-                  <div class="row">
-                    <div class="le"><span class="hint">预约时间： </span><input class="input" type="date" name="name1">   </div>
-                    <div class="ri"><span class="hint">终止时间： </span><input class="input" type="date" name="name2"></div>
-                  </div>
-                  <div class="row">
-                    <div class="le"><span class="hint">样品物种： </span><input class="input" type="text" name="name1">   </div>
-                    <div class="ri"><span class="hint">备注: </span><input class="input" type="text" name="name2"></div>
-                  </div><br>
-                  <div class="row">
-                    <a href=""><button>保存</button></a>
-                    <a href=""><button>提交</button></a>
-                    <a href=""><button>导出Word</button></a>
-                  </div>
-                </div>
+                <form>
               </div>
             </form>
+          </div>
+          <div class="plat_comment">
+            <p>
+              注意：这里写注释！
+            </p>
           </div>
         </div>
       </div>

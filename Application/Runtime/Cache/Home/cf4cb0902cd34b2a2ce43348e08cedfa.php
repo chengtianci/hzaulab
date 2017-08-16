@@ -119,27 +119,27 @@
 	                <li class="secnav"><a href="/hzaulab/index.php/Home/About/about_show3">联系我们</a></li>
 	            </ul>
 	        </li>	
-	       <li class="navOne_class"> <a href="/hzaulab/index.php/Home/Field/field_show1">大田设施</a>
+	       <li class="navOne_class"> <a href="/hzaulab/index.php/Home/Field/field">大田设施</a>
 	        	<ul class="nav_left">
 	            	<li class="secnav"><a href="/hzaulab/index.php/Home/Field/field_show1">农田土地</a></li>
 	                <li class="secnav"><a href="/hzaulab/index.php/Home/Field/field_show2">露天盆栽场</a></li>
 	            </ul>
 	        </li>
-	        <li class="navOne_class"><a href="/hzaulab/index.php/Home/Room/room_show1">培养室</a>
+	        <li class="navOne_class"><a href="/hzaulab/index.php/Home/Room/room">培养室</a>
 	       		<ul class="nav_left">
 	            	<li class="secnav"><a href="/hzaulab/index.php/Home/Room/room_show1">温网室</a></li>
 	                <li class="secnav"><a href="/hzaulab/index.php/Home/Room/room_show2">光照培养室</a></li>
 	            </ul>
 	        </li>
 
-	        <li class="navOne_class"><a href="/hzaulab/index.php/Home/Laboratory/laboratory_show1">实验室</a>
+	        <li class="navOne_class"><a href="/hzaulab/index.php/Home/Laboratory/laboratory">实验室</a>
 	        	<ul class="nav_left">
 	            	<li class="secnav"><a href="/hzaulab/index.php/Home/Laboratory/laboratory_show1">公共实验室</a></li>
 	                <li class="secnav"><a href="/hzaulab/index.php/Home/Laboratory/laboratory_show2">教学实验室</a></li>
 	                <li class="secnav"><a href="/hzaulab/index.php/Home/Laboratory/laboratory_show3">实验辅助室</a></li>
 	            </ul>
 	        </li>
-	         <li class="navOne_class"><a href="/hzaulab/index.php/Home/Equipment/equipment_show1">仪器设备</a>
+	         <li class="navOne_class"><a href="/hzaulab/index.php/Home/Equipment/equipment">仪器设备</a>
 	        	<ul class="nav_right">
 	            	<li class="secnav"><a href="/hzaulab/index.php/Home/Equipment/equipment_show1">仪器设备</a></li>
 	            </ul>
@@ -192,11 +192,15 @@
                   <div class="ri"><span class="hint">联系方式： </span><input class="input" type="text" name="name2"></div>
                 </div>
                 <div class="row">
-                  <div class="le"><span class="hint">仪器名称： </span><input class="input" type="text" name="name1">   </div>
-                  <div class="ri"><span class="hint">设备编号： </span><input class="input" type="text" name="name2"></div>
+                  <div class="le"><span class="hint">实验室名称： </span><input class="input" type="text" name="name1">   </div>
+                  <div class="ri"><span class="hint">实验室位置： </span><input class="input" type="text" name="name2"></div>
                 </div>
                 <div class="row">
-                  <div class="le"><span class="hint">存放位置： </span><input class="input" type="text" name="name1">   </div>
+                  <div class="le"><span class="hint">实验室编号： </span><input class="input" type="text" name="name1">   </div>
+                  <div class="ri"><span class="hint">实验项目： </span><input class="input" type="text" name="name2"></div>
+                </div>
+                <div class="row">
+                  <div class="le"><span class="hint">主要操作： </span><input class="input" type="text" name="name1">   </div>
                   <div class="ri"><span class="hint" style="background: #fff;"></span></div>
                 </div>
                 <div class="row">
@@ -205,7 +209,7 @@
                 </div>
                 <div class="row">
                   <div class="le"><span class="hint">样品物种： </span><input class="input" type="text" name="name1">   </div>
-                  <div class="ri"><span class="hint">分析项目： </span><input class="input" type="text" name="name2"></div>
+                  <div class="ri"><span class="hint">备注： </span><input class="input" type="text" name="name2"></div>
                 </div><br>
                 <div class="row">
                   <a href=""><button>保存</button></a>

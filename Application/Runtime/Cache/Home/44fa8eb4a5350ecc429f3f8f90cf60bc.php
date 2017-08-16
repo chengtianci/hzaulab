@@ -119,28 +119,32 @@
 	                <li class="secnav"><a href="/hzaulab/index.php/Home/About/about_show3">联系我们</a></li>
 	            </ul>
 	        </li>	
-	       <li class="navOne_class"> <a href="/hzaulab/index.php/Home/Field/field_show1">大田设施</a>
+	       <li class="navOne_class"> <a href="/hzaulab/index.php/Home/Field/field">大田设施</a>
 	        	<ul class="nav_left">
+	            	<li class="secnav"><a href="/hzaulab/index.php/Home/Field/field">大田设施</a></li>
 	            	<li class="secnav"><a href="/hzaulab/index.php/Home/Field/field_show1">农田土地</a></li>
 	                <li class="secnav"><a href="/hzaulab/index.php/Home/Field/field_show2">露天盆栽场</a></li>
 	            </ul>
 	        </li>
-	        <li class="navOne_class"><a href="/hzaulab/index.php/Home/Room/room_show1">培养室</a>
+	        <li class="navOne_class"><a href="/hzaulab/index.php/Home/Room/room">培养室</a>
 	       		<ul class="nav_left">
+	            	<li class="secnav"><a href="/hzaulab/index.php/Home/Room/room">培养室简介</a></li>
 	            	<li class="secnav"><a href="/hzaulab/index.php/Home/Room/room_show1">温网室</a></li>
 	                <li class="secnav"><a href="/hzaulab/index.php/Home/Room/room_show2">光照培养室</a></li>
 	            </ul>
 	        </li>
 
-	        <li class="navOne_class"><a href="/hzaulab/index.php/Home/Laboratory/laboratory_show1">实验室</a>
+	        <li class="navOne_class"><a href="/hzaulab/index.php/Home/Laboratory/laboratory">实验室</a>
 	        	<ul class="nav_left">
+	            	<li class="secnav"><a href="/hzaulab/index.php/Home/Laboratory/laboratory">实验室简介</a></li>
 	            	<li class="secnav"><a href="/hzaulab/index.php/Home/Laboratory/laboratory_show1">公共实验室</a></li>
 	                <li class="secnav"><a href="/hzaulab/index.php/Home/Laboratory/laboratory_show2">教学实验室</a></li>
 	                <li class="secnav"><a href="/hzaulab/index.php/Home/Laboratory/laboratory_show3">实验辅助室</a></li>
 	            </ul>
 	        </li>
-	         <li class="navOne_class"><a href="/hzaulab/index.php/Home/Equipment/equipment_show1">仪器设备</a>
+	         <li class="navOne_class"><a href="/hzaulab/index.php/Home/Equipment/equipment">仪器设备</a>
 	        	<ul class="nav_right">
+	            	<li class="secnav"><a href="/hzaulab/index.php/Home/Equipment/equipment">仪器设备简介</a></li>
 	            	<li class="secnav"><a href="/hzaulab/index.php/Home/Equipment/equipment_show1">仪器设备</a></li>
 	            </ul>
 	        </li>
@@ -167,6 +171,7 @@
         <section>
           <h3>仪器设备</h3>
           <ul class="ultop">
+            <li><a href="/hzaulab/index.php/Home/Equipment/equipment" >仪器设备简介</a></li>
             <li><a href="/hzaulab/index.php/Home/Equipment/equipment_show1" style="border-left: 3px solid orange;">仪器设备</a></li>
           </ul>
         </section>
@@ -177,15 +182,16 @@
         <section class="article">
           <div>
             <form id="eqt_search" action="" method="post">
-              <input class="search" name="search" type="text"><input class="search_button" value="" type="submit">
               <br>
+              <input class="search" name="search" type="text"><input class="search_button" value="" type="submit">
+              <br><br>
               <div class="radio_box">
                 <input name="condition" value="1" checked="true" type="radio"> 所有　
                 <input name="condition" value="2" type="radio"> 设备名称　
                 <input name="condition" value="3" type="radio"> 设备编号　
               </div>
             </form>
-          </div>
+          </div><br>
           <div class="pitbox">
             <h4><a href="/hzaulab/index.php/Home/Equipment/equipment_show1_eqt" >气相色谱质谱联用仪</a></h4>
             <div class="pitexplan">

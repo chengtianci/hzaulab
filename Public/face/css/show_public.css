@@ -138,6 +138,17 @@
 	color: green;
 	display: inline-block;
 	border-bottom: 1px solid green;
+
+}
+/****************展示内容的*************************/
+.article .contantdis {
+	font-size: 15px;
+	margin-top: 15px;
+	text-indent: 25px;
+	line-height: 25px;
+	font-family: sans-serif;
+	padding: 10px 35px;
+}
 }
 /*************通知形式*************/
 .article{
@@ -151,6 +162,7 @@
 /*************搜索形式*************/
 #eqt_search{
 	width: 100%;
+	height: 45px;
 }
 #eqt_search .search,
 #eqt_search .search_button{
@@ -180,6 +192,7 @@
 }
 #eqt_search .radio_box{
 	margin-top: 10px;
+	min-height: 20px;
 }
 /*************列表形式1*************/
 .ere{

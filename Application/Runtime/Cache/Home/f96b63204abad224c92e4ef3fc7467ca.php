@@ -201,7 +201,8 @@
             <img class="eqtpit" src="/hzaulab/Public/face/images/eqt/1.jpg" alt="">
           </div>
           <div class="art_bottom">
-            <a href="/hzaulab/index.php/Home/Laboratory/equipment_show1_apply"><button>现在预约</button></a>
+            <a href="/hzaulab/index.php/Home/Laboratory/laboratory_apply"><button>现在预约</button></a>
+            
           </div>
         </section>
 

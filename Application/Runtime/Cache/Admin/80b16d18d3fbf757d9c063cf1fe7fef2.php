@@ -61,17 +61,20 @@
       </li>
       <li><a><i class="fa fa-desktop"></i> 大田设施<span class="fa fa-chevron-down"></span></a>
         <ul class="nav child_menu">
+          <li><a href="/hzaulab/index.php/Admin/Field/fieldluanch">页面发布</a></li>
           <li><a href="/hzaulab/index.php/Admin/Field/field">农田土地</a></li>
           <li><a href="/hzaulab/index.php/Admin/Field/OpenPot">露天盆栽场</a></li>
         </ul>
       </li>
       <li><a><i class="fa fa-mortar-board"></i> 培养室<span class="fa fa-chevron-down"></span></a>
         <ul class="nav child_menu">
+            <li><a href="/hzaulab/index.php/Admin/Room/roomluanch">页面发布</a></li>
           	<li><a href="/hzaulab/index.php/Admin/Room/WimbledonRoom">温网室</a></li>
           	<li><a href="/hzaulab/index.php/Admin/Room/LightCultureRoom">光照培养室</a></li>
       	</ul>
       <li><a><i class="fa fa-share-alt-square"></i>实验室 <span class="fa fa-chevron-down"></span></a>
         <ul class="nav child_menu">
+            <li><a href="/hzaulab/index.php/Admin/Laboratory/labluanch">页面发布</a></li>
             <li><a href="/hzaulab/index.php/Admin/Laboratory/publiclab">公共实验室</a></li>
             <li><a href="/hzaulab/index.php/Admin/Laboratory/teachlab">教学实验室</a></li>
             <li><a href="/hzaulab/index.php/Admin/Laboratory/sublab">实验辅助室</a></li>
@@ -79,6 +82,7 @@
       </li>
       <li><a><i class="fa fa-flask"></i>仪器设备<span class="fa fa-chevron-down"></span></a>
         <ul class="nav child_menu">
+          <li><a href="/hzaulab/index.php/Admin/Equipment/equipmentluanch">页面发布</a></li>
           <li><a href="/hzaulab/index.php/Admin/Equipment/equipment">仪器设备</a></li>
           <li><a href="/hzaulab/index.php/Admin/Equipment/consume">试剂耗材</a></li>
         </ul>
@@ -88,6 +92,11 @@
           <li><a href="/hzaulab/index.php/Admin/Regulation/regulation">规章制度</a></li>
           <li><a href="/hzaulab/index.php/Admin/Regulation/service">服务指南</a></li>
           <li><a href="/hzaulab/index.php/Admin/Regulation/download">下载专区</a></li>
+        </ul>
+      </li>
+      <li><a><i class="fa fa-user"></i>采购计划<span class="fa fa-chevron-down"></span></a>
+        <ul class="nav child_menu">
+          <li><a href="/hzaulab/index.php/Admin/Plan/plan">采购计划</a></li>
         </ul>
       </li>
     </ul>
@@ -405,51 +414,76 @@
                 <table id="datatable" class="table table-striped table-bordered">
                   <thead>
                   <tr>
+                    <th style="width: 50px;">序号</th>
                     <th>光照室名称</th>
                     <th >状态</th><!-- 列表显示待审申请、正在使用的申请、有效历史申请， -->
                     <th >操作</th>
                   </tr>
                   </thead>
-
-
                   <tbody>
-
                     <tr>
+                      <td></td>
                       <td><a href="/hzaulab/index.php/Admin/Room/equipment_app_show">r_name</a></td>
                       <td>r_time</td>
                       <td>
                         <a href="/hzaulab/index.php/Admin/Room/">同意 <i class="fa fa-pencil"></i></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                        <a href="/hzaulab/index.php/Admin/Room/" >拒绝 <i class="fa fa-close"></i></a>
+                        <a href="#" data-toggle="modal" data-target="#myModal3"  >拒绝 <i class="fa fa-close"></i></a>
                       </td>
                     </tr>
 
                     <tr>
+                      <td></td>
                       <td><a href="/hzaulab/index.php/Admin/Room/equipment_app_show">r_name</a></td>
                       <td>$vo.r_time</td>
                       <td>
                         <a href="/hzaulab/index.php/Admin/Room/" > 同意<i class="fa fa-pencil"></i></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                        <a href="/hzaulab/index.php/Admin/Room/" >拒绝 <i class="fa fa-close"></i></a>
+                        <a href="#" data-toggle="modal" data-target="#myModal3"  >拒绝 <i class="fa fa-close"></i></a>
                       </td>
                     </tr>
-
-                  <!-- <?php if(is_array($data)): $k = 0; $__LIST__ = $data;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$vo): $mod = ($k % 2 );++$k; if($k % 2 == 0) { ?>
+                  </tbody>
+                </table>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-10 col-sm-12 col-xs-12">
+            <div class="x_panel">
+              <div class="x_title">
+                <h2>B102光照培养室内申请历史<small>Light Culture Room History</small></h2>
+                <ul class="nav navbar-right panel_toolbox">
+                  <li class="panel_toolbox_li"><a class="close-link"><i class="fa fa-close"></i></a>
+                  </li>
+                  <li class="panel_toolbox_li"><a class="collapse-link"><i class="fa fa-chevron-up"></i></a>
+                  </li>
+                </ul>
+                <div class="clearfix"></div>
+              </div>
+              <div class="x_content">
+                <table id="datatable" class="table table-striped table-bordered">
+                  <thead>
+                  <tr>
+                    <th style="width: 50px;">序号</th>
+                    <th>实验室名称</th>
+                    <th >状态</th><!-- 列表显示待审申请、正在使用的申请、有效历史申请， -->
+                    <th >操作</th>
+                  </tr>
+                  </thead>
+                  <tbody>
                     <tr>
-                      <td><a href="/hzaulab/index.php/Admin/Room/equipment_app_show"><<?php echo ($vo["r_name"]); ?>></a></td>
-                      <td><<?php echo ($vo["r_time"]); ?>></td>
+                      <td></td>
+                      <td><a href="/hzaulab/index.php/Admin/Room/equipment_app_show">r_name</a></td>
+                      <td>r_time</td>
                       <td>
-                        <a href="/hzaulab/index.php/Admin/Room/notice_luanch" data-toggle="modal" data-target="#myModal" >同意 <i class="fa fa-pencil"></i></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                        <a href="/hzaulab/index.php/Admin/Room/" >拒绝 <i class="fa fa-close"></i></a>
+                        <a href="/hzaulab/index.php/Admin/Room/" >删除 <i class="fa fa-close"></i></a>
                       </td>
                     </tr>
-                    <?php } else { ?>
                     <tr>
-                      <td><a href="/hzaulab/index.php/Admin/Room/equipment_app_show"><<?php echo ($vo["r_name"]); ?>></a></td>
-                      <td><<?php echo ($vo["r_time"]); ?>></td>
-                      <td><a href="/hzaulab/index.php/Admin/Room/notice_luanch" data-toggle="modal" data-target="#myModal" >同意 <i class="fa fa-pencil"></i></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                        <a href="/hzaulab/index.php/Admin/Room/" >拒绝 <i class="fa fa-close"></i></a>
+                      <td></td>
+                      <td><a href="/hzaulab/index.php/Admin/Room/equipment_app_show">r_name</a></td>
+                      <td>$vo.r_time</td>
+                      <td>
+                        <a href="/hzaulab/index.php/Admin/Room/" >删除 <i class="fa fa-close"></i></a>
                       </td>
                     </tr>
-                    <?php } endforeach; endif; else: echo "" ;endif; ?> -->
                   </tbody>
                 </table>
                 <br><br>
@@ -675,59 +709,106 @@
                 <table id="datatable" class="table table-striped table-bordered">
                   <thead>
                   <tr>
+                    <th style="width: 50px;">序号</th>
                     <th>光照室名称</th>
                     <th >状态</th><!-- 列表显示待审申请、正在使用的申请、有效历史申请， -->
                     <th >操作</th>
                   </tr>
                   </thead>
-
-
                   <tbody>
-
                     <tr>
+                      <td></td>
                       <td><a href="/hzaulab/index.php/Admin/Room/equipment_app_show">r_name</a></td>
                       <td>r_time</td>
                       <td>
                         <a href="/hzaulab/index.php/Admin/Room/">同意 <i class="fa fa-pencil"></i></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                        <a href="/hzaulab/index.php/Admin/Room/" >拒绝 <i class="fa fa-close"></i></a>
+                        <a href="#" data-toggle="modal" data-target="#myModal3"  >拒绝 <i class="fa fa-close"></i></a>
                       </td>
                     </tr>
-
                     <tr>
+                      <td></td>
                       <td><a href="/hzaulab/index.php/Admin/Room/equipment_app_show">r_name</a></td>
                       <td>$vo.r_time</td>
                       <td>
                         <a href="/hzaulab/index.php/Admin/Room/" > 同意<i class="fa fa-pencil"></i></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                        <a href="/hzaulab/index.php/Admin/Room/" >拒绝 <i class="fa fa-close"></i></a>
+                        <a href="#" data-toggle="modal" data-target="#myModal3"  >拒绝 <i class="fa fa-close"></i></a>
                       </td>
                     </tr>
-
-                  <!-- <?php if(is_array($data)): $k = 0; $__LIST__ = $data;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$vo): $mod = ($k % 2 );++$k; if($k % 2 == 0) { ?>
+                  </tbody>
+                </table>
+              </div>
+            </div>
+          </div> 
+          <div class="col-md-10 col-sm-12 col-xs-12">
+            <div class="x_panel">
+              <div class="x_title">
+                <h2>B103光照培养室内申请历史<small>Light Culture Room History</small></h2>
+                <ul class="nav navbar-right panel_toolbox">
+                  <li class="panel_toolbox_li"><a class="close-link"><i class="fa fa-close"></i></a>
+                  </li>
+                  <li class="panel_toolbox_li"><a class="collapse-link"><i class="fa fa-chevron-up"></i></a>
+                  </li>
+                </ul>
+                <div class="clearfix"></div>
+              </div>
+              <div class="x_content">
+                <table id="datatable" class="table table-striped table-bordered">
+                  <thead>
+                  <tr>
+                    <th style="width: 50px;">序号</th>
+                    <th>实验室名称</th>
+                    <th >状态</th><!-- 列表显示待审申请、正在使用的申请、有效历史申请， -->
+                    <th >操作</th>
+                  </tr>
+                  </thead>
+                  <tbody>
                     <tr>
-                      <td><a href="/hzaulab/index.php/Admin/Room/equipment_app_show"><<?php echo ($vo["r_name"]); ?>></a></td>
-                      <td><<?php echo ($vo["r_time"]); ?>></td>
+                      <td></td>
+                      <td><a href="/hzaulab/index.php/Admin/Room/equipment_app_show">r_name</a></td>
+                      <td>r_time</td>
                       <td>
-                        <a href="/hzaulab/index.php/Admin/Room/notice_luanch" data-toggle="modal" data-target="#myModal" >同意 <i class="fa fa-pencil"></i></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                        <a href="/hzaulab/index.php/Admin/Room/" >拒绝 <i class="fa fa-close"></i></a>
+                        <a href="/hzaulab/index.php/Admin/Room/" >删除 <i class="fa fa-close"></i></a>
                       </td>
                     </tr>
-                    <?php } else { ?>
                     <tr>
-                      <td><a href="/hzaulab/index.php/Admin/Room/equipment_app_show"><<?php echo ($vo["r_name"]); ?>></a></td>
-                      <td><<?php echo ($vo["r_time"]); ?>></td>
-                      <td><a href="/hzaulab/index.php/Admin/Room/notice_luanch" data-toggle="modal" data-target="#myModal" >同意 <i class="fa fa-pencil"></i></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                        <a href="/hzaulab/index.php/Admin/Room/" >拒绝 <i class="fa fa-close"></i></a>
+                      <td></td>
+                      <td><a href="/hzaulab/index.php/Admin/Room/equipment_app_show">r_name</a></td>
+                      <td>$vo.r_time</td>
+                      <td>
+                        <a href="/hzaulab/index.php/Admin/Room/" >删除 <i class="fa fa-close"></i></a>
                       </td>
                     </tr>
-                    <?php } endforeach; endif; else: echo "" ;endif; ?> -->
                   </tbody>
                 </table>
                 <br><br>
                 <div data-toggle="modal" data-target="#myModal2" class="gallery_add">导出Excel</div>
               </div>
             </div>
-          </div>  
+          </div> 
 
+      </div>
+     <div class="modal fade" id="myModal3" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <button type="button" class="close" data-dismiss="modal" aria-hidden="true">
+                &times;
+              </button>
+              <h4 class="modal-title" id="myModalLabel">
+                回拒
+              </h4>
+            </div>
+            <div class="modal-body">
+              <form class="form" action="" method="post">
+                 <span class="eqthint">拒绝理由：</span><input type="textarea" class="gallery_textarea" name="gallery_title"><hr>
+              </form>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-default" data-dismiss="modal">取消</button>
+              <button type="button" class="btn btn-primary">提交</button>
+            </div>
+          </div><!-- /.modal-content -->
+        </div><!-- /.modal -->
       </div>
         <!--************************************************* 底部版权 *************************************************-->
       <footer id="footer">

@@ -60,17 +60,20 @@
       </li>
       <li><a><i class="fa fa-desktop"></i> 大田设施<span class="fa fa-chevron-down"></span></a>
         <ul class="nav child_menu">
+          <li><a href="/hzaulab/index.php/Admin/Field/fieldluanch">页面发布</a></li>
           <li><a href="/hzaulab/index.php/Admin/Field/field">农田土地</a></li>
           <li><a href="/hzaulab/index.php/Admin/Field/OpenPot">露天盆栽场</a></li>
         </ul>
       </li>
       <li><a><i class="fa fa-mortar-board"></i> 培养室<span class="fa fa-chevron-down"></span></a>
         <ul class="nav child_menu">
+            <li><a href="/hzaulab/index.php/Admin/Room/roomluanch">页面发布</a></li>
           	<li><a href="/hzaulab/index.php/Admin/Room/WimbledonRoom">温网室</a></li>
           	<li><a href="/hzaulab/index.php/Admin/Room/LightCultureRoom">光照培养室</a></li>
       	</ul>
       <li><a><i class="fa fa-share-alt-square"></i>实验室 <span class="fa fa-chevron-down"></span></a>
         <ul class="nav child_menu">
+            <li><a href="/hzaulab/index.php/Admin/Laboratory/labluanch">页面发布</a></li>
             <li><a href="/hzaulab/index.php/Admin/Laboratory/publiclab">公共实验室</a></li>
             <li><a href="/hzaulab/index.php/Admin/Laboratory/teachlab">教学实验室</a></li>
             <li><a href="/hzaulab/index.php/Admin/Laboratory/sublab">实验辅助室</a></li>
@@ -78,6 +81,7 @@
       </li>
       <li><a><i class="fa fa-flask"></i>仪器设备<span class="fa fa-chevron-down"></span></a>
         <ul class="nav child_menu">
+          <li><a href="/hzaulab/index.php/Admin/Equipment/equipmentluanch">页面发布</a></li>
           <li><a href="/hzaulab/index.php/Admin/Equipment/equipment">仪器设备</a></li>
           <li><a href="/hzaulab/index.php/Admin/Equipment/consume">试剂耗材</a></li>
         </ul>
@@ -87,6 +91,11 @@
           <li><a href="/hzaulab/index.php/Admin/Regulation/regulation">规章制度</a></li>
           <li><a href="/hzaulab/index.php/Admin/Regulation/service">服务指南</a></li>
           <li><a href="/hzaulab/index.php/Admin/Regulation/download">下载专区</a></li>
+        </ul>
+      </li>
+      <li><a><i class="fa fa-user"></i>采购计划<span class="fa fa-chevron-down"></span></a>
+        <ul class="nav child_menu">
+          <li><a href="/hzaulab/index.php/Admin/Plan/plan">采购计划</a></li>
         </ul>
       </li>
     </ul>
@@ -194,6 +203,7 @@
                 <table id="datatable" class="table table-striped table-bordered">
                   <thead>
                   <tr>
+                    <th style="width: 50px;">序号</th>
                     <th>Title</th>
                     <th style="width:15%;">Date</th>
                     <th style="width:20%;">operation</th>
@@ -204,7 +214,8 @@
                   <tbody>
 
                     <tr>
-                      <td><a href="/hzaulab/index.php/Admin/Regulation/">r_name</a></td>
+                      <td></td>
+                      <td><a href="/hzaulab/index.php/Admin/Regulation/show">r_name</a></td>
                       <td>r_time</td>
                       <td>
                         <a href="#" data-toggle="modal" data-target="#myModal" >修改 <i class="fa fa-pencil"></i></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
@@ -213,32 +224,14 @@
                     </tr>
 
                     <tr>
-                      <td><a href="/hzaulab/index.php/Admin/Regulation/">r_name</a></td>
+                      <td></td>
+                      <td><a href="/hzaulab/index.php/Admin/Regulation/show">r_name</a></td>
                       <td>$vo.r_time</td>
                       <td>
                         <a href="#" data-toggle="modal" data-target="#myModal" >修改 <i class="fa fa-pencil"></i></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                         <a href="/hzaulab/index.php/Admin/Regulation/" >删除 <i class="fa fa-close"></i></a>
                       </td>
                     </tr>
-
-                  <!-- <?php if(is_array($data)): $k = 0; $__LIST__ = $data;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$vo): $mod = ($k % 2 );++$k; if($k % 2 == 0) { ?>
-                    <tr>
-                      <td><a href="/hzaulab/index.php/Admin/Regulation/fictitious_show1_update/id/<<?php echo ($vo["id"]); ?>>/by/1"><<?php echo ($vo["r_name"]); ?>></a></td>
-                      <td><<?php echo ($vo["r_time"]); ?>></td>
-                      <td>
-                        <a href="#" data-toggle="modal" data-target="#myModal" >修改 <i class="fa fa-pencil"></i></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                        <a href="/hzaulab/index.php/Admin/Regulation/" >删除 <i class="fa fa-close"></i></a>
-                      </td>
-                    </tr>
-                    <?php } else { ?>
-                    <tr>
-                      <td><a href="/hzaulab/index.php/Admin/Regulation/fictitious_show1_update/id/<<?php echo ($vo["id"]); ?>>/by/1"><<?php echo ($vo["r_name"]); ?>></a></td>
-                      <td><<?php echo ($vo["r_time"]); ?>></td>
-                      <td><a href="#" data-toggle="modal" data-target="#myModal" >修改 <i class="fa fa-pencil"></i></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                        <a href="/hzaulab/index.php/Admin/Regulation/" >删除 <i class="fa fa-close"></i></a>
-                      </td>
-                    </tr>
-                    <?php } endforeach; endif; else: echo "" ;endif; ?> -->
                   </tbody>
                 </table>
                 <br><br>

@@ -2,7 +2,7 @@
   height: 750px;
 }
 .planbody{
-  height: 750px;
+  min-height: 440px;
   background: url(../images/bg2.png) no-repeat 0px 0 ;
   background-size: 100% ;
   position: relative;

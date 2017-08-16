@@ -7,6 +7,7 @@
 	width: 120%;
 	text-align: center;
 	background: #E5E1D5;
+	letter-spacing: 0;
 }
 .box1,
 .box2,
@@ -21,7 +22,6 @@
 .box2_two,
 .box2_three,
 .box2_four,
-.box2_five,
 .box3_one{
 	text-align: center;
 	border: 1px solid #f0f0f0;

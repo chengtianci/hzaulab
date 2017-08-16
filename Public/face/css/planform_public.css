@@ -61,7 +61,6 @@
 }
 /***************************俯视图***************************/
 .planform{
-	height: 100px;
 	width: 100%;
 	left: 0;
 	position: relative;
@@ -163,7 +162,20 @@
 	float: left;
 	width: 100%;
 }
-/********************hint颜色提示****************************/
+/********************注释块****************************/
+.plat_comment {
+	float: left;
+	width: 100%;
+	padding: 35px;
+}
+.plat_comment p {
+	font-size: 15px;
+	margin-top: 15px;
+	text-indent: 15px;
+	line-height: 25px;
+	font-weight: ;
+	font-family: sans-serif;
+}
 
 /****************#applyform 弹窗********************************/
 #muticonfirm {
