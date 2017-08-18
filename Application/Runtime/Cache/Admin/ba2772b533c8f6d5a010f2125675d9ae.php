@@ -3,7 +3,8 @@
 <head>
     <meta charset="utf-8">
     <title>华中农业大学实验教学中心互动平台</title>
-  	<link rel="shortcut icon" href="/hzaulab/back.ico" type="image/x-icon" />
+    <link rel="shortcut icon" href="/hzaulab/back.ico" type="image/x-icon" />
+
 
 	  <!-- Bootstrap -->
     <link href="/hzaulab/Public/back/include/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
@@ -190,7 +191,7 @@
           <div class="col-md-10 col-sm-12 col-xs-12">
             <div class="x_panel">
               <div class="x_title">
-                <h2>通知公告<small>Notice</small></h2>
+                <h2>采购计划<small>Plan</small></h2>
                 <ul class="nav navbar-right panel_toolbox">
                   <li class="panel_toolbox_li"><a class="close-link"><i class="fa fa-close"></i></a>
                   </li>
@@ -200,105 +201,34 @@
                 <div class="clearfix"></div>
               </div>
               <div class="x_content">
-                <table id="datatable" class="table table-striped table-bordered">
+                <form>
+                <table  class="table table-striped table-bordered">
                   <thead>
                   <tr>
-                    <th style="width: 50px;">序号</th>
-                    <th>Title</th>
-                    <th style="width:15%;">Date</th>
-                    <th style="width:20%;">operation</th>
+                    <th>名称</th>
+                    <th >日期</th>
+                    <th >数量</th>
                   </tr>
                   </thead>
-
-
                   <tbody>
-
                     <tr>
-                      <td></td>
-                      <td><a href="/hzaulab/index.php/Admin/Introduction/notice_show">r_name</a></td>
                       <td>r_time</td>
-                      <td>
-                        <a href="/hzaulab/index.php/Admin/Introduction/notice_edit">修改 <i class="fa fa-pencil"></i></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                        <a href="/hzaulab/index.php/Admin/Introduction/" >删除 <i class="fa fa-close"></i></a>
-                      </td>
+                      <td><input type="text" name=""></td>
+                      <td><input type="text" name=""></td>
                     </tr>
-
                     <tr>
-                      <td></td>
-                      <td><a href="/hzaulab/index.php/Admin/Introduction/">r_name</a></td>
-                      <td>$vo.r_time</td>
-                      <td>
-                        <a href="/hzaulab/index.php/Admin/Introduction/notice_edit" >修改 <i class="fa fa-pencil"></i></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                        <a href="/hzaulab/index.php/Admin/Introduction/" >删除 <i class="fa fa-close"></i></a>
-                      </td>
+                      <td>r_name</td>
+                      <td><input type="text" name=""></td>
+                      <td><input type="text" name=""></td>
                     </tr>
                   </tbody>
                 </table>
                 <br><br>
-                <a href="/hzaulab/index.php/Admin/Introduction/add"><div s class="gallery_add">添加</div></a>
+                <a href=""><div class="gallery_add">提交</div></a>
+                </form>
               </div>
             </div>
           </div>
-
-            <div class="modal fade" id="myModal2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-              <div class="modal-dialog">
-                <div class="modal-content">
-                  <div class="modal-header">
-                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">
-                      &times;
-                    </button>
-                    <h4 class="modal-title" id="myModalLabel">
-                      通知公告-添加
-                    </h4>
-                  </div>
-                  <div class="modal-body">
-                    
-                    <form class="form" action="" method="post">
-                      <input type="text" id="idInfor" value="<<?php echo ($data["id"]); ?>>" hidden>
-                      <input type="text" class="gallery_title" name="gallery_title" id="gallery_title" placeholder="标题">
-                       
-                      <input type="text" id="idInfor" value="<<?php echo ($data["id"]); ?>>" hidden>
-                        <script id='container' style="height:350px;" name='content' type="text/plain">这里写要的简介</script>
-                        <br><button type="button" id="saveContent" class="btn btn-primary">Submit</button>
-                        <script src="/hzaulab/Public/Js/jquery-3.1.1.min.js"></script>
-                        <script type="text/javascript" src="/hzaulab/Public/Ueditor/ueditor.config.js">
-                        </script>
-                        <script type="text/javascript" src="/hzaulab/Public/Ueditor/ueditor.all.js">
-                        </script>
-                        <script type="text/javascript">
-                            $(function () {
-                                var ue=UE.getEditor ('container');
-                                $('#saveContent').click(function () {
-                                    var html = ue.getContent();
-                                    var param = {
-                                        id:$('#idInfor').val(),
-                                        content:html
-                                    };
-                                    $.ajax({
-                                        url: '',//路径
-                                        type: 'POST',
-                                        dataType: 'json',
-                                        data: param,
-                                        success: function(data){
-                                            console.log(data);
-                                            window.location.href="";//返回路径？
-                                        },
-                                        error: function(xhr){
-                                            alert("失败");
-                                            console.log(xhr);
-                                        }
-                                    });
-                                });
-                            });
-                        </script><br>
-                    </form>
-                  </div>
-
-                  <div class="modal-footer">
-                  </div>
-                </div><!-- /.modal-content -->
-              </div><!-- /.modal -->
-            </div>  
 
       </div>
         <!--************************************************* 底部版权 *************************************************-->

@@ -202,6 +202,11 @@
               </div>
               <div class="x_content">
                 <form>
+                <div class="color">
+                    占用：<span class="hintred"></span>&nbsp;&nbsp;&nbsp;&nbsp;
+                    锁定：<span class="hintgrey"></span>  &nbsp;&nbsp;&nbsp;&nbsp;
+                    开放：<span class="hintunlock"></span> 
+                  </div>
                   <div class="southWimbledon">
                   <div class="le">
                     <div class="up">
@@ -603,6 +608,11 @@
               </div>
               <div class="x_content">
                 <form>
+                  <div class="color">
+                    占用：<span class="hintred"></span>&nbsp;&nbsp;&nbsp;&nbsp;
+                    锁定：<span class="hintgrey"></span>  &nbsp;&nbsp;&nbsp;&nbsp;
+                    开放：<span class="hintunlock"></span> 
+                  </div>
                   <div class="northWimbledon">
                   <div class="le">
                     <table>

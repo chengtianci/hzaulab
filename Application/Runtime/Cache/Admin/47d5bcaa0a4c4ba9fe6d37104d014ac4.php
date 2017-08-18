@@ -367,7 +367,15 @@
                 <span class="eqthint">面积：</span><input type="text" class="gallery_eqt" name="gallery_title"><br>
                 <span class="eqthint">位置：</span><input type="text" class="gallery_eqt" name="gallery_title">
                 <span class="eqthint">用途：</span><input type="text" class="gallery_eqt" name="gallery_title"><br>
-                <span class="eqthint">状态：</span><input type="text" class="gallery_eqt" name="gallery_title"><hr>
+                <span class="eqthint">状态：</span>
+                  <select class="gallery_eqt">
+                    <option>故障</option>
+                    <option>锁定</option>
+                    <option>占用</option>
+                    <option>开放</option>
+                  </select>
+                <span class="eqthint"></span><input type="file" class="gallery_eqt" name="gallery_title">
+                <hr>
                 <b class="head">联系人</b><br>
                 <span class="eqthint">姓名：</span><input type="text" class="gallery_eqt" name="gallery_title">
                 <span class="eqthint">类型：</span><input type="text" class="gallery_eqt" name="gallery_title"><br>
@@ -411,7 +419,15 @@
                 <span class="eqthint">面积：</span><input type="text" class="gallery_eqt" name="gallery_title"><br>
                 <span class="eqthint">位置：</span><input type="text" class="gallery_eqt" name="gallery_title">
                 <span class="eqthint">用途：</span><input type="text" class="gallery_eqt" name="gallery_title"><br>
-                <span class="eqthint">状态：</span><input type="text" class="gallery_eqt" name="gallery_title"><hr>
+                <span class="eqthint">状态：</span>
+                  <select class="gallery_eqt">
+                    <option>故障</option>
+                    <option>锁定</option>
+                    <option>占用</option>
+                    <option>开放</option>
+                  </select>
+                <span class="eqthint"></span><input type="file" class="gallery_eqt" name="gallery_title">
+                <hr>
                 <b class="head">联系人</b><br>
                 <span class="eqthint">姓名：</span><input type="text" class="gallery_eqt" name="gallery_title">
                 <span class="eqthint">类型：</span><input type="text" class="gallery_eqt" name="gallery_title"><br>

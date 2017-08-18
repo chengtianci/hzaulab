@@ -201,6 +201,17 @@
                 <div class="clearfix"></div>
               </div>
               <div class="x_content">
+                <form id="eqt_search" action="" method="post">
+                  <input class="search" name="search" type="text"><input class="search_button" value="" type="submit">
+                  <br>
+                  <div class="radio_box">
+                    <input name="condition" value="1" checked="true" type="radio"> 所有　
+                    <input name="condition" value="2" type="radio"> 设备名称　
+                    <input name="condition" value="3" type="radio"> 设备编号　
+                  </div>
+                  <br>
+                </form>
+                <div class="clearfix"></div>
                 <table id="datatable" class="table table-striped table-bordered">
                   <thead>
                   <tr>
@@ -366,7 +377,15 @@
                 <span class="eqthint">面积：</span><input type="text" class="gallery_eqt" name="gallery_title"><br>
                 <span class="eqthint">位置：</span><input type="text" class="gallery_eqt" name="gallery_title">
                 <span class="eqthint">用途：</span><input type="text" class="gallery_eqt" name="gallery_title"><br>
-                <span class="eqthint">状态：</span><input type="text" class="gallery_eqt" name="gallery_title"><hr>
+                <span class="eqthint">状态：</span>
+                  <select class="gallery_eqt">
+                    <option>故障</option>
+                    <option>锁定</option>
+                    <option>占用</option>
+                    <option>开放</option>
+                  </select>
+                <span class="eqthint"></span><input type="file" class="gallery_eqt" name="gallery_title">
+                <hr>
                 <b class="head">联系人</b><br>
                 <span class="eqthint">姓名：</span><input type="text" class="gallery_eqt" name="gallery_title">
                 <span class="eqthint">类型：</span><input type="text" class="gallery_eqt" name="gallery_title"><br>
@@ -410,7 +429,15 @@
                 <span class="eqthint">面积：</span><input type="text" class="gallery_eqt" name="gallery_title"><br>
                 <span class="eqthint">位置：</span><input type="text" class="gallery_eqt" name="gallery_title">
                 <span class="eqthint">用途：</span><input type="text" class="gallery_eqt" name="gallery_title"><br>
-                <span class="eqthint">状态：</span><input type="text" class="gallery_eqt" name="gallery_title"><hr>
+                <span class="eqthint">状态：</span>
+                  <select class="gallery_eqt">
+                    <option>故障</option>
+                    <option>锁定</option>
+                    <option>占用</option>
+                    <option>开放</option>
+                  </select>
+                <span class="eqthint"></span><input type="file" class="gallery_eqt" name="gallery_title">
+                <hr>
                 <b class="head">联系人</b><br>
                 <span class="eqthint">姓名：</span><input type="text" class="gallery_eqt" name="gallery_title">
                 <span class="eqthint">类型：</span><input type="text" class="gallery_eqt" name="gallery_title"><br>

@@ -24,6 +24,9 @@
 	padding: 0 10px;
 	width: 150px;
 }
+.gallery_eqt option {
+	border: 0px;
+}
 .coninput {
 	display: block;
 	margin: 15px;
@@ -87,4 +90,75 @@
 	bottom:15px;
 	width: 65px;
 }
+/*颜色提示*/
+.color .hintred{
+	background: pink;
+	line-height: 40px;
+	display: inline-block;
+	width: 20px;
+	content: " ";
+	height: 12px;
+}
+.hint_red {
+	background: pink;
+	border: 1px solid pink;
+	box-shadow: 0 0 1px 1px pink !important;
 
+}
+.color .hintgrey{
+	background: grey;
+	line-height: 40px;
+	display: inline-block;
+	width: 20px;
+	content: " ";
+	height: 12px;
+}
+.hint_grey {
+	background: grey;
+	border: 1px solid grey;
+	box-shadow: 0 0 1px 1px grey !important;
+	color: #fff;
+}
+.color .hintunlock {
+	background: #fff;
+	line-height: 40px;
+	display: inline-block;
+	width: 20px;
+	content: " ";
+	height: 12px;
+	box-shadow: 0 0 1px 1px;
+}
+/*搜索框*/
+#eqt_search{
+	width: 100%;
+}
+#eqt_search .search,
+#eqt_search .search_button{
+	border: 1px solid #73879C;
+	float: left;	
+}
+#eqt_search .search{
+	padding: 3px 2px 3px 0px;
+	text-indent: 5px;
+	height: 25px;
+	border-right: none;
+	width: 170px;
+}
+#eqt_search .search:focus{
+	border:2px solid #73879C;
+	border-right: none;
+}
+#eqt_search .search_button{
+	height: 25px;
+	background: #73879C url('../images/search.png') no-repeat center;
+	background-size:20px 20px; 
+	color: #FFF;
+	width: 40px;
+}
+#eqt_search .search_button:hover{
+	cursor: pointer;
+}
+#eqt_search .radio_box{
+	margin-top: 10px;
+	min-height: 20px;
+}

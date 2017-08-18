@@ -3,7 +3,8 @@
 <head>
     <meta charset="utf-8">
     <title>华中农业大学实验教学中心互动平台</title>
-  	<link rel="shortcut icon" href="/hzaulab/back.ico" type="image/x-icon" />
+    <link rel="shortcut icon" href="/hzaulab/back.ico" type="image/x-icon" />
+
 
 	  <!-- Bootstrap -->
     <link href="/hzaulab/Public/back/include/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
@@ -14,6 +15,7 @@
     <!-- Custom Theme Style -->
     <link href="/hzaulab/Public/back/css/custom.min.css" rel="stylesheet">
     <link href="/hzaulab/Public/back/css/public.css" rel="stylesheet" >
+    <link href="/hzaulab/Public/back/css/plan.css" rel="stylesheet" >
 </head>
     <body class="nav-md">
     <div class="container body">
@@ -203,51 +205,26 @@
                 <table id="datatable" class="table table-striped table-bordered">
                   <thead>
                   <tr>
-                    <th>Title</th>
-                    <th style="width:15%;">Date</th>
-                    <th style="width:20%;">operation</th>
+                    <th>名称</th>
+                    <th style="width:15%;">日期</th>
+                    <th style="width:20%;">操作</th>
                   </tr>
                   </thead>
-
-
                   <tbody>
-
                     <tr>
-                      <td><a href="/hzaulab/index.php/Admin/Plan/notice_show">r_name</a></td>
+                      <td><a href="/hzaulab/index.php/Admin/Plan/plan_show">r_name</a></td>
                       <td>r_time</td>
                       <td>
-                        <a href="/hzaulab/index.php/Admin/Plan/notice_edit">修改 <i class="fa fa-pencil"></i></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                         <a href="/hzaulab/index.php/Admin/Plan/" >删除 <i class="fa fa-close"></i></a>
                       </td>
                     </tr>
-
                     <tr>
-                      <td><a href="/hzaulab/index.php/Admin/Plan/">r_name</a></td>
+                      <td><a href="/hzaulab/index.php/Admin/Plan/plan_show">r_name</a></td>
                       <td>$vo.r_time</td>
                       <td>
-                        <a href="/hzaulab/index.php/Admin/Plan/notice_edit" >修改 <i class="fa fa-pencil"></i></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                         <a href="/hzaulab/index.php/Admin/Plan/" >删除 <i class="fa fa-close"></i></a>
                       </td>
                     </tr>
-
-                  <!-- <?php if(is_array($data)): $k = 0; $__LIST__ = $data;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$vo): $mod = ($k % 2 );++$k; if($k % 2 == 0) { ?>
-                    <tr>
-                      <td><a href="/hzaulab/index.php/Admin/Plan/fictitious_show1_update/id/<<?php echo ($vo["id"]); ?>>/by/1"><<?php echo ($vo["r_name"]); ?>></a></td>
-                      <td><<?php echo ($vo["r_time"]); ?>></td>
-                      <td>
-                        <a href="/hzaulab/index.php/Admin/Plan/notice_luanch" data-toggle="modal" data-target="#myModal" >修改 <i class="fa fa-pencil"></i></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                        <a href="/hzaulab/index.php/Admin/Plan/" >删除 <i class="fa fa-close"></i></a>
-                      </td>
-                    </tr>
-                    <?php } else { ?>
-                    <tr>
-                      <td><a href="/hzaulab/index.php/Admin/Plan/fictitious_show1_update/id/<<?php echo ($vo["id"]); ?>>/by/1"><<?php echo ($vo["r_name"]); ?>></a></td>
-                      <td><<?php echo ($vo["r_time"]); ?>></td>
-                      <td><a href="/hzaulab/index.php/Admin/Plan/notice_luanch" data-toggle="modal" data-target="#myModal" >修改 <i class="fa fa-pencil"></i></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                        <a href="/hzaulab/index.php/Admin/Plan/" >删除 <i class="fa fa-close"></i></a>
-                      </td>
-                    </tr>
-                    <?php } endforeach; endif; else: echo "" ;endif; ?> -->
                   </tbody>
                 </table>
                 <br><br>
@@ -255,58 +232,24 @@
               </div>
             </div>
           </div>
-
             <div class="modal fade" id="myModal2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-              <div class="modal-dialog">
+              <div class="modal-dialog" style="width:min-width:600px;width: 800px;">
                 <div class="modal-content">
                   <div class="modal-header">
                     <button type="button" class="close" data-dismiss="modal" aria-hidden="true">
                       &times;
                     </button>
                     <h4 class="modal-title" id="myModalLabel">
-                      通知公告-添加
+                      采购计划-添加
                     </h4>
                   </div>
-                  <div class="modal-body">
-                    
+                  <div class="modal-body" >   
                     <form class="form" action="" method="post">
-                      <input type="text" id="idInfor" value="<<?php echo ($data["id"]); ?>>" hidden>
-                      <input type="text" class="gallery_title" name="gallery_title" id="gallery_title" placeholder="标题">
-                       
-                      <input type="text" id="idInfor" value="<<?php echo ($data["id"]); ?>>" hidden>
-                        <script id='container' style="height:350px;" name='content' type="text/plain">这里写要的简介</script>
-                        <br><button type="button" id="saveContent" class="btn btn-primary">Submit</button>
-                        <script src="/hzaulab/Public/Js/jquery-3.1.1.min.js"></script>
-                        <script type="text/javascript" src="/hzaulab/Public/Ueditor/ueditor.config.js">
-                        </script>
-                        <script type="text/javascript" src="/hzaulab/Public/Ueditor/ueditor.all.js">
-                        </script>
-                        <script type="text/javascript">
-                            $(function () {
-                                var ue=UE.getEditor ('container');
-                                $('#saveContent').click(function () {
-                                    var html = ue.getContent();
-                                    var param = {
-                                        id:$('#idInfor').val(),
-                                        content:html
-                                    };
-                                    $.ajax({
-                                        url: '',//路径
-                                        type: 'POST',
-                                        dataType: 'json',
-                                        data: param,
-                                        success: function(data){
-                                            console.log(data);
-                                            window.location.href="";//返回路径？
-                                        },
-                                        error: function(xhr){
-                                            alert("失败");
-                                            console.log(xhr);
-                                        }
-                                    });
-                                });
-                            });
-                        </script><br>
+                      <input id="rowNum" type="text" name="row" onkeyup="this.value=this.value.replace(/\D/g,'')" onafterpaste="this.value=this.value.replace(/\D/g,'')" placeholder="请输入行数">
+                      <input id="colNum" type="text" name="col" onkeyup="this.value=this.value.replace(/\D/g,'')" onafterpaste="this.value=this.value.replace(/\D/g,'')" placeholder="请输入列数">
+                      <div id="create_tab">生成</div><br><br>
+                      <table id="tbl_t" contentEditable="true"></table><br>
+                      <button type="button" id="table_sub" class="btn btn-primary">Submit</button>
                     </form>
                   </div>
 
@@ -315,7 +258,6 @@
                 </div><!-- /.modal-content -->
               </div><!-- /.modal -->
             </div>  
-
       </div>
         <!--************************************************* 底部版权 *************************************************-->
       <footer id="footer">
@@ -341,5 +283,44 @@
 
     <!-- <script src="/hzaulab/Public/back/include/datatables.net/js/jquery.dataTables.min.js"></script> -->
     <!-- <script src="/hzaulab/Public/back/include/datatables.net-bs/js/dataTables.bootstrap.min.js"></script> -->
+    <script type="text/javascript" src="/hzaulab/Public/back/js/plan.js" ></script>
+    <script type="text/javascript">
+    
+        var oSubmit = document.getElementById('table_sub');
+        var oTab = document.getElementById('tbl_t');
+
+        oSubmit.onclick = function () {
+          console.log(oTab);
+          console.log(oTab.childNodes.length);
+          var param = [],
+              filed = null;
+            for (var i = 0; i < oTab.childNodes.length; i++) {
+              filed = oTab.childNodes[i];
+              for (var j = 0; j < filed.childNodes.length; j++) {
+                if (filed.childNodes[j].tagName == "TD" ) {
+                  param.push(i + ":" + j + "=" + filed.childNodes[j].innerHTML); 
+                }
+                
+              }
+            }
+            param.join("&");
+
+          // $.ajax({
+          //     url: '',//路径
+          //     type: 'POST',
+          //     dataType: 'json',
+          //     data: param,
+          //     success: function(data){
+          //         console.log(data);
+          //         window.location.href="";//返回路径？
+          //     },
+          //     error: function(xhr){
+          //         alert("失败");
+          //         console.log(xhr);
+          //     }
+          // });
+        }
+      
+    </script>
   </body>
 </html>

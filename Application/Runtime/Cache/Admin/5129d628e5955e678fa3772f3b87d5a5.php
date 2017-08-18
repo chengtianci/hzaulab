@@ -218,7 +218,7 @@
                       <td><a href="/hzaulab/index.php/Admin/Regulation/show">r_name</a></td>
                       <td>r_time</td>
                       <td>
-                        <a href="#" data-toggle="modal" data-target="#myModal" >修改 <i class="fa fa-pencil"></i></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        <a href="/hzaulab/index.php/Admin/Regulation/edit"  >修改 <i class="fa fa-pencil"></i></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                         <a href="/hzaulab/index.php/Admin/Regulation/" >删除 <i class="fa fa-close"></i></a>
                       </td>
                     </tr>
@@ -228,90 +228,17 @@
                       <td><a href="/hzaulab/index.php/Admin/Regulation/show">r_name</a></td>
                       <td>$vo.r_time</td>
                       <td>
-                        <a href="#" data-toggle="modal" data-target="#myModal" >修改 <i class="fa fa-pencil"></i></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        <a href="/hzaulab/index.php/Admin/Regulation/edit"  >修改 <i class="fa fa-pencil"></i></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                         <a href="/hzaulab/index.php/Admin/Regulation/" >删除 <i class="fa fa-close"></i></a>
                       </td>
                     </tr>
-
-                  <!-- <?php if(is_array($data)): $k = 0; $__LIST__ = $data;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$vo): $mod = ($k % 2 );++$k; if($k % 2 == 0) { ?>
-                    <tr>
-                      <td><a href="/hzaulab/index.php/Admin/Regulation/fictitious_show1_update/id/<<?php echo ($vo["id"]); ?>>/by/1"><<?php echo ($vo["r_name"]); ?>></a></td>
-                      <td><<?php echo ($vo["r_time"]); ?>></td>
-                      <td>
-                        <a href="#" data-toggle="modal" data-target="#myModal" >修改 <i class="fa fa-pencil"></i></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                        <a href="/hzaulab/index.php/Admin/Regulation/" >删除 <i class="fa fa-close"></i></a>
-                      </td>
-                    </tr>
-                    <?php } else { ?>
-                    <tr>
-                      <td><a href="/hzaulab/index.php/Admin/Regulation/fictitious_show1_update/id/<<?php echo ($vo["id"]); ?>>/by/1"><<?php echo ($vo["r_name"]); ?>></a></td>
-                      <td><<?php echo ($vo["r_time"]); ?>></td>
-                      <td><a href="#" data-toggle="modal" data-target="#myModal" >修改 <i class="fa fa-pencil"></i></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                        <a href="/hzaulab/index.php/Admin/Regulation/" >删除 <i class="fa fa-close"></i></a>
-                      </td>
-                    </tr>
-                    <?php } endforeach; endif; else: echo "" ;endif; ?> -->
                   </tbody>
                 </table>
                 <br><br>
                 <div data-toggle="modal" data-target="#myModal2" class="gallery_add">添加</div>
               </div>
             </div>
-          </div>
-            <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-              <div class="modal-dialog">
-                <div class="modal-content">
-                  <div class="modal-header">
-                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">
-                      &times;
-                    </button>
-                    <h4 class="modal-title" id="myModalLabel">
-                      规章制度-修改
-                    </h4>
-                  </div>
-                  <div class="modal-body">
-                    
-                    <form class="form" action="" method="post">
-                      <input type="text" id="idInfor" value="<<?php echo ($data["id"]); ?>>" hidden>
-                      <input type="text" class="gallery_title" name="gallery_title" id="gallery_title" placeholder="标题">
-                       <div id="editor1">
-                         <p>原来的文段</p>
-                       </div>
-                     
-                      <script type="text/javascript" src="/hzaulab/Public/Js/wangEditor.min.js"></script>
-                      <script type="text/javascript">
-                          var E = window.wangEditor;
-                          var editor = new E( document.getElementById('editor1') );
-                          editor.customConfig.menus = [
-                                                  'head',  // 标题
-                                                  'bold',  // 粗体
-                                                  'italic',  // 斜体
-                                                  'underline',  // 下划线
-                                                  'strikeThrough',  // 删除线
-                                                  'foreColor',  // 文字颜色
-                                                  'backColor',  // 背景颜色
-                                                  'link',  // 插入链接
-                                                  'list',  // 列表
-                                                  'justify',  // 对齐方式
-                                                  'quote',  // 引用
-                                                  'emoticon',  // 表情
-                                                  'image',  // 插入图片
-                                                  'table',  // 表格
-                                                  'video',  // 插入视频
-                                              ]
-                          editor.create();
-                      </script>
-                    </form>
-                  </div>
-
-                  <div class="modal-footer">
-                    <button type="button" class="btn btn-default" data-dismiss="modal">取消</button>
-                    <button type="button" class="btn btn-primary">提交</button>
-                  </div>
-                </div><!-- /.modal-content -->
-              </div><!-- /.modal -->
-            </div>   
-
+          </div>  
             <div class="modal fade" id="myModal2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
               <div class="modal-dialog">
                 <div class="modal-content">
@@ -328,33 +255,43 @@
                     <form class="form" action="" method="post">
                       <input type="text" id="idInfor" value="<<?php echo ($data["id"]); ?>>" hidden>
                       <input type="text" class="gallery_title" name="gallery_title" id="gallery_title" placeholder="标题">
-                       <div id="editor2">
-                         <p>请填写公告内容</p>
-                       </div>
-                     
-                      <script type="text/javascript" src="/hzaulab/Public/Js/wangEditor.min.js"></script>
-                      <script type="text/javascript">
-                          var E = window.wangEditor;
-                          var editor = new E( document.getElementById('editor2') );
-                          editor.customConfig.menus = [
-                                                  'head',  // 标题
-                                                  'bold',  // 粗体
-                                                  'italic',  // 斜体
-                                                  'underline',  // 下划线
-                                                  'strikeThrough',  // 删除线
-                                                  'foreColor',  // 文字颜色
-                                                  'backColor',  // 背景颜色
-                                                  'link',  // 插入链接
-                                                  'list',  // 列表
-                                                  'justify',  // 对齐方式
-                                                  'quote',  // 引用
-                                                  'emoticon',  // 表情
-                                                  'image',  // 插入图片
-                                                  'table',  // 表格
-                                                  'video',  // 插入视频
-                                              ]
-                          editor.create();
-                      </script>
+
+                  <script id='container' style="height:350px;" name='content' type="text/plain">这里写要的简介</script>
+                  <br><button type="button" id="saveContent" class="btn btn-primary">Submit</button>
+                  <script src="/hzaulab/Public/Js/jquery-3.1.1.min.js"></script>
+                  <!--配置文件-->
+                  <script type="text/javascript" src="/hzaulab/Public/Ueditor/ueditor.config.js">
+                  </script>
+                   <!--编译器源码文件-->
+                  <script type="text/javascript" src="/hzaulab/Public/Ueditor/ueditor.all.js">
+                  </script>
+                  <!--实例化编译器-->
+                  <script type="text/javascript">
+                      $(function () {
+                          var ue=UE.getEditor ('container');
+                          $('#saveContent').click(function () {
+                              var html = ue.getContent();
+                              var param = {
+                                  id:$('#idInfor').val(),
+                                  content:html
+                              };
+                              $.ajax({
+                                  url: '',//路径
+                                  type: 'POST',
+                                  dataType: 'json',
+                                  data: param,
+                                  success: function(data){
+                                      console.log(data);
+                                      window.location.href="";//返回路径？
+                                  },
+                                  error: function(xhr){
+                                      alert("失败");
+                                      console.log(xhr);
+                                  }
+                              });
+                          });
+                      });
+                  </script><br>
                     </form>
                   </div>
 

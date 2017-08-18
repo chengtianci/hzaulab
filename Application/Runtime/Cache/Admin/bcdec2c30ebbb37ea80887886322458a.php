@@ -201,7 +201,17 @@
                 <div class="clearfix"></div>
               </div>
               <div class="x_content">
-                
+                <form id="eqt_search" action="" method="post">
+                  <input class="search" name="search" type="text"><input class="search_button" value="" type="submit">
+                  <br>
+                  <div class="radio_box">
+                    <input name="condition" value="1" checked="true" type="radio"> 所有　
+                    <input name="condition" value="2" type="radio"> 设备名称　
+                    <input name="condition" value="3" type="radio"> 设备编号　
+                  </div>
+                  <br>
+                </form>
+                <div class="clearfix"></div>
                 <table id="datatable" class="table table-striped table-bordered">
                   <thead>
                   <tr>
@@ -311,25 +321,6 @@
                         <a href="#" data-toggle="modal" data-target="#myModal3" >拒绝 <i class="fa fa-close"></i></a>
                       </td>
                     </tr>
-
-                  <!-- <?php if(is_array($data)): $k = 0; $__LIST__ = $data;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$vo): $mod = ($k % 2 );++$k; if($k % 2 == 0) { ?>
-                    <tr>
-                      <td><a href="/hzaulab/index.php/Admin/Equipment/equipment_app_show"><<?php echo ($vo["r_name"]); ?>></a></td>
-                      <td><<?php echo ($vo["r_time"]); ?>></td>
-                      <td>
-                        <a href="/hzaulab/index.php/Admin/Equipment/notice_luanch" data-toggle="modal" data-target="#myModal" >同意 <i class="fa fa-pencil"></i></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                        <a href="/hzaulab/index.php/Admin/Equipment/" >拒绝 <i class="fa fa-close"></i></a>
-                      </td>
-                    </tr>
-                    <?php } else { ?>
-                    <tr>
-                      <td><a href="/hzaulab/index.php/Admin/Equipment/equipment_app_show"><<?php echo ($vo["r_name"]); ?>></a></td>
-                      <td><<?php echo ($vo["r_time"]); ?>></td>
-                      <td><a href="/hzaulab/index.php/Admin/Equipment/notice_luanch" data-toggle="modal" data-target="#myModal" >同意 <i class="fa fa-pencil"></i></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                        <a href="/hzaulab/index.php/Admin/Equipment/" >拒绝 <i class="fa fa-close"></i></a>
-                      </td>
-                    </tr>
-                    <?php } endforeach; endif; else: echo "" ;endif; ?> -->
                   </tbody>
                 </table>
               </div>
@@ -375,25 +366,6 @@
                         <a href="/hzaulab/index.php/Admin/Equipment/" >删除 <i class="fa fa-close"></i></a>
                       </td>
                     </tr>
-
-                  <!-- <?php if(is_array($data)): $k = 0; $__LIST__ = $data;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$vo): $mod = ($k % 2 );++$k; if($k % 2 == 0) { ?>
-                    <tr>
-                      <td><a href="/hzaulab/index.php/Admin/Equipment/equipment_app_show"><<?php echo ($vo["r_name"]); ?>></a></td>
-                      <td><<?php echo ($vo["r_time"]); ?>></td>
-                      <td>
-                        <a href="/hzaulab/index.php/Admin/Equipment/notice_luanch" data-toggle="modal" data-target="#myModal" >同意 <i class="fa fa-pencil"></i></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                        <a href="/hzaulab/index.php/Admin/Equipment/" >拒绝 <i class="fa fa-close"></i></a>
-                      </td>
-                    </tr>
-                    <?php } else { ?>
-                    <tr>
-                      <td><a href="/hzaulab/index.php/Admin/Equipment/equipment_app_show"><<?php echo ($vo["r_name"]); ?>></a></td>
-                      <td><<?php echo ($vo["r_time"]); ?>></td>
-                      <td><a href="/hzaulab/index.php/Admin/Equipment/notice_luanch" data-toggle="modal" data-target="#myModal" >同意 <i class="fa fa-pencil"></i></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                        <a href="/hzaulab/index.php/Admin/Equipment/" >拒绝 <i class="fa fa-close"></i></a>
-                      </td>
-                    </tr>
-                    <?php } endforeach; endif; else: echo "" ;endif; ?> -->
                   </tbody>
                 </table>
                 <br><br>
@@ -425,7 +397,15 @@
                       <span class="eqthint">存放地：</span><input type="text" class="gallery_eqt" name="gallery_title">
                       <span class="eqthint">设备总值：</span><input type="text" class="gallery_eqt" name="gallery_title"><br>
                       <span class="eqthint">收费标准：</span><input type="text" class="gallery_eqt" name="gallery_title">
-                      <span class="eqthint">状态：</span><hr>
+                      <span class="eqthint">状态：</span>
+                        <select class="gallery_eqt">
+                          <option>故障</option>
+                          <option>锁定</option>
+                          <option>占用</option>
+                          <option>开放</option>
+                        </select><br>
+                      <span class="eqthint"></span><input type="file" class="gallery_eqt" name="gallery_title">
+                      <hr>
                       <b class="head">联系人</b><br>
                       <span class="eqthint">姓名：</span><input type="text" class="gallery_eqt" name="gallery_title">
                       <span class="eqthint">类型：</span><input type="text" class="gallery_eqt" name="gallery_title"><br>
@@ -472,7 +452,15 @@
                 <span class="eqthint">存放地：</span><input type="text" class="gallery_eqt" name="gallery_title">
                 <span class="eqthint">设备总值：</span><input type="text" class="gallery_eqt" name="gallery_title"><br>
                 <span class="eqthint">收费标准：</span><input type="text" class="gallery_eqt" name="gallery_title">
-                <span class="eqthint">状态：</span><hr>
+                <span class="eqthint">状态：</span>
+                        <select class="gallery_eqt">
+                          <option>故障</option>
+                          <option>锁定</option>
+                          <option>占用</option>
+                          <option>开放</option>
+                        </select><br>
+                      <span class="eqthint"></span><input type="file" class="gallery_eqt" name="gallery_title">
+                <hr>
                 <b class="head">联系人</b><br>
                 <span class="eqthint">姓名：</span><input type="text" class="gallery_eqt" name="gallery_title">
                 <span class="eqthint">类型：</span><input type="text" class="gallery_eqt" name="gallery_title"><br>
