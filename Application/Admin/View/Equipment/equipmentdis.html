@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>华中农业大学实验教学中心互动平台</title>
+  	<link rel="shortcut icon" href="__ROOT__/back.ico" type="image/x-icon" />
+
+	  <!-- Bootstrap -->
+    <link href="__PUBLIC__/back/include/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- 图标引入 -->
+    <link href="__PUBLIC__/back/include/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+    <!-- bootstrap-progressbar -->
+    <link href="__PUBLIC__/back/include/bootstrap-progressbar/css/bootstrap-progressbar-3.3.4.min.css" rel="stylesheet">
+    <!-- Custom Theme Style -->
+    <link href="__PUBLIC__/back/css/custom.min.css" rel="stylesheet">
+    <link href="__PUBLIC__/back/css/public.css" rel="stylesheet" >
+    <link rel="stylesheet" type="text/css" href="__PUBLIC__/back/css/equipmentdis.css">
+</head>
+    <body class="nav-md">
+    <div class="container body">
+      <div class="main_container">
+        <!--************************************************* 左导航 *************************************************-->
+        <div class="col-md-3 left_col">
+          <div class="left_col scroll-view">
+            
+        <!-- 左导航中部 -->
+            <include file="./Application/Admin/View/Public/nav_header.html" />
+              <br />
+
+              <!-- 左导航中部 -->
+            <include file="./Application/Admin/View/Public/nav_middle.html" />
+
+              <!--  左导航底部 -->
+             <include file="./Application/Admin/View/Public/nav_footer.html" />
+
+          </div>
+        </div>
+
+        <!--************************************************* 顶导航 *************************************************-->
+        <include file="./Application/Admin/View/Public/top_nav.html" />
+      
+
+        <!--************************************************* 右内容 *************************************************-->
+      <div class="right_col" role="main">
+
+          <div class="col-md-10 col-sm-12 col-xs-12">
+            <div class="x_panel">
+              <div class="x_title">
+                <h2>设施设备的名称</h2>
+                <ul class="nav navbar-right panel_toolbox">
+                  <li class="panel_toolbox_li"><a class="close-link"><i class="fa fa-close"></i></a>
+                  </li>
+                  <li class="panel_toolbox_li"><a class="collapse-link"><i class="fa fa-chevron-up"></i></a>
+                  </li>
+                </ul>
+                <div class="clearfix"></div>
+              </div>
+              <div class="x_content">
+                  <section class="article">
+          <div class="art_left">  
+            
+          
+              <h3 class="head">基本信息</h3>
+              <span>名称：</span><div class="eqtcon">气相色谱质谱联用仪</div>
+              <span>型号/单位：</span><div class="eqtcon">XING号单位</div>
+              <!-- <select name="" id="">
+                <option value ="农田土地">农田土地</option>
+                <option value ="露天盆栽场">露天盆栽场</option>
+                <option value="晾晒地">晾晒地</option>  
+              </select><br> -->
+              <span>生产商：</span><div class="eqtcon">气相色谱质谱联用仪</div>
+              <span>设备编号：</span><div class="eqtcon">气相色谱质谱联用仪</div>
+              <span>存放地：</span><div class="eqtcon">气相色谱质谱联用仪</div>
+              <span>设备总值：</span><div class="eqtcon">气相色谱质谱联用仪</div>
+              <span>收费标准：</span><div class="eqtcon">气相色谱质谱联用仪</div>
+              <span>状态：</span><div class="eqtcon">开放/锁定/故障</div><hr>
+              <h3 class="head">联系人</h3>
+              <span>姓名：</span><div class="eqtcon">张三</div>
+              <span>类型：</span><div class="eqtcon">气相色谱质谱联用仪</div>
+              <span>电话：</span><div class="eqtcon">01402</div>
+              <span>手机：</span><div class="eqtcon">19999999999</div><hr>
+              <h3 class="head">详细信息</h3>
+              <span>技术指标：</span><div class="eqtcon3">气相色谱质谱联用仪</div>
+              <span>主要功能：</span><div class="eqtcon3">气相色谱质谱联用仪</div>
+              <span>应用范围：</span><div class="eqtcon3">气相色谱质谱联用仪</div>
+              <span>主要附件：</span><div class="eqtcon3">气相色谱质谱联用仪</div>
+              <span>使用方向：</span><div class="eqtcon3">气相色谱质谱联用仪</div><hr>
+              <h3 class="head">备注说明</h3><div class="eqtcon2">气相色谱质谱联用仪气相色谱质谱联用仪气相色谱质谱联用仪气相色谱质谱联用仪气相色谱质谱联用仪气相色谱质谱联用仪气相色谱质谱联用仪气相色谱质谱联用仪气相色谱质谱联用仪气相色谱质谱联用仪气相色谱质谱联用仪气相色谱质谱联用仪</div>
+           
+          </div>
+          <div class="art_right">
+            <img class="eqtpit" src="__PUBLIC__/face/images/eqt/1.jpg" alt="">
+          </div>
+         
+        </section>
+                  <br><br>
+                <div class="gallery_add">删除</div>
+                <div data-toggle="modal" data-target="#myModal" class="gallery_del">修改</div>
+
+              </div>
+            </div>
+          </div>
+      </div>
+      <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+              <div class="modal-dialog">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">
+                      &times;
+                    </button>
+                    <h4 class="modal-title" id="myModalLabel">
+                      设备修改
+                    </h4>
+                  </div>
+                  <div class="modal-body">
+                    
+                    <form class="form" action="" method="post">
+                      <b class="head">基本信息</b><br>
+                      <span class="eqthint">名称：</span><input type="text" class="gallery_eqt" name="gallery_title">
+                      <span class="eqthint">型号/单位：</span><input type="text" class="gallery_eqt" name="gallery_title"><br>
+                      <span class="eqthint">生产商：</span><input type="text" class="gallery_eqt" name="gallery_title">
+                      <span class="eqthint">设备编号：</span><input type="text" class="gallery_eqt" name="gallery_title"><br>
+                      <span class="eqthint">存放地：</span><input type="text" class="gallery_eqt" name="gallery_title">
+                      <span class="eqthint">设备总值：</span><input type="text" class="gallery_eqt" name="gallery_title"><br>
+                      <span class="eqthint">收费标准：</span><input type="text" class="gallery_eqt" name="gallery_title">
+                      <span class="eqthint">状态：</span><hr>
+                      <b class="head">联系人</b><br>
+                      <span class="eqthint">姓名：</span><input type="text" class="gallery_eqt" name="gallery_title">
+                      <span class="eqthint">类型：</span><input type="text" class="gallery_eqt" name="gallery_title"><br>
+                      <span class="eqthint">电话：</span><input type="text" class="gallery_eqt" name="gallery_title">
+                      <span class="eqthint">手机：</span><input type="text" class="gallery_eqt" name="gallery_title"><hr>
+                      <b class="head">详细信息</b><br>
+                      <span class="eqthint">技术指标：</span><input type="text" class="gallery_eqt" name="gallery_title">
+                      <span class="eqthint">主要功能：</span><input type="text" class="gallery_eqt" name="gallery_title"><br>
+                      <span class="eqthint">应用范围：</span><input type="text" class="gallery_eqt" name="gallery_title">
+                      <span class="eqthint">主要附件：</span><input type="text" class="gallery_eqt" name="gallery_title"><br>
+                      <span class="eqthint">使用方向：</span><input type="text" class="gallery_eqt" name="gallery_title"><hr>
+                      <b class="head">备注说明</b><br>
+                      <input type="textarea" class="gallery_textarea" name="gallery_title"><hr>
+                    </form>
+
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">取消</button>
+                    <button type="button" class="btn btn-primary">提交</button>
+                  </div>
+                </div><!-- /.modal-content -->
+              </div><!-- /.modal -->
+            </div>
+        <!--************************************************* 底部版权 *************************************************-->
+      <include file="./Application/Admin/View/Public/footer.html" />
+
+      </div>
+    </div>
+
+    <!--************************************************* publc JS *************************************************-->
+    <include file="./Application/Admin/View/Public/public_js.html" />
+    <!-- <script src="__PUBLIC__/back/include/datatables.net/js/jquery.dataTables.min.js"></script> -->
+    <!-- <script src="__PUBLIC__/back/include/datatables.net-bs/js/dataTables.bootstrap.min.js"></script> -->
+  </body>
+</html>
