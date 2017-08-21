@@ -1,0 +1,164 @@
+
+/************************************添加 style************************************/
+.gallery_title{	
+	height: 25px;
+	padding: 0 10px;	
+}
+
+.gallery_title,
+.gallery_textarea{
+	border: 1px solid #ccc;
+	border-radius: 2px;
+	margin: 0 0 10px 0;
+	width: 100%;
+}
+.eqthint {
+	text-align: center;
+	display: inline-block;
+	width: 80px;
+	height: 25px;
+}
+.gallery_eqt {
+	display: inline-block;
+	height: 25px;
+	padding: 0 10px;
+	width: 150px;
+}
+.gallery_eqt option {
+	border: 0px;
+}
+.coninput {
+	display: block;
+	margin: 15px;
+	width: 350px;
+	height: 35px;
+}
+.hint {
+	display: inline-block;
+	float: left;
+	width: 60px;
+	height: 25px;
+}
+.text {
+	display: inline-block;
+	border: 1.5px solid #ccc;
+	width: 200px;
+}
+.gallery_add{
+	color: #fff;
+	background: #26b99a;
+	position: absolute;
+	right: 30px;
+	bottom:7px;
+	width: 65px;
+	border-radius: 30px;
+	text-align: center;
+	height: 30px;
+	line-height: 30px;
+	border: 1px solid #169f85;
+	font-weight: 400;
+	font-size: 14px;
+}
+.gallery_del{
+	color: #fff;
+	background: #26b99a;
+	position: absolute;
+	right: 100px;
+	bottom:7px;
+	width: 65px;
+	border-radius: 30px;
+	text-align: center;
+	height: 30px;
+	line-height: 30px;
+	border: 1px solid #169f85;
+	font-weight: 400;
+	font-size: 14px;
+}
+.gallery_add:hover,.gallery_del:hover{
+	cursor: pointer;
+	background: #d9534f;
+	border: 1px solid #d43f3a;
+	-webkit-transition: all 0.5s;
+	-moz-transition: all 0.5s;
+	-ms-transition: all 0.5s;
+	-o-transition: all 0.5s;
+	transition: all 0.5s;
+}
+.mutibox {
+	position: absolute;
+	right: 120px;
+	bottom:15px;
+	width: 65px;
+}
+/*颜色提示*/
+.color .hintred{
+	background: pink;
+	line-height: 40px;
+	display: inline-block;
+	width: 20px;
+	content: " ";
+	height: 12px;
+}
+.hint_red {
+	background: pink;
+	border: 1px solid pink;
+	box-shadow: 0 0 1px 1px pink !important;
+
+}
+.color .hintgrey{
+	background: grey;
+	line-height: 40px;
+	display: inline-block;
+	width: 20px;
+	content: " ";
+	height: 12px;
+}
+.hint_grey {
+	background: grey;
+	border: 1px solid grey;
+	box-shadow: 0 0 1px 1px grey !important;
+	color: #fff;
+}
+.color .hintunlock {
+	background: #fff;
+	line-height: 40px;
+	display: inline-block;
+	width: 20px;
+	content: " ";
+	height: 12px;
+	box-shadow: 0 0 1px 1px;
+}
+/*搜索框*/
+#eqt_search{
+	width: 100%;
+}
+#eqt_search .search,
+#eqt_search .search_button{
+	border: 1px solid #73879C;
+	float: left;	
+}
+#eqt_search .search{
+	padding: 3px 2px 3px 0px;
+	text-indent: 5px;
+	height: 25px;
+	border-right: none;
+	width: 170px;
+}
+#eqt_search .search:focus{
+	border:2px solid #73879C;
+	border-right: none;
+}
+#eqt_search .search_button{
+	height: 25px;
+	background: #73879C url('../images/search.png') no-repeat center;
+	background-size:20px 20px; 
+	color: #FFF;
+	width: 40px;
+}
+#eqt_search .search_button:hover{
+	cursor: pointer;
+}
+#eqt_search .radio_box{
+	margin-top: 10px;
+	min-height: 20px;
+}

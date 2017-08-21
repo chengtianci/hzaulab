@@ -1,0 +1,166 @@
+.planform_box{
+	height: 850px;
+}
+.planbody{
+	height: 750px;
+	background: url(../images/bg1.png) no-repeat 0;
+	position: relative;
+	top:0;
+	left: 0;
+}
+.box1,
+.box2,
+.box3,
+.classbox1{
+}
+.classbox1_1,
+.classbox1_2,
+.classbox1_3,
+.classbox1_4,
+.classbox1_5,
+.classbox1_6,
+.classbox1_7,
+.classbox1_8,
+.classbox1_9,
+.classbox2{
+	position: relative;
+	float: left;
+}
+.classbox1_1:hover,
+.classbox1_2:hover,
+.classbox1_3:hover,
+.classbox1_4:hover,
+.classbox1_5:hover,
+.classbox1_6:hover,
+.classbox1_7:hover,
+.classbox1_8:hover,
+.classbox1_9:hover,
+.classbox2:hover{
+	cursor: pointer;
+	background:rgba(255,255,0,0.2);
+}
+.classbox2 input {
+	float: right;
+	margin-top: 3px;
+	margin-right: 4px;
+}
+.classbox1_1 input,
+.classbox1_2 input,
+.classbox1_3 input,
+.classbox1_4 input,
+.classbox1_5 input,
+.classbox1_6 input,
+.classbox1_7 input,
+.classbox1_8 input,
+.classbox1_9 input{
+	margin-top: 3px;
+	margin-left: 4px;
+}
+input:hover {
+	cursor: pointer;
+}
+.date{
+	color: #fff;
+	display: block;
+	font-size: 10px;
+	font-weight: bold;
+	text-align: right;
+	padding-right: 5px;
+}
+._red{
+	background: pink;
+	border: 1px solid pink;
+}
+._orange {
+	background: #FABF8F;
+	border: 1px solid #FABF8F;
+}
+._grey {
+	background: grey;
+	border: 1px solid grey;
+}
+/*************************box1*************************/
+.box1{
+	width: 15%;
+	height: 412px;
+	position: absolute;
+	left: 7.4%;
+	top:60.5px;
+}
+/*height*/
+.classbox1_1,
+.classbox1_2,
+.classbox1_3{
+	height: 129px;
+}
+.classbox1_4,
+.classbox1_5,
+.classbox1_6{
+	height: 125px;
+}
+.classbox1_7,
+.classbox1_8,
+.classbox1_9{
+	height: 158px;
+}
+/*width*/
+.classbox1_1,
+.classbox1_4,
+.classbox1_7{	
+	width: 29.5%;	
+}
+.classbox1_2,
+.classbox1_5,
+.classbox1_8{
+	width: 34%;
+}
+.classbox1_3,
+.classbox1_6,
+.classbox1_9{
+	width: 36.5%;
+}
+
+/*************************box2*************************/
+.box2{
+	height: 347px;
+	width: 60.5%;
+	position: absolute;
+	left: 33%;	
+	top:37.5px;
+}
+.div2_1,
+.div2_2,
+.div2_3{
+	width: 100%;
+}
+.div2_1{
+	height: 105px;
+}
+.div2_2{
+	height: 125px;
+}
+.div2_3{
+	height: 119px;
+}
+.classbox2{
+	width: 25%;
+	height: 23px;
+}
+/*************************box3*************************/
+.box3{
+	height: 241px;
+	width: 60.5%;
+	position: absolute;
+	left: 33%;
+	top:450px;
+}
+.div3_1,
+.div3_2{
+	width: 100%;
+}
+.div3_1{
+	height: 124px;
+}
+.div3_2{
+	height: 117px;
+}

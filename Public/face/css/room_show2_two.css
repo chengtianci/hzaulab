@@ -1,0 +1,174 @@
+.planform_box{
+  height: 750px;
+}
+.planbody{
+  min-height: 440px;
+  background: url(../images/bg2.png) no-repeat 0px 0 ;
+  background-size: 100% ;
+  position: relative;
+  top:0;
+  left: 0;
+}
+.box1,
+.box2,
+.box3,
+.classbox1{
+}
+.classbox1_1,
+.classbox1_2,
+.classbox1_3,
+.classbox2,
+.classbox3_1,
+.classbox3_2,
+.classbox3_3,
+.classbox4,
+.classbox5{
+  position: relative;
+  float: left;
+}
+.classbox1_1:hover,
+.classbox1_2:hover,
+.classbox1_3:hover,
+.classbox2:hover,
+.classbox3_1:hover,
+.classbox3_2:hover,
+.classbox3_3:hover,
+.classbox4:hover,
+.classbox5:hover{
+  cursor: pointer;
+  background:rgba(255,255,0,0.2);
+}
+.date{
+  color: #fff;
+  display: block;
+  font-size: 10px;
+  font-weight: bold;
+  text-align: right;
+  padding-right: 5px;
+}
+._red{
+  background: pink;
+  border: 1px solid pink;
+}
+._orange {
+  background: #FABF8F;
+  border: 1px solid #FABF8F;
+}
+._grey {
+  background: grey;
+  border: 1px solid grey;
+}
+.box1 input {
+  margin-top: 3px;
+  margin-left: 3px;
+}
+.box2 input,
+.box3 input {
+  margin-top: 2px;
+  margin-left: 3px;
+}
+/*************************box1*************************/
+.box1{
+  width: 13.9%;
+  height: 400px;
+  position: absolute;
+  left: 22px;
+  top:66px;
+}
+/*width*/
+.classbox1_1,
+.classbox1_2,
+.classbox1_3{
+  width: 24.5%; 
+}
+/*height*/
+.classbox1_1{
+  height: 92px;
+}
+.classbox1_2{
+  height: 95px;
+}
+.classbox1_3{
+  height: 109px;
+}
+
+/*************************box2*************************/
+.box2{
+  height: 332px;
+  width: 72.1%;
+  position: absolute;
+  left: 21.7%;  
+  top:15px;
+}
+.box2_1,
+.box2_2,
+.box2_3,
+.box2_4,
+.box2_5{
+  width: 100%;
+}
+.box2_1{
+  height: 52px;
+}
+.box2_2{
+  margin-top: 27px;
+  height: 48px;
+}
+.box2_3{
+  margin-top: 16px;
+  height: 53px;
+
+}
+.box2_4{
+  margin-top: 26px;
+  height: 52px;
+}
+.box2_5{
+  margin-top: 11px;
+  height: 65px;
+}
+.classbox2,
+.classbox3_1,
+.classbox3_2,
+.classbox3_3{
+  width: 25%;
+}
+.classbox2{
+  height: 17px;
+}
+.classbox3_1{
+  height: 17px;
+}
+.classbox3_2{ 
+  height: 16px;
+}
+.classbox3_3{
+  height: 16px;
+}
+/*************************box3*************************/
+.box3{
+  height: 52px;
+  width: 80.4%;
+  position: absolute;
+  left: 13.2%;
+  top:373px;
+}
+.box3_1,
+.box3_2{
+  float: left;
+  height: 100%;
+}
+.box3_1{
+  width: 55.1%;
+}
+.box3_2{
+  width: 44.9%;
+}
+.classbox4{
+  width: 40.4%;
+  height: 17px;
+}
+.classbox5{
+  width: 50%;
+  height: 17px;
+}

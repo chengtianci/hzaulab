@@ -1,0 +1,65 @@
+.article{
+	width: 100%;
+}
+
+/********设备展示********/
+.pitbox{
+	height: 225px;
+	width: 310px;
+	float: left;
+	background:#FAFAFB;
+	border: 1px solid #ddd;
+	/*border-top: 3px solid #1ABB9C;*/
+	border-radius: 4px;
+	margin: 25px 25px 0 0;
+
+}
+.pitbox:hover{
+	box-shadow: 1px 4px 10px 2px #ccc;
+	transform:translateY(-2%);
+	transition:all 0.6s;
+}
+.pitbox h4 a{
+	display: inline-block;
+	height: 30px;
+	line-height: 30px;
+	text-indent: 40px;
+	font-weight: normal;
+	font-size: 13px;
+	color: #73879C;
+	background: url('../images/titpit.png') no-repeat 15px 7px;
+	background-size: 15px 15px;
+}
+.pitbox h4 a:hover{
+	/*text-decoration: underline;*/
+	color: #2A3F54;
+}
+.pitexplan{
+	height: 150px;
+	width: 100%;
+}
+
+.pitexplan  img{
+	float: left;
+	width: 160px;
+	height: 140px;
+	margin: 0px 0px 0 15px;
+}
+.pitexplan .explan{
+	float: right;
+	padding: 5px 15px 0 0;
+}
+.pitexplan .explan p{
+	font-size: 12px;
+	width: 118px;
+	overflow: hidden;
+	text-overflow:ellipsis;
+	white-space: nowrap;
+	text-indent: 10px;
+	height: 18px;
+}
+.page{
+	float: right;
+	margin-top: -100px;
+	width: 15px;
+}

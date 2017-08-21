@@ -1,0 +1,141 @@
+/*south*/
+.southWimbledon {
+	width: 835px;
+	border: 1px dashed #ddd;
+}
+.southWimbledon .le{
+	width: 180px;
+	float: left;
+}
+.southWimbledon .le .up {
+
+}
+.southWimbledon .le .up table,.southWimbledon .le .down table {
+	float: left;
+	margin-right: 15px;
+}
+.southWimbledon .le .up table tr td{
+	width: 60px;
+	height: 200px;
+	box-shadow: 0 0 1px 1px;
+	text-align: center;
+}
+.southWimbledon .le .down table tr td{
+	width: 60px;
+	height: 115px;
+	box-shadow: 0 0 1px 1px;
+	text-align: center;
+}
+.southWimbledon .le .part1 {
+	float: left;
+	margin: 20px;
+	width: 100px;
+	height: 100px;
+	background: #1ABB9C;
+}
+.southWimbledon .ri{
+	width: 650px;
+	float: left; 
+}
+.southWimbledon .ri .up .first  {
+	width: 200px;
+	float: left;
+} 
+.southWimbledon .ri .up .first div  {
+	margin-bottom: 10px;
+	width: 100%;
+} 
+.southWimbledon .ri .up .first div table {
+	float: left;
+	display: block;
+	margin: 3px;
+}
+.southWimbledon .ri .up .first div table tr td {
+	width: 45px;
+	height: 35px;
+	text-align: center;
+	box-shadow:  0 0 1px 1px ;
+}
+.southWimbledon .ri .up .second  {
+	width: 200px;
+	float: left;
+	margin-left: 10px;
+} 
+.southWimbledon .ri .up .second div  {
+	margin-bottom: 10px;
+	width: 100%;
+} 
+.southWimbledon .ri .up .second div table {
+	float: left;
+	display: block;
+	margin: 3px;
+}
+.southWimbledon .ri .up .second div table tr td {
+	width: 45px;
+	height: 35px;
+	text-align: center;
+	box-shadow:  0 0 1px 1px ;
+}
+.southWimbledon .ri .up .third {
+	width: 220px;
+	float: left;
+	margin-left: 10px;
+}
+.southWimbledon .ri .up .third .col {
+	float: left;
+	width: 55px;
+}
+.southWimbledon .ri .up .third .col .up {
+
+}
+.southWimbledon .ri .up .third .col .up table tr td  {
+	height: 33px;
+	width: 50px;
+	box-shadow: 0 0 1px 1px;
+	text-align: center;
+}
+.southWimbledon .ri .up .third .col .down table tr td {
+	height: 33px;
+	width: 50px;
+	box-shadow: 0 0 1px 1px;
+	text-align: center;
+
+}
+.southWimbledon .ri .up .third .col .spart {
+	height: 48px;
+}
+.southWimbledon .ri .down{
+	float: left;
+}
+.southWimbledon .ri .down table {
+	margin-bottom: 5px;
+}
+.southWimbledon .ri .down table tr td {
+	width: 150px;
+	height: 30px;
+	text-align: center;	
+	box-shadow: 0 0 1px 1px;
+}
+/*north*/
+.northWimbledon {
+	width: 760px;
+	border: 1px dashed #ddd;
+}
+.northWimbledon .le {
+	float: left;
+	width: 360px;
+}
+.northWimbledon .ri {
+	float: right;
+	width: 360px;
+}
+.northWimbledon .le table,.northWimbledon .ri table {
+	margin-bottom: 20px;
+}
+.northWimbledon .le table tr td,.northWimbledon .ri table tr td {
+	height: 80px !important;
+	width: 60px;
+	margin-top: 10px;
+	text-align: center;
+	box-shadow:  0 0 1px 1px ;
+}

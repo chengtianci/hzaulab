@@ -1,0 +1,78 @@
+.planform_box{
+	height: 550px;
+}
+.planbody{
+	height: 450px;
+	background: #E5E1D5;
+}
+.planbodyform {
+	height: 450px;
+}
+.box1,
+.box2,
+.box3{
+	float: left;
+	width: 100%;
+	height: 33.3%;
+}
+.box_one,
+.box_two{
+	text-align: center;
+	border: 1px solid #f0f0f0;
+	background: #fff;
+	float: left;	
+}
+.box_one:hover,
+.box_two:hover{
+	box-shadow:1px 4px 10px 2px #ccc;
+	-webkit-transform:translateY(-3%);
+	-moz-transform:translateY(-3%);
+	-ms-transform:translateY(-3%);
+	transform:translateY(-3%);
+	-webkit-transition: all 0.6s;
+	-moz-transition: all 0.6s;
+	-ms-transition: all 0.6s;
+	-o-transition: all 0.6s;
+	transition: all 0.6s;
+	cursor: pointer;
+	border: none;
+}
+.box_left,
+.box_right{
+	height: 100%;
+	width: 47%;
+}
+.box_left{
+	float: left;
+}
+.box_right{
+	float: right;
+}
+.box_one,
+.box_two{
+	width: 15%;	
+}
+.box_one{
+	height: 70%;
+}
+.box_two{
+	height: 50%;
+}
+.date{
+	background: #f0f0f0;
+	display: inline-block;
+	width: 100%;
+	margin: 30px 0 0 0;
+}
+._red{
+	background: pink;
+	border: 1px solid pink;
+}
+._orange {
+	background: #FABF8F;
+	border: 1px solid #FABF8F;
+}
+._grey {
+	background: grey;
+	border: 1px solid grey;
+}

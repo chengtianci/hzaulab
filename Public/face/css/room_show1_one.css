@@ -1,0 +1,210 @@
+
+.planform_box{
+	height: 750px;
+}
+.planbody{
+	height: 580px;
+	width: 120%;
+	text-align: center;
+	background: #E5E1D5;
+	letter-spacing: 0;
+}
+.box1,
+.box2,
+.box3{
+	float: left;
+	font-size: 10px;
+}
+.box1_one,
+.box1_two,
+.box1_three,
+.box2_one,
+.box2_two,
+.box2_three,
+.box2_four,
+.box3_one{
+	text-align: center;
+	border: 1px solid #f0f0f0;
+	border-radius: 3px;
+	background: #fff;
+}
+.box2_five {
+	text-align: center;
+	border-radius: 3px;
+	background: #fff;
+}
+.box1_one:hover,
+.box1_two:hover,
+.box1_three:hover,
+.box2_one:hover,
+.box2_two:hover,
+.box2_three:hover,
+.box2_four:hover,
+.box2_five:hover,
+.box3_one:hover{
+	box-shadow:1px 4px 10px 2px #ccc;
+	-webkit-transform:translateY(-3%);
+	-moz-transform:translateY(-3%);
+	-ms-transform:translateY(-3%);
+	transform:translateY(-3%);
+	-webkit-transition: all 0.6s;
+	-moz-transition: all 0.6s;
+	-ms-transition: all 0.6s;
+	-o-transition: all 0.6s;
+	transition: all 0.6s;
+	cursor: pointer;
+	border: none;
+}
+.date{
+	background: #f0f0f0;
+	display: inline-block;
+	width: 100%;
+	margin: 30px 0 0 0;
+}
+._red{
+	background: pink;
+	border: 1px solid pink;
+}
+._orange {
+	background: #FABF8F;
+	border: 1px solid #FABF8F;
+}
+._grey {
+	background: grey;
+	border: 1px solid grey;
+}
+.planbodyform {
+	height: 550px;
+}
+/********************************************box1********************************************/
+.box1{
+	height: 100%;
+	width: 15%;
+}
+.box1_one,
+.box1_two,
+.box1_three{
+	float: left;
+}
+.box1_one,
+.box1_three{
+	width: 35%;
+	margin-right: 10%;
+}
+.box1_one{
+	height: 40%;	
+}
+.box1_two{
+	width: 80%;
+	height: 20%;
+	margin: 10% 0 10% 0;
+}
+.box1_three{
+	height: 30%;
+}
+/********************************************box2********************************************/
+.box2{
+	height: 60%;
+	width: 85%;
+	
+}
+.box2_left,
+.box2_right{
+	float: left;
+	height: 100%;
+}
+/******************box2_left******************/
+.box2_left{
+	width: 70%;
+}
+.left_box{
+	width: 48%;
+	height: 30%;
+	float: left;
+	margin: 0 2% 2% 0;
+}
+.left_inbox1,
+.left_inbox2{
+	float: left;
+	height: 46%;
+}
+.left_inbox1{
+	width: 45%;
+	margin: 0 10% 3% 0;
+}
+.left_inbox2{
+	width: 40%;
+}
+.box2_one,
+.box2_two,
+.box2_five{
+	float: left;
+	height: 100%;
+}
+.box2_one{
+	width: 50%;	
+}
+.box2_two{
+	width: 60%;
+}
+.box2_five{
+	width: 40%;
+}
+/******************box2_right******************/
+.box2_right{
+	width: 30%;
+}
+.box2_right_left1,
+.box2_right_right1,
+.box2_right_left2,
+.box2_right_right2{
+	float: left;	
+	width: 50%;
+}
+.box2_right_left1,
+.box2_right_right1{
+	height: 50%;
+}
+.box2_right_left2,
+.box2_right_right2{
+	height: 40%;
+	margin:10% 0 0 0;	
+}
+.box2_right_right1,
+.box2_right_right2{	
+	padding: 0 0 0 6%;
+}
+.box2_right_left1 .right_box1,
+.box2_right_left2 .right_box2{
+	margin: 0 5% 0 0;
+	width: 40%;
+}
+.box2_right_right1 .right_box1,
+.box2_right_right2 .right_box2{
+	margin: 0 0 0 5%;
+	width: 45%;
+}
+.right_box1,
+.right_box2{	
+	height: 100%;
+	float: left;
+}
+.box2_three{
+	height: 25%;
+	width: 100%;
+}
+.box2_four{
+	height: 33.3%;
+	width: 100%;
+}
+
+/********************************************box3********************************************/
+.box3{
+	height: 33%;
+	width:20%;
+}
+.box3_one{
+	width: 100%;
+	height: 20%;
+	margin: 4% 0 0 0;
+}

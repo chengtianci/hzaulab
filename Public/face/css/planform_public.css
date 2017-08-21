@@ -1,0 +1,286 @@
+.main_title{
+	border-bottom: 1px solid #ccc;
+	margin-top: 10px;
+	float: right;
+	width: 100%;
+}
+.main_title h2{
+	position: relative;
+	top:1px;
+	padding: 20px 0 6px 0;
+	font-size: 22px;
+	font-weight: normal;
+	color: green;
+	display: inline-block;
+	border-bottom: 1px solid green;
+}
+
+.clr {
+	clear: both;
+}
+
+.planform_box{
+	float: left;
+	width: 100%;
+	position: relative;
+	margin: 0px 0 60px 0;
+}
+
+/***************************微导航***************************/
+.small_nav{
+	z-index: 99;
+	margin-top: 16px;
+	left: 3%;
+
+}
+.small_nav li{
+	float: left;
+	margin: 0 15px 0 0;
+}
+.small_nav li a{
+	color: #fff;
+	display: inline-block;
+	height: 100%;
+	width: 100%;
+	background: #529F25;
+	padding: 10px 20px;
+	border-radius: 3px;
+}
+.small_nav li a:hover{
+	box-shadow:1px 1px 1px 2px #ccc;
+	-webkit-transition: all 0.6s;
+	-moz-transition: all 0.6s;
+	-ms-transition: all 0.6s;
+	-o-transition: all 0.6s;
+	transition: all 0.6s;
+}
+.small_nav li .now_on{
+	background: #fff;
+	color: #333;
+	box-shadow:inset 1px 1px 1px 2px #ccc;
+}
+/***************************俯视图***************************/
+.planform{
+	width: 100%;
+	left: 0;
+	position: relative;
+	float: left;
+}
+/*planheader*/
+.planheader{
+	width: 100%;
+	float: left;
+	padding: 10px;
+}
+.planheader .he {
+	font-size: 23px;
+	font-weight: bold;
+	display: block;
+	text-align: center;
+}
+.planheader .explain {
+	display: inline-block;
+}
+.planheader .red{
+	background: pink;
+	line-height: 40px;
+	display: inline-block;
+	width: 20px;
+	content: " ";
+	height: 12px;
+}
+.planheader .orange{
+	background: #FABF8F;
+	line-height: 40px;
+	display: inline-block;
+	width: 20px;
+	content: " ";
+	height: 12px;
+}
+.planheader .grey{
+	background: grey;
+	line-height: 40px;
+	display: inline-block;
+	width: 20px;
+	content: " ";
+	height: 12px;
+}
+.planheader .unlock {
+	background: #fff;
+	line-height: 40px;
+	display: inline-block;
+	width: 20px;
+	content: " ";
+	height: 12px;
+	box-shadow: 0 0 1px 1px;
+}
+
+.planheader .hint {
+	float: left;
+	display: block;
+	text-align: center;
+	margin: 10px 5px 0 0;
+	padding: 10px;
+	width: 90px;
+	height: 35px;
+	font-size: 13px;
+	color: #fff;
+	background: rgb(0,128,0);
+	border-radius:3px;
+}
+.planheader .input {
+	padding: 3px;
+	text-indent: 3px;
+	display: block;
+	float: left;
+	height: 35px;
+	width: 200px;
+	border: 1.5px solid #3ebb2b;
+	border-radius: 4px;
+	margin-top: 10px;
+}
+.planheader .button {
+	height: 35px;
+	width: 100px;
+	padding: 5px;
+	float: left;
+	margin:  10px 0 0 13px;
+	color: rgb(0,128,0);
+	border:  1px solid rgb(0,128,0);
+	background: #fff;
+	border-radius: 3px;
+	transition: border ease 100ms;
+}
+.planheader .button:hover {
+	background: rgb(247,247,247,0.4);
+	border:  2px solid rgb(0,128,0);
+	cursor: pointer;
+}
+
+/*planbody*/
+.planbody{
+	float: left;
+	width: 100%;
+}
+/********************注释块****************************/
+.plat_comment {
+	float: left;
+	width: 100%;
+	padding: 35px;
+}
+.plat_comment p {
+	font-size: 15px;
+	margin-top: 15px;
+	text-indent: 15px;
+	line-height: 25px;
+	font-weight: ;
+	font-family: sans-serif;
+}
+
+/****************#applyform 弹窗********************************/
+#muticonfirm {
+	width: 100px;
+	height: 35px;
+	padding: 8px;
+	border-radius: 3px;
+	border: 1px solid #169f85;
+	background: #26b99a;
+	color: #fff;
+	float: right;
+	position: relative;
+	top: -45px;
+	text-align: center;
+	font-size: 15px;
+}
+#muticonfirm:hover{
+	cursor: pointer;
+	background: #c55e57;
+	border: 1px solid #d43f3a;
+	-webkit-transition: all 0.6s;
+	-moz-transition: all 0.6s;
+	-ms-transition: all 0.6s;
+	-o-transition: all 0.6s;
+	transition: all 0.6s;
+}
+#applyform	{
+	text-align: center;
+	width: 700px;
+	margin: 0 auto;
+	display: none;
+	z-index: 1000000;
+	position: absolute;
+	top: 25%;
+	background: #fff;
+	padding: 20px 10px;
+	border-radius: 7px;
+	border: 1px solid #a0b1c4;
+    background: #fff;
+}
+#applyform .up {
+	color: #2A8513;
+}
+#applyform .up #close {
+	float: right;
+	width: 18px;
+	height: 18px;
+	opacity: 0.6;
+}
+#applyform .up #close:hover {
+	opacity: 1;
+	width: 18px;
+	height: 18px;
+	transition: opacity 300ms;
+}
+#applyform .down .row {
+	margin: 3px 0 3px 50px;
+}
+#applyform .down .row .hint {
+	float: left;
+	display: block;
+	text-align: center;
+	margin: 10px 5px 0 0;
+	width: 90px;
+	height: 35px;
+	font-size: 13px;
+	color: #fff;
+	background: rgb(0,128,0);
+	border-radius:3px;
+}
+#applyform .down .row .input {
+	padding: 3px;
+	text-indent: 3px;
+	display: block;
+	float: left;
+	height: 35px;
+	width: 200px;
+	border: 1.5px solid #3ebb2b;
+	border-radius: 4px;
+	margin-top: 10px;
+}
+#applyform .down .row .le {
+	width: 300px;
+	float: left;
+}
+#applyform .down .row .ri {
+	width: 300px;
+	float: left;
+}
+#applyform .down .row button{
+	border-radius: 3px;
+	padding: 5px;
+	border: 1px solid #169f85;
+	background: #26b99a;
+	color: #fff;
+	width: 90px;
+	height: 35px;
+}
+#applyform .down .row button:hover{
+	cursor: pointer;
+	background: #c55e57;
+	border: 1px solid #d43f3a;
+	-webkit-transition: all 0.6s;
+	-moz-transition: all 0.6s;
+	-ms-transition: all 0.6s;
+	-o-transition: all 0.6s;
+	transition: all 0.6s;
+}

@@ -1,0 +1,222 @@
+.B102 {
+	width: 660px;
+	border: 1px dashed #ddd;
+}
+.B102 .left {
+	float: left;
+	padding: 20px ;
+}
+.B102 .left tr {
+	/*height: 100px;*/
+}
+.B102 .left tr td {
+	width: 45px;
+	height: 180px;
+	padding: 5px;
+	text-align: center;
+	box-shadow:  0 0 1px 1px;
+}
+
+.B102 .right {
+	float: left;
+	width: 430px;
+}
+.B102 .right .upwards{
+	margin-bottom: 25px;
+	padding: 5px 0px 5px 20px;
+	width: 390px;
+	border-left: 1.5px solid  #A2AFBD;
+	border-bottom: 1.5px solid  #A2AFBD;
+}
+.B102 .right .upwards table {
+	margin-bottom: 10px;
+}
+.B102 .right .upwards tr td {
+	width: 90px;
+	height: 30px;
+	padding: 5px;
+	text-align: center;
+	box-shadow:  0 0 1px 1px;
+}
+.B102 .right .downwards{
+	width: 390px;
+	padding: 5px 0px 5px 20px;
+}
+.B102 .right .downwards table {
+	margin-bottom: 10px;
+}
+.B102 .right .downwards tr td {
+	width: 90px;
+	height: 30px;
+	padding: 5px;
+	text-align: center;
+	box-shadow:  0 0 1px 1px;
+}
+.B102 .door {
+	margin-top: 260px;
+	margin-left: 15px;
+	line-height: 60px;
+	text-indent: 7px;
+}
+.B102 .doorl {
+	float: left;
+	width: 50px;
+	height: 50px;
+	border: 1.5px solid #A2AFBD;
+	border-radius:50px 0 0 0; 
+	margin-right: 3px;
+}
+.B102 .doorr {
+	float: left;
+	width: 50px;
+	height: 50px;
+	border: 1.5px solid #A2AFBD;
+	border-radius: 0 50px 0 0; 
+}
+.B102 .part1 {
+	float: left;
+	width: 50px;
+	border-top: 3px solid #1ABB9C;
+}
+.B102 .part2 {
+	height: 50px;
+	width: 100%;
+}
+.B102 .part2 .le {
+	width: 30px;
+	height: 30px;
+	line-height: 25px;
+	text-indent: 2px;
+	float: left;
+	border: 1.5px solid #A2AFBD;
+	border-radius: 0 0 50px  0; 
+}
+.B102 .part2 .ri {
+	height: 30px;
+	float: right;
+	border-right: 3px solid #1ABB9C;
+}
+.B102 .part3 {
+	height: 30px;
+	width: 100%;
+}
+.B102 .part3 .le {
+	width: 30px;
+	height: 30px;
+	line-height: 25px;
+	text-indent: 2px;
+	float: left;
+	border: 1.5px solid #A2AFBD;
+	border-radius: 0 0 50px  0; 
+}
+.B102 .part4 {
+	width: 200px;
+	margin: 0 auto;
+	border-bottom: 3px solid #1ABB9C;
+}
+
+.B103 {
+	width: 760px;
+	border: 1px dashed #ddd;
+}
+.B103 .up {
+	width: 100%;
+
+}
+.B103 .up .le {
+	float: left;
+	padding: 20px ;
+}
+.B103 .door {
+	margin-left: 75px;
+	line-height: 30px;
+	text-indent: 7px;
+	margin-bottom: 15px;
+}
+.B103 .up .le .door .door1{
+	float: left;
+	width: 50px;
+	height: 50px;
+	border: 1.5px solid #A2AFBD;
+	border-radius: 0 0 0 50px; 
+	margin-right: 3px;
+}
+.B103 .up .le .door .door2 {
+	float: left;
+	width: 50px;
+	height: 50px;
+	border: 1.5px solid #A2AFBD;
+	border-radius: 0 0 50px 0; 
+}
+.B103 .up .le .left {
+
+}
+.B103 .up .le .left tr td {
+	width: 45px;
+	height: 180px;
+	padding: 5px;
+	text-align: center;
+	box-shadow:  0 0 1px 1px;
+}
+.B103 .up .right {
+	float: left;
+}
+.B103 .up .right table {
+	margin-bottom: 30px;
+}
+.B103 .up .right tr td {
+	width: 130px;
+	height: 30px;
+	padding: 5px;
+	text-align: center;
+	box-shadow:  0 0 1px 1px;
+}
+.B103 .down {
+	width: 100%;
+	margin: 0 auto;
+}
+.B103 .down .le{
+	float: left;
+	width: 250px;
+	margin-left: 30px;
+}
+.B103 .down .le table {
+	margin-bottom: 10px;
+}
+.B103 .down .le tr td {
+	width: 90px;
+	height: 30px;
+	padding: 5px;
+	text-align: center;
+	box-shadow:  0 0 1px 1px;
+}
+.B103 .down .ri {
+	float: left;
+	width: 250px;
+
+}
+.B103 .down .ri table {
+	margin-left: 10px;
+}
+.B103 .down .ri tr td {
+	width: 90px;
+	height: 30px;
+	padding: 5px;
+	text-align: center;
+	box-shadow:  0 0 1px 1px;
+}
+.B103 .down .part1 {
+	width: 40px;
+	height: 60px;
+	float: left;
+	margin: 20px 30px 0 35px;
+	background: #1ABB9C;
+}
+.B103 .down .part2 {
+	width: 60px;
+	height: 35px;
+	float: left;
+	margin: 55px 10px 0 10px;
+	background: #1ABB9C;
+}
+
