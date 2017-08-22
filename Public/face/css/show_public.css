@@ -141,7 +141,7 @@
 
 }
 /****************展示内容的*************************/
-.article .contantdis {
+.article p {
 	font-size: 15px;
 	margin-top: 15px;
 	text-indent: 25px;

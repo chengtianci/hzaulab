@@ -55,38 +55,9 @@
                 <div class="clearfix"></div>
               </div>
               <div class="x_content">
-                      <!--<input type="text" class="gallery_title" name="gallery_title" placeholder="Fill in the title, please">-->
-                  <!-- <input type="text" id="idInfor" value="<{$data.id}>" hidden>
-                  <div id="editor">
-                    <p>这里写默认的文段</p>
-                  </div>
-                  <script type="text/javascript" src="__PUBLIC__/Js/wangEditor.min.js"></script>
-                      <script type="text/javascript">
-                          var E = window.wangEditor;
-                          var editor = new E( document.getElementById('editor') );
-                          editor.customConfig.menus = [
-                                                  'head',  // 标题
-                                                  'bold',  // 粗体
-                                                  'italic',  // 斜体
-                                                  'underline',  // 下划线
-                                                  'strikeThrough',  // 删除线
-                                                  'foreColor',  // 文字颜色
-                                                  'backColor',  // 背景颜色
-                                                  'link',  // 插入链接
-                                                  'list',  // 列表
-                                                  'justify',  // 对齐方式
-                                                  'quote',  // 引用
-                                                  'emoticon',  // 表情
-                                                  'image',  // 插入图片
-                                                  'table',  // 表格
-                                                  'video',  // 插入视频
-                                              ]
-                          editor.create();
-                      </script>
-                  <br><button type="button" id="saveContent" class="btn btn-primary">Submit</button> -->
                   <input type="text" id="idInfor" value="<{$data.id}>" hidden>
-                     <script id='container' style="height:350px;" name='content' type="text/plain">这里写要的简介</script>
-                  <br><button type="button" id="saveContent" class="btn btn-primary">Submit</button>
+                     <script id='container' style="height:350px;" name='content' type="text/plain"><{$data.content}></script>
+                  <br><button type="button" id="saveContent" class="btn btn-primary">修改</button>
                   <script src="__PUBLIC__/Js/jquery-3.1.1.min.js"></script>
                   <!--配置文件-->
                   <script type="text/javascript" src="__PUBLIC__/Ueditor/ueditor.config.js">
@@ -105,7 +76,7 @@
                                   content:html
                               };
                               $.ajax({
-                                  url: '',//路径
+                                  url: '__URL__/aboutDoUpdate',//路径
                                   type: 'POST',
                                   dataType: 'json',
                                   data: param,

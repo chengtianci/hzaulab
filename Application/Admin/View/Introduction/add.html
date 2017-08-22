@@ -55,43 +55,44 @@
                 <div class="clearfix"></div>
               </div>
               <div class="x_content">
-                  <input type="text" id="idInfor" value="<{$data.id}>" hidden>
-                  <script id='container' style="height:350px;" name='content' type="text/plain">这里写要的简介</script>
-                  <br><button type="button" id="saveContent" class="btn btn-primary">Submit</button>
-                  <script src="__PUBLIC__/Js/jquery-3.1.1.min.js"></script>
-                  <!--配置文件-->
-                  <script type="text/javascript" src="__PUBLIC__/Ueditor/ueditor.config.js">
-                  </script>
-                   <!--编译器源码文件-->
-                  <script type="text/javascript" src="__PUBLIC__/Ueditor/ueditor.all.js">
-                  </script>
-                  <!--实例化编译器-->
-                  <script type="text/javascript">
-                      $(function () {
-                          var ue=UE.getEditor ('container');
-                          $('#saveContent').click(function () {
-                              var html = ue.getContent();
-                              var param = {
-                                  id:$('#idInfor').val(),
-                                  content:html
-                              };
-                              $.ajax({
-                                  url: '',//路径
-                                  type: 'POST',
-                                  dataType: 'json',
-                                  data: param,
-                                  success: function(data){
-                                      console.log(data);
-                                      window.location.href="";//返回路径？
-                                  },
-                                  error: function(xhr){
-                                      alert("失败");
-                                      console.log(xhr);
-                                  }
-                              });
-                          });
-                      });
-                  </script><br>
+                <form class="form" action="" method="post">
+                      <input type="text" class="gallery_title" name="gallery_title" id="gallery_title" placeholder="标题" value="<{$data.infoname}>">
+                       
+                      <input type="text" id="idInfor" value="<{$data.id}>" hidden>
+                        <script id='container' style="height:350px;" name='content' type="text/plain">请填写通知的名称，编辑时，请删除本行</script>
+                        <br><button type="button" id="saveContent" class="btn btn-primary">Submit</button>
+                        <script src="__PUBLIC__/Js/jquery-3.1.1.min.js"></script>
+                        <script type="text/javascript" src="__PUBLIC__/Ueditor/ueditor.config.js">
+                        </script>
+                        <script type="text/javascript" src="__PUBLIC__/Ueditor/ueditor.all.js">
+                        </script>
+                        <script type="text/javascript">
+                            $(function () {
+                                var ue=UE.getEditor ('container');
+                                $('#saveContent').click(function () {
+                                    var html = ue.getContent();
+                                    var param = {
+                                        gallery_title:$('#gallery_title').val(),
+                                        content:html
+                                    };
+                                    $.ajax({
+                                        url: '__URL__/doAddNotice',//路径
+                                        type: 'POST',
+                                        dataType: 'json',
+                                        data: param,
+                                        success: function(data){
+                                            console.log(data);
+                                            window.location.href="";//返回路径？
+                                        },
+                                        error: function(xhr){
+                                            alert("失败");
+                                            console.log(xhr);
+                                        }
+                                    });
+                                });
+                            });
+                        </script><br>
+                    </form>
               </div>
             </div>
           </div>

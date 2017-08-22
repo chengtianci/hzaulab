@@ -57,10 +57,10 @@
               <div class="x_content">
                 <form class="form" action="" method="post">
                       <input type="text" id="idInfor" value="<{$data.id}>" hidden>
-                      <input type="text" class="gallery_title" name="gallery_title" id="gallery_title" placeholder="标题">
+                      <input type="text" class="gallery_title" name="gallery_title" id="gallery_title" placeholder="标题" value="<{$data.infoname}>">
                        
                       <input type="text" id="idInfor" value="<{$data.id}>" hidden>
-                        <script id='container' style="height:350px;" name='content' type="text/plain">这里写要的简介</script>
+                        <script id='container' style="height:350px;" name='content' type="text/plain"><{$data.infoct}></script>
                         <br><button type="button" id="saveContent" class="btn btn-primary">Submit</button>
                         <script src="__PUBLIC__/Js/jquery-3.1.1.min.js"></script>
                         <script type="text/javascript" src="__PUBLIC__/Ueditor/ueditor.config.js">
@@ -74,10 +74,11 @@
                                     var html = ue.getContent();
                                     var param = {
                                         id:$('#idInfor').val(),
+                                        gallery_title:$('#gallery_title').val(),
                                         content:html
                                     };
                                     $.ajax({
-                                        url: '',//路径
+                                        url: '__URL__/doEdit',//路径
                                         type: 'POST',
                                         dataType: 'json',
                                         data: param,

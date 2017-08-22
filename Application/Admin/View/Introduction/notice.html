@@ -58,7 +58,6 @@
                 <table id="datatable" class="table table-striped table-bordered">
                   <thead>
                   <tr>
-                    <th style="width: 50px;">序号</th>
                     <th>Title</th>
                     <th style="width:15%;">Date</th>
                     <th style="width:20%;">operation</th>
@@ -67,26 +66,17 @@
 
 
                   <tbody>
-
-                    <tr>
-                      <td></td>
-                      <td><a href="__URL__/notice_show">r_name</a></td>
-                      <td>r_time</td>
-                      <td>
-                        <a href="__URL__/notice_edit">修改 <i class="fa fa-pencil"></i></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                        <a href="__URL__/" >删除 <i class="fa fa-close"></i></a>
-                      </td>
-                    </tr>
-
-                    <tr>
-                      <td></td>
-                      <td><a href="__URL__/">r_name</a></td>
-                      <td>$vo.r_time</td>
-                      <td>
-                        <a href="__URL__/notice_edit" >修改 <i class="fa fa-pencil"></i></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                        <a href="__URL__/" >删除 <i class="fa fa-close"></i></a>
-                      </td>
-                    </tr>
+                    <volist name="data" id="vo">
+                      <tr>
+                        <td><a href="__URL__/notice_show/id/<{$vo.id}>"><{$vo.infoname}></a></td>
+                        <td><{$vo.infotime}></td>
+                        <td>
+                      
+                          <a href="__URL__/notice_edit/id/<{$vo.id}>" >编辑 <i class="fa fa-pencil"></i></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                          <a href="__URL__/deleteOne/id/<{$vo.id}>" >删除 <i class="fa fa-close"></i></a>
+                        </td>
+                      </tr>
+                    </volist>
                   </tbody>
                 </table>
                 <br><br>
@@ -164,7 +154,7 @@
 
     <!--************************************************* publc JS *************************************************-->
     <include file="./Application/Admin/View/Public/public_js.html" />
-    <!-- <script src="__PUBLIC__/back/include/datatables.net/js/jquery.dataTables.min.js"></script> -->
-    <!-- <script src="__PUBLIC__/back/include/datatables.net-bs/js/dataTables.bootstrap.min.js"></script> -->
+    <script src="__PUBLIC__/back/include/datatables.net/js/jquery.dataTables.min.js"></script>
+    <script src="__PUBLIC__/back/include/datatables.net-bs/js/dataTables.bootstrap.min.js"></script>
   </body>
 </html>

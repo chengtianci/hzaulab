@@ -55,12 +55,9 @@
                 <div class="clearfix"></div>
               </div>
               <div class="x_content">
-                
                   <input type="text" id="idInfor" value="<{$data.id}>" hidden>
-             
-                  <input type="text" id="idInfor" value="<{$data.id}>" hidden>
-                     <script id='container' style="height:350px;" name='content' type="text/plain">这里写要的简介</script>
-                  <br><button type="button" id="saveContent" class="btn btn-primary">Submit</button>
+                     <script id='container' style="height:350px;" name='content' type="text/plain"><{$data.content}></script>
+                  <br><button type="button" id="saveContent" class="btn btn-primary">修改</button>
                   <script src="__PUBLIC__/Js/jquery-3.1.1.min.js"></script>
                   <!--配置文件-->
                   <script type="text/javascript" src="__PUBLIC__/Ueditor/ueditor.config.js">
@@ -79,7 +76,7 @@
                                   content:html
                               };
                               $.ajax({
-                                  url: '',//路径
+                                  url: '__APP__/Admin/Introduction/aboutDoUpdate',//路径
                                   type: 'POST',
                                   dataType: 'json',
                                   data: param,
@@ -88,14 +85,13 @@
                                       window.location.href="";//返回路径？
                                   },
                                   error: function(xhr){
-                                      alert("失败");
+                                      alert("请检查网路后重试");
                                       console.log(xhr);
                                   }
                               });
                           });
                       });
                   </script><br>
-                  
               </div>
             </div>
           </div>
