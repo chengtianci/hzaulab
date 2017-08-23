@@ -8,6 +8,7 @@ class word {
 	    print '<html xmlns="urn:schemas-microsoft-comfficeffice"
 	    xmlns:w="urn:schemas-microsoft-comffice:word"
 	    xmlns="http://www.w3.org/TR/REC-html40">';
+	    print '<meta charset="UTF-8">';
 	}
 	//定义要保存数据的结束，同时把数据保存到word中  
 	//所要保存的数据必须限定在该类的start()和save()之间

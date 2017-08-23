@@ -145,34 +145,56 @@
                   <thead>
                   <tr>
                     <th style="width: 50px;">序号</th>
-                    <th>盆栽场名称</th>
-                    <th >状态</th><!-- 列表显示待审申请、正在使用的申请、有效历史申请， -->
+                    <th >设施位置</th>
+                    <th >设施名称</th>
+                    <th >设施编号</th>
+                    <th >开始时间</th>
+                    <th >结束时间</th>
+                    <th >样品物种</th>
+                    <th >备注</th>
+                    <th >预约人</th>
+                    <th >时间</th>
+                    <th >状态</th>
                     <th >操作</th>
                   </tr>
                   </thead>
-
-
                   <tbody>
+                    <volist name="data" id="items">
+                      <tr>
+                        <td><{$i}></td>
+                        <td><{$items.sslocation}></td>
+                        <td><{$items.ssname}></td>
+                        <td><{$items.yqid}></td>
+                        <td><{$items.ks}></td>
+                        <td><{$items.js}></td>
+                        <td><{$items.ypwz}></td>
+                        <td><{$items.other}></td>
+                        <td><{$items.uid}></td>
+                        <td><{$items.date}></td>
+                        <php>
+                          if ($items['status'] == 0) {
+                        </php>
+                            <td>等待批准</td>
+                        <php>
+                          } else if ($items['status'] == 1) {
 
-                    <tr>
-                      <td></td>
-                      <td><a href="__URL__/equipment_app_show">r_name</a></td>
-                      <td>r_time</td>
-                      <td>
-                        <a href="__URL__/">同意 <i class="fa fa-pencil"></i></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                        <a href="#" data-toggle="modal" data-target="#myModal3" >拒绝 <i class="fa fa-close"></i></a>
-                      </td>
-                    </tr>
+                        </php>
+                            <td>已批准</td>
+                        <php> 
+                          } else {
 
-                    <tr>
-                      <td></td>
-                      <td><a href="__URL__/equipment_app_show">r_name</a></td>
-                      <td>$vo.r_time</td>
-                      <td>
-                        <a href="__URL__/" > 同意<i class="fa fa-pencil"></i></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                        <a href="#" data-toggle="modal" data-target="#myModal3" >拒绝 <i class="fa fa-close"></i></a>
-                      </td>
-                    </tr>
+                        </php>
+                          <td>已拒绝</td>
+                        <php>
+                          }
+                        </php>
+                        
+                        <td>
+                          <a href="__URL__/doAgree/id/<{$items.id}>">同意 <i class="fa fa-pencil"></i></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                          <a href="#" data-toggle="modal" data-target="#myModal3" >拒绝 <i class="fa fa-close"></i></a>
+                        </td>
+                      </tr>
+                    </volist>
                   </tbody>
                 </table>
               </div>

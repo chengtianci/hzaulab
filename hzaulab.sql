@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: 2017-08-23 01:49:25
+-- Generation Time: 2017-08-23 09:49:20
 -- 服务器版本： 5.7.14
 -- PHP Version: 5.6.25
 
@@ -248,59 +248,69 @@ INSERT INTO `tp_js` (`id`, `content`) VALUES
 -- --------------------------------------------------------
 
 --
+-- 表的结构 `tp_log`
+--
+
+CREATE TABLE `tp_log` (
+  `id` int(11) NOT NULL COMMENT '预约记录的主键',
+  `username` varchar(20) NOT NULL COMMENT '预约人',
+  `kssj` date NOT NULL COMMENT '开始时间',
+  `jshj` date NOT NULL COMMENT '结束时间',
+  `yiid` varchar(20) NOT NULL COMMENT '仪器的id'
+) ENGINE=MyISAM DEFAULT CHARSET=utf8 COMMENT='仪器预约的记录表';
+
+-- --------------------------------------------------------
+
+--
 -- 表的结构 `tp_pz`
 --
 
 CREATE TABLE `tp_pz` (
   `id` varchar(100) NOT NULL COMMENT '设备编号',
-  `pzname` varchar(100) DEFAULT NULL COMMENT '设备名称',
-  `status` int(4) NOT NULL DEFAULT '0' COMMENT '设备状态',
   `pzlocation` varchar(100) DEFAULT NULL COMMENT '设备位置',
-  `starttime` varchar(100) DEFAULT NULL COMMENT '预约开始时间',
-  `endtime` varchar(100) DEFAULT NULL COMMENT '预约结束时间',
-  `user` varchar(100) DEFAULT NULL COMMENT '预约人'
+  `status` tinyint(4) NOT NULL DEFAULT '0' COMMENT '设备的状态，0表示被占用，1表示被锁定'
 ) ENGINE=MyISAM DEFAULT CHARSET=utf8 COMMENT='盆栽设备';
 
 --
 -- 转存表中的数据 `tp_pz`
 --
 
-INSERT INTO `tp_pz` (`id`, `pzname`, `status`, `pzlocation`, `starttime`, `endtime`, `user`) VALUES
-('PZ-18', '', 0, '露天盆栽场', NULL, NULL, ''),
-('PZ-17', '', 0, '露天盆栽场', NULL, NULL, ''),
-('PZ-16', '', 0, '露天盆栽场', NULL, NULL, ''),
-('PZ-15', '', 0, '露天盆栽场', NULL, NULL, ''),
-('PZ-14', '', 0, '露天盆栽场', NULL, NULL, ''),
-('PZ-13', '', 0, '露天盆栽场', NULL, NULL, ''),
-('PZ-12', '', 0, '露天盆栽场', NULL, NULL, ''),
-('PZ-11', '', 0, '露天盆栽场', NULL, NULL, ''),
-('PZ-10', '', 0, '露天盆栽场', NULL, NULL, ''),
-('PZ-9', '', 0, '露天盆栽场', NULL, NULL, ''),
-('PZ-8', '', 0, '露天盆栽场', NULL, NULL, ''),
-('PZ-7', '', 0, '露天盆栽场', NULL, NULL, ''),
-('PZ-6', '', 0, '露天盆栽场', NULL, NULL, ''),
-('PZ-5', '', 0, '露天盆栽场', NULL, NULL, ''),
-('PZ-4', '', 0, '露天盆栽场', NULL, NULL, ''),
-('PZ-3', '', 0, '露天盆栽场', NULL, NULL, ''),
-('PZ-2', '', 0, '露天盆栽场', NULL, NULL, ''),
-('PZ-1', '', 0, '露天盆栽场', NULL, NULL, ''),
-('PZ-19', '', 0, '露天盆栽场', NULL, NULL, ''),
-('PZ-20', '', 0, '露天盆栽场', NULL, NULL, ''),
-('PZ-21', '', 0, '露天盆栽场', NULL, NULL, ''),
-('PZ-22', '', 0, '露天盆栽场', NULL, NULL, ''),
-('PZ-23', '', 0, '露天盆栽场', NULL, NULL, ''),
-('PZ-24', '', 0, '露天盆栽场', NULL, NULL, ''),
-('PZ-25', '', 0, '露天盆栽场', NULL, NULL, ''),
-('PZ-26', '', 0, '露天盆栽场', NULL, NULL, ''),
-('PZ-27', '', 0, '露天盆栽场', NULL, NULL, ''),
-('PZ-28', '', 0, '露天盆栽场', NULL, NULL, ''),
-('PZ-29', '', 0, '露天盆栽场', NULL, NULL, ''),
-('PZ-30', '', 0, '露天盆栽场', NULL, NULL, ''),
-('PZ-31', '', 0, '露天盆栽场', NULL, NULL, ''),
-('PZ-32', '', 0, '露天盆栽场', NULL, NULL, ''),
-('PZ-33', '', 0, '露天盆栽场', NULL, NULL, ''),
-('PZ-34', '', 0, '露天盆栽场', NULL, NULL, ''),
-('PZ-35', '', 0, '露天盆栽场', NULL, NULL, '');
+INSERT INTO `tp_pz` (`id`, `pzlocation`, `status`) VALUES
+('PZ-18', '露天盆栽场', 0),
+('PZ-17', '露天盆栽场', 0),
+('PZ-16', '露天盆栽场', 0),
+('PZ-15', '露天盆栽场', 0),
+('PZ-14', '露天盆栽场', 0),
+('PZ-13', '露天盆栽场', 0),
+('PZ-12', '露天盆栽场', 0),
+('PZ-11', '露天盆栽场', 0),
+('PZ-10', '露天盆栽场', 0),
+('PZ-9', '露天盆栽场', 0),
+('PZ-8', '露天盆栽场', 0),
+('PZ-7', '露天盆栽场', 0),
+('PZ-6', '露天盆栽场', 0),
+('PZ-5', '露天盆栽场', 0),
+('PZ-4', '露天盆栽场', 0),
+('PZ-3', '露天盆栽场', 0),
+('PZ-2', '露天盆栽场', 0),
+('PZ-1', '露天盆栽场', 0),
+('PZ-19', '露天盆栽场', 0),
+('PZ-20', '露天盆栽场', 0),
+('PZ-21', '露天盆栽场', 0),
+('PZ-22', '露天盆栽场', 0),
+('PZ-23', '露天盆栽场', 0),
+('PZ-24', '露天盆栽场', 0),
+('PZ-25', '露天盆栽场', 0),
+('PZ-26', '露天盆栽场', 0),
+('PZ-27', '露天盆栽场', 0),
+('PZ-28', '露天盆栽场', 0),
+('PZ-29', '露天盆栽场', 0),
+('PZ-30', '露天盆栽场', 0),
+('PZ-31', '露天盆栽场', 0),
+('PZ-32', '露天盆栽场', 0),
+('PZ-33', '露天盆栽场', 0),
+('PZ-34', '露天盆栽场', 0),
+('PZ-35', '露天盆栽场', 0);
 
 -- --------------------------------------------------------
 
@@ -520,12 +530,28 @@ INSERT INTO `tp_ww` (`id`, `wwname`, `wwlocation`, `status`, `nos`) VALUES
 
 CREATE TABLE `tp_yy` (
   `id` int(11) NOT NULL COMMENT '预约表的主键',
-  `yqid` varchar(100) NOT NULL COMMENT '一起设备编号',
-  `uid` varchar(100) NOT NULL COMMENT '预约人',
-  `ks` varchar(100) NOT NULL COMMENT '预约开始时间',
-  `js` varchar(100) NOT NULL COMMENT '预约结束时间',
-  `status` int(11) NOT NULL COMMENT '是否允许预约'
+  `yqid` varchar(100) DEFAULT NULL COMMENT '一起设备编号',
+  `uid` varchar(100) DEFAULT NULL COMMENT '预约人',
+  `ks` varchar(100) DEFAULT NULL COMMENT '预约开始时间',
+  `js` varchar(100) DEFAULT NULL COMMENT '预约结束时间',
+  `status` int(11) DEFAULT NULL COMMENT '是否允许预约',
+  `ypwz` varchar(100) DEFAULT NULL COMMENT '这里是样品物种',
+  `other` varchar(100) DEFAULT NULL COMMENT '这里是备注',
+  `ssname` varchar(100) DEFAULT NULL COMMENT '设施名称',
+  `sslocation` varchar(100) DEFAULT NULL COMMENT '设施位置',
+  `date` varchar(100) NOT NULL COMMENT '预约生成时间'
 ) ENGINE=MyISAM DEFAULT CHARSET=utf8 COMMENT='仪器设备预约表格';
+
+--
+-- 转存表中的数据 `tp_yy`
+--
+
+INSERT INTO `tp_yy` (`id`, `yqid`, `uid`, `ks`, `js`, `status`, `ypwz`, `other`, `ssname`, `sslocation`, `date`) VALUES
+(5, 'PZ-6,PZ-7', 'admin', '2017-08-23', '2017-08-25', 1, '苹果', '123', '露天盆栽', '露天盆栽场', ''),
+(6, 'PZ-6,PZ-7', 'admin', '2017-08-23', '2017-08-25', 1, '所有新生', '当天使用', '露天盆栽', '露天盆栽场', '2017-08-23'),
+(7, 'PZ-1,PZ-2,PZ-3,PZ-4,PZ-12', 'admin', '2017-08-23', '2017-08-25', 0, '89849', '489489', '露天盆栽', '露天盆栽场', '2017-08-23'),
+(8, 'PZ-6,PZ-7', 'admin', '2017-08-23', '2017-08-24', 0, '', '', '露天盆栽', '露天盆栽场', '2017-08-23'),
+(9, 'PZ-6,PZ-7', 'admin', '2017-08-23', '2017-08-25', 1, '', '', '露天盆栽', '露天盆栽场', '2017-08-23');
 
 -- --------------------------------------------------------
 
@@ -565,6 +591,12 @@ ALTER TABLE `tp_gz`
 -- Indexes for table `tp_js`
 --
 ALTER TABLE `tp_js`
+  ADD PRIMARY KEY (`id`);
+
+--
+-- Indexes for table `tp_log`
+--
+ALTER TABLE `tp_log`
   ADD PRIMARY KEY (`id`);
 
 --
@@ -625,6 +657,11 @@ ALTER TABLE `tp_zp`
 ALTER TABLE `tp_js`
   MODIFY `id` int(11) NOT NULL AUTO_INCREMENT COMMENT '主键', AUTO_INCREMENT=8;
 --
+-- 使用表AUTO_INCREMENT `tp_log`
+--
+ALTER TABLE `tp_log`
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT COMMENT '预约记录的主键';
+--
 -- 使用表AUTO_INCREMENT `tp_sb`
 --
 ALTER TABLE `tp_sb`
@@ -648,7 +685,7 @@ ALTER TABLE `tp_wj`
 -- 使用表AUTO_INCREMENT `tp_yy`
 --
 ALTER TABLE `tp_yy`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT COMMENT '预约表的主键';
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT COMMENT '预约表的主键', AUTO_INCREMENT=10;
 --
 -- 使用表AUTO_INCREMENT `tp_zp`
 --

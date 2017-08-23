@@ -124,35 +124,35 @@
                   <img id="close" src="__PUBLIC__/face/images/close.png">
                     <h3>作物学实验教学中心 <br> 设施设备租赁表</h3> 
                   </div>
-                  <form class="sqbg" id="sqbg">
+                  <form class="sqbg" id="sqbg" action="__URL__/doApplication" method=post>
                     <div class="down">
                       <div class="row">
-                        <div class="le"><span class="hint">使用者姓名：</span><input disabled class="input" id="syz" type="text" name="syz" value="//自动">    </div>
-                        <div class="ri"><span class="hint">联系方式：</span><input class="input" id="lxfs1" type="text" name="lxfs1" value="//必填"></div>
+                        <div class="le"><span class="hint">使用者姓名：</span><input class="input" id="syz" type="text" name="syz" placeholder="//自动">    </div>
+                        <div class="ri"><span class="hint">联系方式：</span><input class="input" id="lxfs1" type="text" name="lxfs1" placeholder="//必填"></div>
                       </div>
                       <div class="row">
-                        <div class="le"><span class="hint">导师姓名： </span><input disabled class="input" id="dsxm" type="text" name="dsxm" value="//自动">   </div>
-                        <div class="ri"><span class="hint">联系方式： </span><input disabled class="input" id="lxfs2" type="text" name="lxfs2" value="//自动"></div>
+                        <div class="le"><span class="hint">导师姓名： </span><input class="input" id="dsxm" type="text" name="dsxm" placeholder="//自动">   </div>
+                        <div class="ri"><span class="hint">联系方式： </span><input class="input" id="lxfs2" type="text" name="lxfs2" placeholder="//自动"></div>
                       </div>
                       <div class="row">
-                        <div class="le"><span class="hint">设施名称： </span><input disabled class="input" id="ssmc" type="text" name="ssmc" value="//自动">   </div>
-                        <div class="ri"><span class="hint">设施位置：</span><input disabled class="input" id="sswz" type="text" name="sswz" value="//自动"></div>
+                        <div class="le"><span class="hint">设施名称： </span><input class="input" id="ssmc" type="text" name="ssmc" placeholder="//自动">   </div>
+                        <div class="ri"><span class="hint">设施位置：</span><input class="input" id="sswz" type="text" name="sswz" placeholder="//自动"></div>
                       </div>
                       <div class="row">
-                        <div class="le"><span class="hint">设施编号：</span><input disabled class="input" id="ssbh" type="text" name="ssbh" value="//自动">   </div>
-                        <div class="ri"><span class="hint">研究项目：</span><input  class="input" id="yjxm" type="text" name="yjxm" value="//必填"></div>
+                        <div class="le"><span class="hint">设施编号：</span><input class="input" id="ssbh" type="text" name="ssbh" placeholder="//自动">   </div>
+                        <div class="ri"><span class="hint">研究项目：</span><input  class="input" id="yjxm" type="text" name="yjxm" placeholder="//必填"></div>
                       </div>
                       <div class="row">
-                        <div class="le"><span class="hint">预约时间： </span><input class="input" id="kssj" type="date" name="kssj" value="//必填">   </div>
-                        <div class="ri"><span class="hint">终止时间：</span><input class="input" id="zzsj" type="date" name="zzsj" value="//必填"></div>
+                        <div class="le"><span class="hint">预约时间： </span><input class="input" id="kssj" type="date" name="kssj" placeholder="//必填">   </div>
+                        <div class="ri"><span class="hint">终止时间：</span><input class="input" id="zzsj" type="date" name="zzsj" placeholder="//必填"></div>
                       </div>
                       <div class="row">
-                        <div class="le"><span class="hint">样品物种：</span><input class="input" id="ypwz" type="text" name="ypwz" value="//必填">   </div>
-                        <div class="ri"><span class="hint">备注: </span><input class="input" id="bz" type="text" name="bz" value="//选"></div>
+                        <div class="le"><span class="hint">样品物种：</span><input class="input" id="ypwz" type="text" name="ypwz" placeholder="//必填">   </div>
+                        <div class="ri"><span class="hint">备注: </span><input class="input" id="bz" type="text" name="bz" placeholder="//选"></div>
                       </div><br>
                       <div class="row">
                         <a href=""><button type="button" onclick="fun1()">保存</button></a>
-                        <a href=""><button type="button" >提交</button></a>
+                        <a href=""><button type="submit" >提交</button></a>
                         <a href=""><button type="button" onclick="fun2()">导出Word</button></a>
                       </div>
                     </div>
@@ -167,6 +167,12 @@
             </div>
           </div>
         </section>
+        <table>
+          <tr>
+            <td></td>
+            <td></td>
+          </tr>
+        </table>
       </div>
     </div>
   </div>
@@ -265,6 +271,7 @@
 // var result = GetDateDiff("2010-02-26 16:00:00", testStr, "day");
 // document.write("两者时间差为：" + result + "天了。");
 
+    //  获取选择的项目
     function fun(){
         obj = document.getElementsByName("test");
         check_val = [];
@@ -279,6 +286,7 @@
         document.getElementById('kssj').value = new Date().Format("yyyy-MM-dd");
     }
 
+    // 预约条件的判断
     function fun1() {
       var startTime = document.getElementById('kssj').value;
       var endTime = document.getElementById('zzsj').value;
@@ -306,14 +314,13 @@
       }
     }
 
+    // 生成相关的word文档
     function fun2() {
       console.log(23);
       var content = document.getElementById('sqbg');
       var hint = content.getElementsByClassName('hint');
       var input = content.getElementsByClassName('input');
       var data = new Array() ;
-      // console.log(hint.length);
-      // console.log(input.length);
       for (var i = hint.length - 1; i >= 0; i--) {
         var field = new Array();
         field.push(hint[i].innerHTML);
@@ -321,20 +328,18 @@
         data.push(field);
       }
       data = JSON.stringify(data);
+      console.log(data);
       $.ajax({  
         type: "POST",  
         url: "__URL__/doWord", //orderModifyStatus  
-        data: data,  
+        data: {
+          "hahaha": data,
+        }, 
         dataType:"json",  
         async:false,  
         cache:false,  
         success: function(data){  
-            // var member = eval("("+data+")"); //包数据解析为json 格式                                                            
-            // if(member.success=="true"){  
-            //     flag = true;  
-            // }else if(member.success=="false") {  
-            //     alert(member.info);  
-            // }  
+            // alert("文本生成成功！");
         },  
         error: function(json){  
             alert("订单取消异常，请刷新后重试...");  

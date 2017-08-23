@@ -2,6 +2,8 @@
 namespace Admin\Controller;
 use Think\Controller;
 use Admin\Model\JsModel;
+use Admin\Model\YyModel;
+
 class FieldController extends Controller {
     public function index(){
         $this->display();
@@ -13,11 +15,58 @@ class FieldController extends Controller {
    		$this -> display();
    	}
 
-   	function field($value='')
+   	public function field($value='')
    	{
    		# code...
    		$mode = new JsModel();
     	$this -> assign("data", $mode -> getOneIntro(7));
    		$this -> display();
    	}
+    public function OpenPot($value='')
+    {
+      # code...
+      $mode = new YyModel();
+      $this -> assign("data", $mode -> selectAll());
+      $this -> assign("checked", $mode -> selectAllHistory());
+      $this -> display();
+    }
+    // 管理员进行批准操作
+    public function doAgree($value='')
+    {
+      # code...
+      $mode = new YyModel();
+      $where = getValue();
+      // 首先从数据库中获取要批准的信息，包括设备编号以及预约的开始时间和结束时间
+      $oneApplication = $mode -> getOneApplication($where);
+      $endDateApplication = $oneApplication['js'];
+      $startDateApplication = $oneApplication['ks'];
+      $endShiJianchuo = strtotime($endDateApplication);
+      $startShijianchuo = strtotime($startDateApplication);
+
+      $allEquipment = $oneApplication['yqid'];
+
+      // 获取该预约人所选择的仪器设备
+      $theEquipment = explode(',', $allEquipment);
+
+      for ($i = 0; $i < count($theEquipment); $i++) {
+        $data = $mode -> getOneEquipment($theEquipment[$i]);
+        // 转化为时间戳，便于比较
+        $theEnd = strtotime($data['endtime']);
+        $theStart = strtotime($data['starttime']);
+
+        // 判断当前是否已经有人预约
+        if (($endShiJianchuo >= $theStart && $endShiJianchuo <= $theEnd) || ($startShijianchuo >= $theStart && $startShijianchuo <= $theEnd)) {
+          // 如果有人预约
+          alertMessage("与已经批准的时间有冲突，请拒绝！");
+        } else {
+          // 如果无人预约
+          $mode -> setTime($startDateApplication, $endDateApplication, $theEquipment[$i]);
+        }
+      }
+      if ($mode -> doApplication($where)) {
+        alertMessage("批准成功！");
+      } else {
+        alertMessage("请检查网络后重试！");
+      }
+    }
 }
