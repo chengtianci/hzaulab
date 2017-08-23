@@ -29,8 +29,6 @@ class FieldController extends Controller {
      */
 	public function field_show2() {
 		$mode = new PzModel();
-		// var_dump($mode -> getAllPz());
-		// exit();
 		$this -> assign("data", $mode -> getAllPz());
 		$this -> display();
 	}
