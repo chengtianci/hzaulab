@@ -38,10 +38,10 @@ class FieldController extends Controller {
       $where = getValue();
       // 首先从数据库中获取要批准的信息，包括设备编号以及预约的开始时间和结束时间
       $oneApplication = $mode -> getOneApplication($where);
-      $endDateApplication = $oneApplication['js'];
       $startDateApplication = $oneApplication['ks'];
-      $endShiJianchuo = strtotime($endDateApplication);
+      $endDateApplication = $oneApplication['js'];
       $startShijianchuo = strtotime($startDateApplication);
+      $endShiJianchuo = strtotime($endDateApplication);
 
       $allEquipment = $oneApplication['yqid'];
 
@@ -49,7 +49,7 @@ class FieldController extends Controller {
       $theEquipment = explode(',', $allEquipment);
 
       for ($i = 0; $i < count($theEquipment); $i++) {
-        $data = $mode -> getOneEquipment($theEquipment[$i]);
+        $data = $mode -> getOneEquipment($theEquipment[$i]);//数据库中的仪器设备的资料
         // 转化为时间戳，便于比较
         $theEnd = strtotime($data['endtime']);
         $theStart = strtotime($data['starttime']);
