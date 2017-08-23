@@ -1,0 +1,37 @@
+[ 2017-08-23T19:46:39+08:00 ] ::1 /hzaulab/index.php/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000809s ]
+
+[ 2017-08-23T19:46:41+08:00 ] ::1 /hzaulab/index.php/Home/About/about_show1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000615s ]
+ERR: SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: YES)
+
+[ 2017-08-23T19:46:47+08:00 ] ::1 /hzaulab/index.php/Home/Field/field
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000693s ]
+ERR: SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: YES)
+
+[ 2017-08-23T19:46:52+08:00 ] ::1 /hzaulab/index.php/Home/Room/room_show2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000049s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001103s ]
+
+[ 2017-08-23T19:46:56+08:00 ] ::1 /hzaulab/index.php/Home/Field/field_show2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000557s ]
+ERR: SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: YES)
+
+[ 2017-08-23T19:49:59+08:00 ] ::1 /hzaulab/index.php/Home/About/about_show1
+ERR: SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: YES)
+
+[ 2017-08-23T19:50:02+08:00 ] ::1 /hzaulab/index.php/Home/About/about_show1
+ERR: SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: YES)
+
+[ 2017-08-23T19:50:02+08:00 ] ::1 /hzaulab/index.php/Home/About/about_show1
+ERR: SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: YES)
+

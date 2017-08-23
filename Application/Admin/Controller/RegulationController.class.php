@@ -8,7 +8,7 @@ class RegulationController extends Controller {
     }
 
     // 规章制度的显示界面，类型默认为1
-    public function regulation($value='')
+    public function regulation()
     {
     	# code...
     	$mode = new WjModel();
@@ -26,5 +26,10 @@ class RegulationController extends Controller {
         $this->assign('data',$list);// 赋值数据集
         $this->assign('page',$show);// 赋值分页输出
         $this->display($this->the_t[$type]);
+    }
+
+    public function addOneRegulation()
+    {
+        
     }
 }

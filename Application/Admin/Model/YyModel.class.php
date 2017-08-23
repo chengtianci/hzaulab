@@ -16,7 +16,7 @@
 			$mode = M("Yy");
 			return $mode -> where("status != 0") -> select();
 		}
-		// 批转一条申请
+		// 批准一条申请
 		public function doApplication($value='')
 		{
 			# code...
