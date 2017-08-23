@@ -61,6 +61,8 @@ class FieldController extends Controller {
         } else {
           // 如果无人预约
           $mode -> setTime($startDateApplication, $endDateApplication, $theEquipment[$i]);
+          // 在盆栽预约表中添加一条预约记录
+          
         }
       }
       if ($mode -> doApplication($where)) {

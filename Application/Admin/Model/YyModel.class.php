@@ -58,4 +58,11 @@
 			$mode -> status = 0;		//0表示已经预约
 			return $mode -> where("id = '$where'") -> save();
 		}
+
+		// 设置一条哦预约记录
+		public function setOneJL($value, $username, $kssj, $jshj)
+		{
+			# code...
+			$mode = 
+		}
 	}
