@@ -17,4 +17,12 @@
 			$mode = M("Wj");
 			return $mode -> where("id = $value") -> delete();
 		}
+
+		// 添加一个文件
+		public function addAFile($value='')
+		{
+			# code...
+			$mode = M("Wj");
+			return $mode -> data($value) -> add();
+		}
 	}

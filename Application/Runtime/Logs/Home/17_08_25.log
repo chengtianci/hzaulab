@@ -1,0 +1,166 @@
+[ 2017-08-25T00:01:04+08:00 ] ::1 /hzaulab/index.php/Home/Field/doWord
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001223s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001965s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000875s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001040s ]
+
+[ 2017-08-25T00:04:35+08:00 ] ::1 /hzaulab/index.php/Home/Field/doWord
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001690s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002837s ]
+NOTIC: [2] fopen(word_c1.doc): failed to open stream: Permission denied C:\wamp64\www\hzaulab\ThinkPHP\Library\Think\Word.class.php 第 23 行.
+NOTIC: [2] fwrite() expects parameter 1 to be resource, boolean given C:\wamp64\www\hzaulab\ThinkPHP\Library\Think\Word.class.php 第 24 行.
+NOTIC: [2] fclose() expects parameter 1 to be resource, boolean given C:\wamp64\www\hzaulab\ThinkPHP\Library\Think\Word.class.php 第 25 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001711s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001987s ]
+
+[ 2017-08-25T00:09:12+08:00 ] ::1 /hzaulab/index.php/Home/Field/doWord
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001324s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002184s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000851s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001024s ]
+
+[ 2017-08-25T00:11:03+08:00 ] ::1 /hzaulab/index.php/Home/Field/doWord
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001243s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001864s ]
+NOTIC: [2] fopen(word_c1.doc): failed to open stream: Permission denied C:\wamp64\www\hzaulab\ThinkPHP\Library\Think\Word.class.php 第 23 行.
+NOTIC: [2] fwrite() expects parameter 1 to be resource, boolean given C:\wamp64\www\hzaulab\ThinkPHP\Library\Think\Word.class.php 第 24 行.
+NOTIC: [2] fclose() expects parameter 1 to be resource, boolean given C:\wamp64\www\hzaulab\ThinkPHP\Library\Think\Word.class.php 第 25 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000717s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000837s ]
+
+[ 2017-08-25T00:11:40+08:00 ] ::1 /hzaulab/index.php/Home/Field/doWord
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001075s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001727s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000782s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000940s ]
+
+[ 2017-08-25T00:14:33+08:00 ] ::1 /hzaulab/index.php/Home/Field/doWord
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001675s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002793s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001437s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001665s ]
+
+[ 2017-08-25T00:15:24+08:00 ] ::1 /hzaulab/index.php/Home/Field/doWord
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000707s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001179s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000822s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000981s ]
+
+[ 2017-08-25T00:16:13+08:00 ] ::1 /hzaulab/index.php/Home/Field/doWord
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000696s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001184s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001340s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001536s ]
+
+[ 2017-08-25T00:18:21+08:00 ] ::1 /hzaulab/index.php/Home/Field/doWord
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000885s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001329s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001162s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001361s ]
+
+[ 2017-08-25T00:20:25+08:00 ] ::1 /hzaulab/index.php/Home/Field/doWord
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000787s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001224s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000854s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000992s ]
+
+[ 2017-08-25T00:21:30+08:00 ] ::1 /hzaulab/index.php/Home/Field/doWord
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001039s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001730s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000927s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001087s ]
+
+[ 2017-08-25T00:22:35+08:00 ] ::1 /hzaulab/index.php/Home/Field/doWord
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001184s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001804s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001020s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001177s ]
+
+[ 2017-08-25T00:23:28+08:00 ] ::1 /hzaulab/index.php/Home/Field/doWord
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001535s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002493s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001119s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001292s ]
+
+[ 2017-08-25T00:25:03+08:00 ] ::1 /hzaulab/index.php/Home/Field/doWord
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000796s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001254s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000808s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000949s ]
+
+[ 2017-08-25T00:28:58+08:00 ] ::1 /hzaulab/index.php/Home/Field/doWord
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000789s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001238s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000862s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001015s ]
+
+[ 2017-08-25T00:30:42+08:00 ] ::1 /hzaulab/index.php/Home/Field/doWord
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000754s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001192s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000866s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001020s ]
+
+[ 2017-08-25T00:31:45+08:00 ] ::1 /hzaulab/index.php/Home/Field/doWord
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000795s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001240s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000874s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001044s ]
+
+[ 2017-08-25T00:34:13+08:00 ] ::1 /hzaulab/index.php/Home/Field/doWord
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000562s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001075s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000849s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001002s ]
+
+[ 2017-08-25T00:36:20+08:00 ] ::1 /hzaulab/index.php/Home/Field/doWord
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000539s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001185s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000756s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000910s ]
+
+[ 2017-08-25T00:37:35+08:00 ] ::1 /hzaulab/index.php/Home/Field/doWord
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000745s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001418s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001221s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001444s ]
+

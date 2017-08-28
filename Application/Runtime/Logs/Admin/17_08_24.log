@@ -1,0 +1,20 @@
+[ 2017-08-24T10:10:25+08:00 ] ::1 /hzaulab/index.php/Admin/Field/doAgree/id/7
+ERR: 1364:Field 'username' doesn't have a default value
+ [ SQL语句 ] : INSERT INTO `tp_log` (`kssj`) VALUES ('2017-08-23')
+
+[ 2017-08-24T10:11:02+08:00 ] ::1 /hzaulab/index.php/Admin/Field/doAgree/id/7
+ERR: 1364:Field 'jshj' doesn't have a default value
+ [ SQL语句 ] : INSERT INTO `tp_log` (`username`,`kssj`) VALUES ('admin','2017-08-23')
+
+[ 2017-08-24T10:12:02+08:00 ] ::1 /hzaulab/index.php/Admin/Field/doAgree/id/7
+ERR: 1364:Field 'yiid' doesn't have a default value
+ [ SQL语句 ] : INSERT INTO `tp_log` (`username`,`kssj`,`jssj`) VALUES ('admin','2017-08-23','2017-08-25')
+
+[ 2017-08-24T10:12:37+08:00 ] ::1 /hzaulab/index.php/Admin/Field/doAgree/id/7
+ERR: 1364:Field 'yiid' doesn't have a default value
+ [ SQL语句 ] : INSERT INTO `tp_log` (`username`,`kssj`,`jssj`) VALUES (' ','2017-08-23','2017-08-25')
+
+[ 2017-08-24T10:13:45+08:00 ] ::1 /hzaulab/index.php/Admin/Field/doAgree/id/7
+ERR: 1364:Field 'yiid' doesn't have a default value
+ [ SQL语句 ] : INSERT INTO `tp_log` (`username`,`kssj`,`jssj`) VALUES (' ','2017-08-23','2017-08-25')
+

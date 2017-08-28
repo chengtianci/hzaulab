@@ -13,8 +13,8 @@
     <link href="/hzaulab/Public/back/include/bootstrap-progressbar/css/bootstrap-progressbar-3.3.4.min.css" rel="stylesheet">
     <!-- Custom Theme Style -->
     <link href="/hzaulab/Public/back/css/custom.min.css" rel="stylesheet">
-    <link href="/hzaulab/Public/back/css/public.css" rel="stylesheet" >
     <link rel="stylesheet" type="text/css" href="/hzaulab/Public/back/css/pot.css">
+    <link href="/hzaulab/Public/back/css/public.css" rel="stylesheet" >
 </head>
     <body class="nav-md">
     <div class="container body">
@@ -209,8 +209,8 @@
                   </div>
                   <div class="pot">
                   <div class="row">
-                    <div class="ex hint_red"><input type="checkbox" name=""><b>PZ-1</b></div>
-                    <div class="ex hint_grey"><input type="checkbox" name=""><b>PZ-9</b></div>
+                    <div class="ex _red"><input type="checkbox" name=""><b>PZ-1</b></div>
+                    <div class="ex _grey"><input type="checkbox" name=""><b>PZ-9</b></div>
                     <div class="ex"><input type="checkbox" name=""><b>PZ-17</b></div>
                     <div class="ex"><input type="checkbox" name=""><b>PZ-24</b></div>
                   </div>
@@ -262,10 +262,8 @@
                   <div class="clearfix"></div>
                 </div>
                 <select class="mutibox">
-                  <option>1</option>
-                  <option>2</option>
-                  <option>3</option>
-                  <option>4</option>
+                  <option>锁定</option>
+                  <option>开放</option>
                 </select>
                 <div class="gallery_add">修改</div>
                 </form>
@@ -325,7 +323,7 @@
                         
                         <td>
                           <a href="/hzaulab/index.php/Admin/Field/doAgree/id/<?php echo ($items["id"]); ?>">同意 <i class="fa fa-pencil"></i></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                          <a href="#" data-toggle="modal" data-target="#myModal3" >拒绝 <i class="fa fa-close"></i></a>
+                          <a href="#" data-hidID="<?php echo ($items["id"]); ?>" data-toggle="modal" data-target="#myModal3" onclick="fun(this)" >拒绝 <i class="fa fa-close"></i></a>
                         </td>
                       </tr><?php endforeach; endif; else: echo "" ;endif; ?>
                   </tbody>
@@ -350,32 +348,49 @@
                   <thead>
                   <tr>
                     <th style="width: 50px;">序号</th>
-                    <th>露天盆栽场名称</th>
-                    <th >状态</th><!-- 列表显示待审申请、正在使用的申请、有效历史申请， -->
-                    <th >操作</th>
+                    <th >设施位置</th>
+                    <th >设施名称</th>
+                    <th >设施编号</th>
+                    <th >开始时间</th>
+                    <th >结束时间</th>
+                    <th >样品物种</th>
+                    <th >备注</th>
+                    <th >预约人</th>
+                    <th >时间</th>
+                    <th >状态</th>
+                    <th >备注</th>
                   </tr>
                   </thead>
                   <tbody>
-                    <tr>
-                      <td></td>
-                      <td><a href="/hzaulab/index.php/Admin/Field/equipment_app_show">r_name</a></td>
-                      <td>r_time</td>
-                      <td>
-                        <a href="/hzaulab/index.php/Admin/Field/" >删除 <i class="fa fa-close"></i></a>
-                      </td>
-                    </tr>
-                    <tr>
-                      <td></td>
-                      <td><a href="/hzaulab/index.php/Admin/Field/equipment_app_show">r_name</a></td>
-                      <td>$vo.r_time</td>
-                      <td>
-                        <a href="/hzaulab/index.php/Admin/Field/" >删除 <i class="fa fa-close"></i></a>
-                      </td>
-                    </tr>
+                    <?php if(is_array($checked)): $i = 0; $__LIST__ = $checked;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$items): $mod = ($i % 2 );++$i;?><tr>
+                        <td><?php echo ($i); ?></td>
+                        <td><?php echo ($items["sslocation"]); ?></td>
+                        <td><?php echo ($items["ssname"]); ?></td>
+                        <td><?php echo ($items["yqid"]); ?></td>
+                        <td><?php echo ($items["ks"]); ?></td>
+                        <td><?php echo ($items["js"]); ?></td>
+                        <td><?php echo ($items["ypwz"]); ?></td>
+                        <td><?php echo ($items["other"]); ?></td>
+                        <td><?php echo ($items["uid"]); ?></td>
+                        <td><?php echo ($items["date"]); ?></td>
+                        <?php if ($items['status'] == 0) { ?>
+                            <td>等待批准</td>
+                        <?php } else if ($items['status'] == 1) { ?>
+                            <td>已批准</td>
+                            <td></td>
+                        <?php } else { ?>
+                          <td>已拒绝</td>
+                          <td><?php echo ($items["reson"]); ?></td>
+                        <?php } ?>
+                      </tr><?php endforeach; endif; else: echo "" ;endif; ?>
                   </tbody>
                 </table>
                 <br><br>
-                <div data-toggle="modal" data-target="#myModal2" class="gallery_add">导出Excel</div>
+                <div data-toggle="modal" data-target="#myModal2">
+                  <form action="/hzaulab/index.php/Admin/Field/excelExport" method="post">
+                    <input type="submit" value="导出Excel" class="gallery_add">
+                  </form>
+                </div>
               </div>
             </div>
           </div>
@@ -415,12 +430,13 @@
             </div>
             <div class="modal-body">
               <form class="form" action="" method="post">
-                 <span class="eqthint">拒绝理由：</span><input type="textarea" class="gallery_textarea" name="gallery_title"><hr>
+                <!-- <input type="text" name="theId"> -->
+                <span class="eqthint">拒绝理由：</span><input type="textarea" class="gallery_textarea" name="gallery_title"><hr>
               </form>
             </div>
             <div class="modal-footer">
               <button type="button" class="btn btn-default" data-dismiss="modal">取消</button>
-              <button type="button" class="btn btn-primary">提交</button>
+              <a id="Reject" href="/hzaulab/index.php/Admin/Field/doReject/id/"><button type="button" class="btn btn-primary">提交</button></a>
             </div>
           </div><!-- /.modal-content -->
         </div><!-- /.modal -->
@@ -447,6 +463,14 @@
 
 
 
+    <script type="text/javascript">
+      function fun(e) {
+        console.log(e);
+        var RejectTJ = document.getElementById('Reject');
+        RejectTJ.href = RejectTJ.href+e.getAttribute("data-hidID");
+        console.log(RejectTJ.href);
+      }
+    </script>
     <!-- <script src="/hzaulab/Public/back/include/datatables.net/js/jquery.dataTables.min.js"></script> -->
     <!-- <script src="/hzaulab/Public/back/include/datatables.net-bs/js/dataTables.bootstrap.min.js"></script> -->
   </body>

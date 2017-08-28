@@ -30,6 +30,8 @@ class RegulationController extends Controller {
 
     public function addOneRegulation()
     {
-        
+        $model = new WjModel();
+        var_dump($_POST);
+        var_dump($_FILES);
     }
 }

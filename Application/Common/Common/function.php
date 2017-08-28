@@ -25,33 +25,61 @@
 		return $_POST;
 	}
 
-	// // 计算两者之间的时间差
- //    function GetDateDiff($startTime, $endTime, $diffType) {
- //        //将xxxx-xx-xx的时间格式，转换为 xxxx/xx/xx的格式 
- //        $startTime = $startTime.replace(/\-/g, "/");
- //       	$endTime = $endTime.replace(/\-/g, "/");
-
- //        //将计算间隔类性字符转换为小写
- //        $diffType = $diffType.toLowerCase();
- //        $sTime = new Date($startTime);      //开始时间
- //        $eTime = new Date($endTime);  //结束时间
- //        //作为除数的数字
- //        $divNum = 1;
- //        switch ($diffType) {
- //            case "second":
- //                $divNum = 1000;
- //                break;
- //            case "minute":
- //                $divNum = 1000 * 60;
- //                break;
- //            case "hour":
- //                $divNum = 1000 * 3600;
- //                break;
- //            case "day":
- //                $divNum = 1000 * 3600 * 24;
- //                break;
- //            default:
- //                break;
- //        }
- //        return parseInt(($eTime.getTime() - $sTime.getTime()) / parseInt($divNum));
- //    }
+/**
+ * Excel表格导出
+ * @param $data 导出表格数据
+ * @param $title    导出表格名称
+ * @param $subject  导出表格字段
+ */
+function exportExcel($data,$title,$subject){  
+    Vendor("Excel.Util.PHPExcel");
+    Vendor('Excel.PHPExcel.IOFactory');
+    Vendor('Excel.PHPExcel.Reader.Excel5');
+    // Create new PHPExcel object  
+    $objPHPExcel = new PHPExcel();  
+    // Set properties  
+    $objPHPExcel->getProperties()->setCreator("ctos")  
+        ->setLastModifiedBy("ctos")  
+        ->setTitle("Office 2007 XLSX Test Document")  
+        ->setSubject("Office 2007 XLSX Test Document")  
+        ->setDescription("Test document for Office 2007 XLSX, generated using PHP classes.")  
+        ->setKeywords("office 2007 openxml php")  
+        ->setCategory("Test result file");  
+    $length1=array('A','B','C','D','E','F','G','H','I','J','K','L','M','N','O','P','Q','R','S','T','U','V','W','X','Y','Z','AA','AB','AC','AD');
+    $length2=array('A1','B1','C1','D1','E1','F1','G1','H1','I1','J1','K1','L1','M1','N1','O1','P1','Q1','R1','S1','T1','U1','V1','W1','X1','Y1','Z1','AA1','AB1','AC1','AD1');
+    //set width  
+    for($a=0;$a<count($title);$a++){
+         $objPHPExcel->getActiveSheet()->getColumnDimension($length1[$a])->setWidth(20); 
+    }
+    //set font size bold  
+    $objPHPExcel->getActiveSheet()->getDefaultStyle()->getFont()->setSize(10);  
+    $objPHPExcel->getActiveSheet()->getStyle($length2[0].':'.$length2[count($title)-1])->getFont()->setBold(true); 
+    $objPHPExcel->getActiveSheet()->getStyle($length2[0].':'.$length2[count($title)-1])->getFont()->setBold(true);    
+    $objPHPExcel->getActiveSheet()->getStyle($length2[0].':'.$length2[count($title)-1])->getBorders()->getAllBorders()->setBorderStyle(PHPExcel_Style_Border::BORDER_THIN);  
+    
+    // set table header content  
+    for($a=0;$a<count($title);$a++){
+          $objPHPExcel->setActiveSheetIndex(0)->setCellValue($length2[$a], $title[$a]); 
+    }
+    for($i=0;$i<count($data);$i++){ 
+        $buffer=$data[$i];
+        $number=0;
+        foreach ($buffer as $value) {
+            $objPHPExcel->getActiveSheet(0)->setCellValueExplicit($length1[$number].($i+2),$value,PHPExcel_Cell_DataType::TYPE_STRING);//设置单元格为文本格式
+            $number++;
+        }
+        unset($value);
+        $objPHPExcel->getActiveSheet()->getStyle($length1[0].($i+2).':'.$length1[$number-1].($i+2))->getAlignment()->setVertical(PHPExcel_Style_Alignment::VERTICAL_CENTER);  
+        $objPHPExcel->getActiveSheet()->getStyle($length1[0].($i+2).':'.$length1[$number-1].($i+2))->getBorders()->getAllBorders()->setBorderStyle(PHPExcel_Style_Border::BORDER_THIN);  
+        $objPHPExcel->getActiveSheet()->getRowDimension($i+2)->setRowHeight(16);  
+    }  
+    // Set active sheet index to the first sheet, so Excel opens this as the first sheet  
+    $objPHPExcel->setActiveSheetIndex(0);  
+    ob_end_clean();//清除缓冲区,避免乱码
+    // Redirect output to a client’s web browser (Excel5)  
+    header('Content-Type: application/vnd.ms-excel');  
+    header('Content-Disposition: attachment;filename='.$subject.'('.date('Y-m-d').').xls');  
+    header('Cache-Control: max-age=0');  
+    $objWriter = PHPExcel_IOFactory::createWriter($objPHPExcel, 'Excel5');  
+    $objWriter->save('php://output');  
+}

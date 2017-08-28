@@ -247,11 +247,11 @@
                   </div>
                   <div class="modal-body">
                     
-                    <form class="form" action="" method="post">
-                      <input type="text" class="gallery_title" id="gallery_title" name="gallery_title" placeholder="Fill in the title, please">
-                          <br><input type="file" name="gallery_file"> <br>
-                          <button type="button" class="btn btn-default" data-dismiss="modal">取消</button>
-                          <button type="submit" id="saveContent" class="btn btn-primary">添加</button>
+                    <form class="form" action="/hzaulab/index.php/Admin/Regulation/addOneRegulation" method="post" enctype="multipart/form-data">
+                      <input type="text" name="rTye" value = 1>
+                        <br><input type="file" name="gallery_file"> <br>
+                        <button type="button" class="btn btn-default" data-dismiss="modal">取消</button>
+                        <button type="submit" id="saveContent" class="btn btn-primary">添加</button>
                     </form>
                   </div>
 

@@ -25,12 +25,13 @@
 			return $mode -> where("id = $value") -> save();
 		}
 		//拒绝一条申请
-		public function rejectApplication($value='')
+		public function rejectApplication($id, $result)
 		{
 			# code...
 			$mode = M("Yy");
 			$mode -> status = 2;
-			return $mode -> where("id = $value") -> save();
+			$mode -> reson = $result;
+			return $mode -> where("id = '$id'") -> save();
 		}
 		// 查看一条预约申请的信息
 		public function getOneApplication($value='')
@@ -48,21 +49,10 @@
 			return $mode -> where("id ='$value'") -> find();
 		}
 
-		// 设置一个设备的开始时间和结束时间
-		public function setTime($starttime, $endtime, $where)
-		{
-			# code...
-			$mode = M('Pz');
-			$mode -> starttime = $starttime;
-			$mode -> endtime = $endtime;
-			$mode -> status = 0;		//0表示已经预约
-			return $mode -> where("id = '$where'") -> save();
-		}
-
 		// 设置一条哦预约记录
 		public function setOneJL($value, $username, $kssj, $jshj)
 		{
 			# code...
-			$mode = 
+			// $mode = ;
 		}
 	}

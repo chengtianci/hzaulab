@@ -99,7 +99,7 @@
 	content: " ";
 	height: 12px;
 }
-.hint_red {
+._red {
 	background: pink;
 	border: 1px solid pink;
 	box-shadow: 0 0 1px 1px pink !important;
@@ -113,7 +113,18 @@
 	content: " ";
 	height: 12px;
 }
-.hint_grey {
+._grey {
+	background: grey;
+	border: 1px solid grey;
+	box-shadow: 0 0 1px 1px grey !important;
+	color: #fff;
+}
+._red:hover {
+	background: pink;
+	border: 1px solid pink;
+	box-shadow: 0 0 1px 1px pink !important;
+}
+.grey:hover{
 	background: grey;
 	border: 1px solid grey;
 	box-shadow: 0 0 1px 1px grey !important;

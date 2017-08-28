@@ -3,7 +3,7 @@
 	use Think\Model\RelationModel;
 	class PzModel extends RelationModel {
 		// 获取所有的盆栽信息
-		public function getAllPz($value='')
+		public function getAllPz()
 		{
 			# code...
 			// $show_date 表示当前的时间
@@ -20,7 +20,7 @@
 				$deviceId = $value['id'];
 				$deviceLists[$key]['yyBy'] = "";
 				// 查询预约表中的所有记录
-				$allYy = $mdoePzLog -> where("yiid = '$deviceId'") -> select();
+				$allYy = $mdoePzLog -> where("yqid = '$deviceId'") -> select();
 				// 将当前时间转化为时间戳格式
 				$dangqianshijian = strtotime($allYy);
 				for ($i = 0; $i < count($allYy); $i++) {

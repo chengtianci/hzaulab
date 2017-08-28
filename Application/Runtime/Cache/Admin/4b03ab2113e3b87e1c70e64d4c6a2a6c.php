@@ -201,39 +201,34 @@
               </div>
               <div class="x_content">
                 <table id="datatable" class="table table-striped table-bordered">
-                  <thead>
-                  <tr>
-                    <th style="width: 50px;">序号</th>
-                    <th>Title</th>
-                    <th style="width:15%;">Date</th>
-                    <th style="width:20%;">operation</th>
-                  </tr>
-                  </thead>
+                      <thead>
+                      <tr>
+                          <th style="width: 50px;">序号</th>
+                          <th>文件名</th>
+                          <th style="width: 15%;">日期</th>
+                          <th style="width: 7%">共享者</th>
+                          <th style="width: 8%">资源类型</th>
+                          <th style="width: 8%">文件大小</th>
+                          <th style="width: 8%;">操作</th>
+                      </tr>
+                      </thead>
+                      <tbody>
+                      <?php function change($length) { if ($length < 1024) return $length."B"; if ($length < 1024*1024) return number_format(($length/1024), 2, '.', '')."K"; if ($length < 1024*1024*1024) return number_format(($length/(1024*1024)), 2, '.', '')."M"; if ($length < 1024*1024*1024*1024) return number_format(($length/(1024*1024*1024)), 2, '.', '')."G"; } ?>
+                      <?php if(is_array($data)): $i = 0; $__LIST__ = $data;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$vo): $mod = ($i % 2 );++$i; $the_type = array(1 => "图片", 2 => "文件", 3 => "视频", 0 => "压缩包"); $vo['rstype'] = $the_type[$vo['rstype']]; $vo['rslength'] = change(intval($vo['rslength'])); ?>
 
-
-                  <tbody>
-
-                    <tr>
-                      <td></td>
-                      <td><a href="/hzaulab/index.php/Admin/Regulation/show">r_name</a></td>
-                      <td>r_time</td>
-                      <td>
-                        <a href="edit"  >修改 <i class="fa fa-pencil"></i></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                        <a href="/hzaulab/index.php/Admin/Regulation/" >删除 <i class="fa fa-close"></i></a>
-                      </td>
-                    </tr>
-
-                    <tr>
-                      <td></td>
-                      <td><a href="/hzaulab/index.php/Admin/Regulation/show">r_name</a></td>
-                      <td>$vo.r_time</td>
-                      <td>
-                        <a href="edit"  >修改 <i class="fa fa-pencil"></i></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                        <a href="/hzaulab/index.php/Admin/Regulation/" >删除 <i class="fa fa-close"></i></a>
-                      </td>
-                    </tr>
-                  </tbody>
-                </table>
+                          <tr>
+                              <td></td>
+                              <td><a href="/hzaulab/index.php/Admin/Regulation/documentshow/id/<?php echo ($vo["id"]); ?>"><?php echo ($vo["rsname"]); ?></a></td>
+                              <td><?php echo ($vo["rsdate"]); ?></td>
+                              <td><?php echo ($vo["rsowner"]); ?></td>
+                              <td><?php echo ($vo["rstype"]); ?></td>
+                              <td><?php echo ($vo["rslength"]); ?></td>
+                              <td>
+                                  <a href="/hzaulab/index.php/Admin/Regulation/documentDelete/id/<?php echo ($vo["id"]); ?>" >删除 <i class="fa fa-close"></i></a>
+                              </td>
+                          </tr><?php endforeach; endif; else: echo "" ;endif; ?>
+                      </tbody>
+                  </table>
                 <br><br>
                 <div data-toggle="modal" data-target="#myModal2" class="gallery_add">添加</div>
               </div>

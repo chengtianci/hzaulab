@@ -209,7 +209,7 @@
                                         <div class="mask">
                                             <p><?php echo ($vo["imgname"]); ?></p>
                                             <div class="tools tools-bottom">
-                                            <!--     <a href="#" data-toggle="modal" data-target="#myModal"><i class="fa fa-pencil"></i></a> -->
+                                                <a href="#" data-toggle="modal" data-target="#myModal"><i class="fa fa-pencil"></i></a>
                                                 <a href="/hzaulab/index.php/Admin/Index/imgDelete/id/<?php echo ($vo["id"]); ?>"><i class="fa fa-times"></i></a>
                                             </div>
                                         </div>
